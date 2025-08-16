@@ -1,0 +1,1175 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201809 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2537                
+POS_VISITOR 22482               
+POS_DAY 35618               
+POS_DOMAIN 3440                
+POS_LOGIN 3673                
+POS_ROBOT 3828                
+POS_WORMS 4438                
+POS_EMAILSENDER 4569                
+POS_EMAILRECEIVER 4712                
+POS_SESSION 36453               
+POS_SIDER 36661               
+POS_FILETYPES 4847                
+POS_OS 5039                
+POS_BROWSER 5214                
+POS_SCREENSIZE 5756                
+POS_UNKNOWNREFERER 5830                
+POS_UNKNOWNREFERERBROWSER 6674                
+POS_ORIGIN 7060                
+POS_SEREFERRALS 7202                
+POS_PAGEREFS 7371                
+POS_SEARCHWORDS 7695                
+POS_KEYWORDS 8009                
+POS_MISC 2201                
+POS_ERRORS 8230                
+POS_CLUSTER 3529                
+POS_SIDER_404 8360                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20181001003648 8223 1691547 50144427581
+FirstTime 0
+LastTime 20180930203307
+LastUpdate 20181001022126 8223 8028 194 0 0
+TotalVisits 293                 
+TotalUnique 195                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 399                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 30 146 4210745 46 189 3442507
+1 47 221 19151196 98 235 5502112
+2 50 91 1654700 36 154 3411978
+3 38 271 9609838 39 164 3342956
+4 25 166 4513671 29 62 1795390
+5 8 81 3177125 125 153 2149794
+6 11 144 5083522 24 75 2064906
+7 18 102 4131737 41 152 4877986
+8 12 131 5628581 55 128 3508427
+9 57 190 5063689 40 123 2230426
+10 28 130 4876589 28 126 2514574
+11 39 186 6604906 40 175 959806
+12 28 100 3524289 45 95 1155109
+13 51 330 19525909 81 198 2269444
+14 13 41 1631001 40 115 2090100
+15 37 135 2766557 47 313 4512084
+16 51 350 27918331 41 319 4214052
+17 10 101 3911784 47 95 4002043
+18 44 195 5467756 76 164 2231603
+19 13 129 4462610 50 147 4945993
+20 44 45 893087 45 62 1905180
+21 41 187 5713314 43 116 3515497
+22 61 321 19805326 38 132 1826718
+23 35 165 6697403 252 351 3371249
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 791 3958 176023666
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 13
+bot[+:,\.\;\/\\-] 834 39001909 20180930233635 0
+googlebot 282 6668429 20180930212436 0
+baiduspider 171 6994635 20180929203110 0
+phantom 144 5843916 20180926155413 0
+python 84 1712858 20180928015436 0
+robot 64 8099550 20180930221113 0
+yandex 41 705403 20180930074301 0
+infobot 34 469288 20180916142511 0
+spider 14 243619 20180929232349 0
+no_user_agent 6 75124 20180929054034 0
+core 4 49215 20180918212457 0
+ia_archiver 1 13145 20180918111612 0
+mail\.ru 3 56343 20180926070827 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+php 461 7707993 0 0
+css 539 11706164 0 0
+png 1096 28188071 0 0
+html 330 5941606 0 0
+jpg 612 108246255 0 0
+js 893 13927830 0 0
+gif 27 305747 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 12
+winlong 28
+winxp 34
+winnt 1055
+linuxubuntu 1
+winvista 263
+linux 510
+macosx 306
+winunknown 3
+win2003 8
+sunos 1
+Unknown 276
+win2008 1473
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 38
+firefox33.1 3
+firefox15.0 1
+chrome 2303
+firefox26.0 2
+firefox4.0 1
+firefox18.0 1
+curl 1
+firefox63.0 82
+firefox31.0 23
+msie8.0 21
+firefox62.0 2
+firefox6.0.2 7
+firefox43.0 379
+firefox59.0 1
+firefox3.5.8 1
+msie7.0 10
+msie10.6 1
+msie9.0 10
+Unknown 233
+firefox11.0 1
+netscape 17
+firefox50.0 2
+firefox3.0 1
+opera 1
+firefox21.0 4
+firefox29.0 7
+firefox58.0 19
+firefox3.5.2 1
+firefox30.0 6
+firefox61.0 1
+konqueror 2
+firefox33.0 1
+firefox25.0 4
+mozilla 794
+firefox22.0 1
+msie10.0 5
+firefox 1
+safari 8
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 14
+Mozilla 20180923201140
+curl/7.29.0 20180909165008
+Ruby 20180913111328
+Mozilla/5.0_(compatible;_Dataprovider.com;) 20180905131854
+Maxthon/9.19_(OpenSolaris_5.2;_pl_PL;) 20180901012646
+Foo 20180907032116
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t12ca;__http://researchscan.comsys.rwth-aachen.de) 20180929165711
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t12sns;__http://researchscan.comsys.rwth-aachen.de) 20180930065141
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t13rl;__http://researchscan.comsys.rwth-aachen.de) 20180926193905
+Photon/1.0 20180924014540
+com.google.GoogleMobile/58.0.0_iPhone/11.4.1_hw/iPhone10_5 20180918064007
+ht2cl/1.0 20180922113732
+BPImageWalker/2.0_(www.bdbrandprotect.com) 20180906011319
+InetURL:/1.0 20180909172335
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 8
+Ruby 20180913111328
+Photon/1.0 20180924014540
+com.google.GoogleMobile/58.0.0_iPhone/11.4.1_hw/iPhone10_5 20180918064007
+ht2cl/1.0 20180922113732
+Maxthon/9.19_(OpenSolaris_5.2;_pl_PL;) 20180901012646
+Foo 20180907032116
+BPImageWalker/2.0_(www.bdbrandprotect.com) 20180906011319
+InetURL:/1.0 20180909172335
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 546 1115
+From1 9 9
+From2 34 52
+From3 3 5
+From4 199 2777
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 17 35
+baidu 17 17
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+https://ap4.salesforce.com 1 1
+http://www.googlenews.name.va/active/news.css 1 1
+https://www.hiblog.top/12-seo-skills-essential-for-success/40655/ 1 1
+https://www.bing.com 0 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 17
+mflp 1
+xj6o 1
+hiddenz2g 1
+sing53n 1
+s4ul 1
+58ok 1
+nationale5t 1
+ueii 1
+1cna 1
+aid4t4 1
+chartyza 1
+worsep5u 1
+o83s 1
+throwokc 1
+holdkdm 1
+mighty4ep 1
+mainly8xc 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 17
+xj6o 1
+mflp 1
+hiddenz2g 1
+s4ul 1
+sing53n 1
+58ok 1
+nationale5t 1
+ueii 1
+1cna 1
+aid4t4 1
+chartyza 1
+worsep5u 1
+o83s 1
+throwokc 1
+holdkdm 1
+mighty4ep 1
+mainly8xc 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+403 3 698
+206 11 370662
+406 107 27479
+404 2040 1507661
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 369
+/js/div.parent 1 -
+/en/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/blog/wp-includes/wlwmanifest.xml 4 -
+/coon.asp 1 -
+/bat.asp 1 -
+/cn/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/admin/dnhx/sdfg.asp 1 -
+/a.asp 1 -
+/data/home.asp 1 -
+/images/shell.asp 1 -
+/site/wp-includes/wlwmanifest.xml 4 -
+/config/aiy.asp 1 -
+/css/config.asp 1 -
+//install/m7lrv.php 1 http://www.mainpcgroup.com//install/m7lrv.php
+//admin/adminmailto.asp 1 -
+/css/indexe.asp 1 -
+/data/cs2/v5she.asp 1 -
+/netsys/htmledit/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+//config/AspCms_Config.asp 1 http://www.mainpcgroup.com//config/AspCms_Config.asp
+/adin/admin_.asp 1 -
+/dir.asp 1 -
+/css/images/background-1.jpg 4 -
+/bianjiqi/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/admin/images/sql.asp 1 -
+/admin/upload.asp 1 -
+/xmlrpc.php 4 -
+/admincp/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/axiuen.asp 1 -
+/admin/gotop.asp 1 -
+/yuzhiguo-editor/yuzhiguo-com/editor/filemanager/connectors/asp/connector.asp 1 -
+/admin/inc/md5.asp 1 -
+/css/css.asp 1 -
+/8.asp 1 -
+//cm.php 11 http://www.mainpcgroup.com//cm.php
+/js/ul.content-slide-nav 1 -
+/manage/include/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/css/a.asp 1 -
+/goon.asp 1 -
+/admin/x.asp 1 -
+/admin/images/root.asp 1 -
+/images/onebyone/assets/bullets.png 32 http://www.mainpcgroup.com/
+/confings.asp 1 -
+/bgodlogs.asp 1 -
+/wp-login.php 4 -
+/default1.asp 1 -
+/admin/config/jiuge.asp 1 -
+/data/aiy.asp 1 -
+/english/editor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/4ll3ygbjj/ll44/css.asp 1 -
+/ec/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/fymd2/login.asp 1 -
+//plus/90sec.php 1 http://www.mainpcgroup.com//plus/90sec.php
+/js/img.over 1 -
+/htmledit/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/bjdgj/md5.asp 1 -
+/admin/inc/help.asp 1 -
+/images/root.asp 1 -
+/js/ul.child 1 -
+/admin/myfck/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/new/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/htmledit/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/cmd.asp 1 -
+/xuncenadmin/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/admincp/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/js/a.big-button,a.medium-button 1 -
+/9tu.asp 1 -
+/index.htm 6 -
+/admin/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/admin/lists.asp 1 -
+/images/incc.asp 1 -
+/data/data.asp 1 -
+/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/yuzhiguoeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/js/div.visible 1 -
+/ec/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/license.php 19 -
+/fckedit/editor/filemanager/connectors/asp/connector.asp 1 -
+/images/cach.asp 2 -
+/css/manage.asp 1 -
+/ads.txt 1 -
+/admin/include/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/administrator/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/404/shows.asp 1 -
+/data/css.asp 1 -
+/wordpress/wp-includes/wlwmanifest.xml 4 -
+//data/cache/asd.php 2 http://www.mainpcgroup.com//data/cache/asd.php
+/en/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/include/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/manager/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/admin/confiig.asp 1 -
+/babyelogs.asp 1 -
+/css/mdb.asp 1 -
+/images/manage.asp 1 -
+/yousiteadmin/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+//inc/upfile_class.asp 1 -
+/banner.asp 1 -
+/js/application/x-shockwave-flash 1 -
+/phpcms/base.php 1 -
+/admin_login.asp 1 -
+/as.asp 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 http://www.mainpcgroup.com/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+/admin/images/editor/editor.asp 1 -
+/images/eiaiy.asp 1 -
+/i.asp 1 -
+/javascript/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/bocai/bocai/includ.asp 1 -
+/data/incc.asp 1 -
+/js/colorpicker.js 256 http://www.mainpcgroup.com/contact.php
+/admin/southidceditor/css/office/editor.asp 1 -
+/robots.txt 283 -
+/js/ul.accordion 1 -
+//plus/e7xue.php 1 http://www.mainpcgroup.com//plus/e7xue.php
+/guest/fa.asp 1 -
+/ac2.asp 1 -
+/editor/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/data/s.asp 1 -
+/dede/login.php 1 -
+/404/index_list.asp 1 -
+/yousiteadmin/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/about/r1.asp 1 -
+/js/li.selected 1 -
+/harass.asp 1 -
+/admin/admin/cache.asp 1 -
+/js/a.pp_close 1 -
+/dxyylc/indesax.asp 1 -
+/admin/rrr.asp 1 -
+//plus/moon.php 2 http://baobao.baidu.com/
+/english/editor/editor/filemanager/connectors/asp/connector.asp 1 -
+/images/cofng.asp 1 -
+/ier5.asp 1 -
+/c_option.asp 1 -
+/conm.asp 1 -
+/cert/shows.asp 1 -
+/help.asp 1 -
+/images/.asp 1 -
+/12345.asp 1 -
+/javascript/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/adminasc/inc/class.asp 1 -
+/happy.php 1 -
+/admin/js/css.asp 1 -
+/images/css.asp 1 -
+/css/colorpicker.css 238 http://www.mainpcgroup.com/contact.php
+/english/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/css/403.asp 1 -
+/bbb.asp 1 -
+/admin/mdb.asp 1 -
+/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/admin/r1.asp 1 -
+/admin/code.asp 1 -
+/shop/contact_us.jsp 1 -
+/manager/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/OWA/ 1 
+/css/gb2312.asp 1 -
+/admin/image/sqlin.asp 1 -
+/images/assets/next.png 30 http://www.mainpcgroup.com/
+/dxyylc/css.asp 1 -
+/wp-content/plugins/wp-formgenerator/uploads/php/ 1 http://www.mainpcgroup.com/wp-content/plugins/wp-formgenerator/uploads/php/
+/include/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/edit/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/conn1.asp 1 -
+/admin/southidceditor/error.asp 1 -
+/web1/download/usa_customer-application-form.pdf 1 -
+/css/upload.asp 1 -
+/com3.indexlx.asp 1 -
+/article/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/admin/system/editor/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/admin/include/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/wp-content/plugins/xichang/x.php 1 -
+/admin77/baitian.asp 1 -
+/images/index_list.asp 1 -
+/codie.asp 1 -
+/fck/editor/filemanager/connectors/asp/connector.asp 1 -
+/control/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/connst.asp 1 -
+/js/li.nav-bullet 1 -
+/helmap.asp 1 -
+/js/a.pp_expand 1 -
+/cms/wp-includes/wlwmanifest.xml 4 -
+/404/manage.asp 1 -
+/js/3.1.4 1 -
+/css/shows.asp 1 -
+/js/scroll.prettyphoto 2 -
+/images/bolair.asp 1 -
+/images/constt.asp 1 -
+//plus/ad_js.php 1 http://baobao.baidu.com/
+/11m.asp 1 -
+//plus/download.php 1 http://baobao.baidu.com/
+/controller.ashx 1 http://www.mainpcgroup.com/controller.ashx
+/htmledit/editor/filemanager/connectors/asp/connector.asp 1 -
+/data/js/omg/v5she.asp 1 -
+/cc.asp 1 -
+/admin/gou.asp 1 -
+/bianjiqi/editor/filemanager/connectors/asp/connector.asp 1 -
+/yuzhiguoeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/admin/inc/jiuge.asp 1 -
+/control/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/data/xike.asp 1 -
+/ajax/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/d5.asp 1 -
+/databases/data.asp 1 -
+/data/js/css/xo/v5she.asp 1 -
+/fckedit/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/manage/include/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/admin/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/web1/index.asp 3 -
+/admin/inc/editor.asp 1 -
+/forums/ 1 -
+/canhua1.asp 1 -
+/js/div.pp_pic_holder,div.ppt,.pp_fade 1 -
+/editor/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/edit/editor/filemanager/connectors/asp/connector.asp 1 -
+/images/mm.asp 1 -
+/1.asp 1 -
+/admin7z.asp 1 -
+/inc/editor/editor/filemanager/connectors/asp/connector.asp 1 -
+/cert/check.asp 1 -
+/public/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/bftvp15111.asp 1 -
+/article/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/dns.asp 1 -
+/9m.asp 1 -
+/dxyylc/md5.asp 1 -
+//data/admin/ver.txt 1 -
+/shop/index.jsp 1 -
+/wp-content/themes/RightNow/includes/uploadify/upload_settings_image.php 1 http://www.mainpcgroup.com/wp-content/themes/RightNow/includes/uploadify/upload_settings_image.php
+/admin_int.asp 1 -
+/images/assets/prev.png 28 http://www.mainpcgroup.com/
+/administrator/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/webmanage/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/images/sheng.asp 1 -
+/concon.asp 2 -
+/404.asp 1 -
+/yuzhiguo-editor/yuzhiguo-com/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/admin/shell.asp 1 -
+/images/config.asp 1 -
+/english/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/admin/system/editor/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/admin/tunbengdu.asp 1 -
+/admin.asp 1 -
+/wp-updats.php 1 -
+/admin/config.asp 1 -
+/fymd2/abc.asp 1 -
+/.slide.testimonials 3 -
+/css.asp 1 -
+/ajax/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/autodiscover/autodiscover.xml 701 -
+/csx.asp 1 -
+/css/inc.asp 1 -
+/baidunews.asp 1 -
+/wp-content/plugins/fluid_forms/file-upload/server/php/index.php 1 http://www.mainpcgroup.com/wp-content/plugins/fluid_forms/file-upload/server/php/index.php
+/wp-includes/wlwmanifest.xml 4 -
+/images/img.asp 1 -
+/cnm/cnm.asp 1 -
+/aas.asp 1 -
+/js/a.pp_expand,a.pp_contract 1 -
+/10.asp 1 -
+/admin/southidceditor/include/md5.asp 1 -
+/images/mdb.asp 1 -
+/news/edit/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/js/youtu.be/ 1 -
+/config/aspcms_config.asp 1 -
+/new/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/images/editor/jiuge.asp 1 -
+/admxn.asp 1 -
+/admin/jiuge.asp 1 -
+/admin/login.asp 1 -
+/fang.asp 1 -
+/admin/css.asp 1 -
+/content/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/fightings.asp 1 -
+/images/lists.asp 1 -
+/js/video/quicktime 1 -
+/config/aaity.asp 1 -
+/data/data/css.asp 1 -
+//plus/laobiao.php 1 http://www.mainpcgroup.com//plus/laobiao.php
+/htmledit/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/bbs/constt.asp 1 -
+/web1/download/USA_Customer%20Application%20Form.pdf 2 -
+/admin/upload/upload.asp 1 -
+/images/cache.asp 1 -
+/module/html_editor/editor/filemanager/connectors/asp/connector.asp 1 -
+/sitemap.xml 1 -
+/content/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/admin/uploads.asp 1 -
+/gg.asp 1 -
+/enyas.asp 1 -
+/admin/inc/logout.asp 1 -
+/public/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/conn/lyxin.asp 1 -
+/css/md5.asp 1 -
+/bsm.asp 1 -
+/scripts/fck/editor/filemanager/connectors/asp/connector.asp 1 -
+/conn.asp 1 -
+/scripts/fck/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/admin/myfck/editor/filemanager/connectors/asp/connector.asp 1 -
+/en/htmledit/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/data/r1.asp 1 -
+/4ll3ygbjj/ll44/md5.asp 1 -
+/admin/inc/footer.asp 1 -
+/cn/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/en/htmledit/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/admin/productedit.asp 1 -
+/dxyylc/cache_aimi.asp 1 -
+/js/click.prettyphoto 1 -
+/admin/dan.asp 1 -
+/eiaiy.asp 1 -
+/css/r1.asp 1 -
+/admin/southidceditor/uploadfile/lele.asp 1 -
+/images/iundex.asp 1 -
+/admin/cofng.asp 2 -
+/data/date.asp 1 -
+/editor_duck.asp 1 -
+/images/pic.asp 1 -
+/admin/booter.asp 1 -
+/diy/confings.asp 1 -
+/date/js/v5/s/v5she.asp 1 -
+/owa/ 1 
+/dbs.php 1 -
+/js/ul.deep-child 1 -
+/connectors/system/phpthumb.php 1 -
+/module/html_editor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/xuncenadmin/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/function/md5.asp 1 -
+/netsys/htmledit/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/webmanage/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/.well-known/assetlinks.json 9 -
+/data/ 1 -
+/dlxxy/admin_.asp 1 -
+/images/md5.asp 1 -
+/css/xf.asp 1 -
+/admin/1maizi.asp 1 -
+/shop/rma_form.jsp 2 -
+/eval.asp 1 -
+/gb2312.asp 1 -
+/config.php 1 -
+/embed/ 1 -
+/web1/contact.asp 2 -
+/admin/admin_ta.asp 1 -
+/en/inc/editor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/js/div.tcontent 1 -
+/images/sql.asp 1 -
+/fck/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/exchweb/bin/ 1 
+/hongdbs.asp 1 -
+/admin/error.asp 1 -
+/dxyylc/aimi.asp 1 -
+/admim/md5.asp 1 -
+/admin/indax.asp 1 -
+/js/a.active 1 -
+/js/a.link,a.zoom 1 -
+/wp/wp-includes/wlwmanifest.xml 4 -
+/images/inc.asp 1 -
+/admin/xm.asp 1 -
+/inc/editor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/css/aaity.asp 1 -
+//plus/mytag_js.php 18 http://www.mainpcgroup.com//plus/mytag_js.php
+/shop/case_info.jsp 2 -
+/en.asp 1 -
+/htmleditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/aiy.asp 1 -
+/en/inc/editor/editor/filemanager/connectors/asp/connector.asp 1 -
+/.onebyone.hide 3 -
+/css/index_list.asp 1 -
+//user.php 10 554fcae493e564ee0dc75bdf2ebf94caads|a:2:{s:3:\"num\"
+/css/cofng.asp 1 -
+/news/edit/editor/filemanager/connectors/asp/connector.asp 1 -
+/abc.asp 1 -
+/images/design/prettyPhoto/light_rounded/btnNext.png 1 http://www.mainpcgroup.com/css/prettyPhoto.css
+/htmleditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 399
+34.200.91.83 41 117 5058477 20180916115318
+104.192.74.43 35 35 597166 20180923201140
+147.135.137.81 34 34 589055 20180923005037
+66.11.128.152 28 28 525868 20180930062701
+18.234.139.27 23 23 403661 20180930094029
+182.46.68.121 20 20 347318 20180929121611
+120.229.18.173 19 19 328537 20180913033432
+180.114.12.137 19 19 332390 20180910021901
+113.87.129.14 18 18 306191 20180926231111
+142.93.184.127 18 37 685384 20180912210630
+111.206.221.115 0 1 254108 
+111.206.198.157 0 1 12782 
+36.110.199.140 0 3 40111 
+202.46.56.202 0 1 36089 
+114.224.151.172 1 1 18781 20180904010453
+138.197.111.143 1 13 208747 20180912195436
+42.236.10.106 1 17 615077 20180918090849
+36.110.199.18 0 1 47953 
+172.241.168.211 1 1 15921 20180922184027
+36.110.199.39 0 1 47953 
+40.77.188.51 0 7 501266 
+93.120.197.0 3 3 43615 20180919070908
+36.110.199.144 0 4 419621 
+111.206.222.142 0 1 14660 
+180.211.96.2 1 62 2735965 20180918083728
+119.123.134.236 1 1 18781 20180924231127
+111.206.198.37 0 1 8308 
+14.215.176.142 0 3 129904 
+94.158.155.15 3 3 56343 20180909012747
+111.206.222.223 0 1 6349 
+111.206.198.158 0 1 381 
+106.120.173.107 0 1 8097 
+138.197.65.92 1 13 208747 20180928181337
+34.220.206.143 1 1 18781 20180929191445
+138.197.9.82 1 1 18781 20180928181023
+111.206.36.133 0 3 34920 
+171.61.228.137 3 82 3861153 20180919060609
+111.206.36.13 1 2 112215 20180926041037
+166.70.114.242 1 3 64731 20180920193029
+180.163.220.66 1 17 280064 20180919190512
+123.125.143.13 0 6 93209 
+137.226.113.28 3 3 56343 20180929165711
+47.14.139.20 0 1 254108 
+36.110.199.15 0 3 352776 
+94.250.254.57 1 1 0 20180901114759
+18.210.6.49 1 1 16095 20180930110137
+111.206.221.8 0 1 1799 
+188.17.148.182 0 1 123546 
+111.206.198.107 0 1 2470 
+36.110.199.165 1 16 200038 20180916003145
+165.227.119.186 18 37 685384 20180908042758
+54.200.205.192 5 8 168753 20180921011542
+192.0.96.186 0 1 239972 
+202.46.57.89 1 1 18781 20180928111930
+40.122.109.219 17 23 1494179 20180926161353
+40.77.189.191 0 70 2683803 
+40.77.192.139 0 1 9861 
+14.215.176.138 1 7 75063 20180919131130
+61.129.6.151 1 1 18781 20180906135307
+115.239.212.194 0 3 72069 
+111.206.222.35 0 1 10336 
+202.46.54.183 0 1 1799 
+158.106.67.132 0 5 1755946 
+111.206.221.76 0 1 381 
+180.97.35.91 0 3 63819 
+190.242.128.38 0 1 254108 
+40.77.192.3 0 1 47953 
+36.110.199.138 0 2 48871 
+14.215.176.6 0 3 86864 
+101.89.29.78 1 12 199921 20180918060432
+115.239.212.193 1 9 213413 20180907151355
+109.184.115.11 16 16 243864 20180927183339
+54.91.16.247 5 5 0 20180929140937
+220.181.51.112 1 1 13190 20180912034208
+116.7.133.168 1 1 18781 20180907162811
+14.215.176.134 0 1 47953 
+31.13.115.10 1 13 189383 20180904112518
+123.249.88.132 1 1 18781 20180909103326
+180.248.164.255 1 1 16095 20180925094918
+115.178.212.40 1 1 16095 20180901012646
+111.202.101.107 0 2 160279 
+36.110.199.12 0 7 72125 
+111.206.36.142 0 4 79536 
+42.3.28.110 0 1 123546 
+18.191.144.245 5 28 472710 20180914183520
+36.110.199.49 1 7 166936 20180918002048
+40.77.195.52 0 2 76276 
+180.163.220.5 0 12 544446 
+36.110.199.35 1 6 74987 20180921062121
+138.197.104.4 1 13 208747 20180919220546
+111.206.36.140 0 2 10221 
+202.46.57.209 1 1 18781 20180905080213
+208.54.37.254 1 69 2844330 20180906135206
+187.176.120.228 0 1 215881 
+73.255.125.24 0 1 254108 
+202.46.58.193 1 1 18781 20180922030511
+65.215.68.156 2 88 4597846 20180911224839
+111.206.222.9 0 1 15105 
+40.77.190.112 0 3 156047 
+219.65.46.241 1 73 2925777 20180904001522
+34.237.95.49 1 1 18781 20180909104246
+202.46.52.203 0 1 15105 
+158.106.67.171 0 100 14933039 
+187.153.30.137 0 1 126892 
+203.171.209.5 0 17 1396608 
+72.27.72.162 0 1 215881 
+68.36.121.66 0 1 126892 
+18.144.69.28 1 1 18781 20180902200148
+115.239.212.197 0 9 64839 
+178.137.93.108 4 4 75124 20180915082923
+174.127.135.223 1 1 18781 20180917172553
+111.206.222.149 0 1 3472 
+46.118.155.165 4 4 75124 20180916170154
+220.181.51.74 1 1 18781 20180901170108
+174.218.13.45 0 1 254108 
+111.206.36.134 0 5 38419 
+202.46.51.38 1 1 18781 20180920224554
+123.126.113.186 0 1 9431 
+190.146.240.213 0 1 254108 
+187.226.254.97 0 1 123546 
+36.110.199.161 1 3 44379 20180923012022
+111.206.198.212 0 2 2079 
+54.149.224.84 12 17 316973 20180921161345
+202.46.58.191 1 1 18781 20180919224822
+159.203.123.144 1 13 208747 20180912094730
+40.77.190.94 0 2 18869 
+138.197.111.116 1 13 208747 20180923093529
+182.156.92.66 1 56 2290419 20180906084555
+111.206.222.49 0 1 5217 
+40.77.192.165 0 2 17130 
+40.77.189.195 0 5 189602 
+14.215.176.141 1 16 199702 20180914163050
+220.200.59.15 1 1 18781 20180922083822
+111.206.221.74 0 1 47953 
+66.87.30.214 0 1 254108 
+209.97.149.243 1 13 208747 20180907031016
+106.120.173.92 0 1 8097 
+40.77.190.101 0 9 97857 
+40.77.194.146 0 1 823 
+180.97.35.21 0 1 47953 
+135.23.221.142 2 2 37562 20180909172337
+111.206.222.211 0 1 8826 
+14.215.176.5 0 4 72114 
+31.13.115.3 0 13 555183 
+111.206.198.5 0 1 66845 
+111.206.222.135 0 1 2470 
+36.110.199.44 0 5 432403 
+71.183.17.195 3 114 11846011 20180924164522
+23.80.166.247 1 1 16095 20180928013907
+202.46.50.15 1 1 18781 20180915214724
+23.81.60.160 1 1 15921 20180912060028
+111.206.198.236 0 1 823 
+40.77.193.80 0 71 2903177 
+52.206.137.6 2 2 37562 20180928192110
+23.99.203.24 1 1 18781 20180925181754
+111.206.222.72 0 2 6489 
+40.77.188.78 0 5 44616 
+104.251.82.188 1 1 18781 20180922021809
+137.226.113.27 5 5 93905 20180930065141
+40.77.188.140 0 1 4504 
+202.46.52.15 1 1 18781 20180921201648
+34.221.12.227 1 1 18781 20180913221612
+77.72.82.24 4 4 75124 20180902120211
+62.109.19.86 1 1 0 20180908010208
+54.236.190.61 1 1 0 20180918074501
+47.88.15.195 2 2 34876 20180928195724
+36.110.199.26 1 6 140684 20180913011813
+138.68.180.18 5 5 104672 20180919021021
+140.143.150.46 1 1 18781 20180912012643
+111.206.36.141 0 3 78382 
+111.206.222.95 0 2 99338 
+36.110.199.180 0 9 110501 
+111.206.36.143 0 4 63130 
+192.0.99.250 0 1 148847 
+111.206.36.16 0 1 12782 
+165.227.210.244 1 13 208747 20180905153450
+111.202.101.98 0 2 13163 
+142.93.191.243 1 13 208747 20180909094229
+36.27.109.133 1 1 18781 20180917183509
+54.175.93.245 6 6 100473 20180925160835
+188.240.208.26 3 3 56343 20180915132121
+111.206.36.15 0 3 75840 
+34.219.65.243 0 1 25217 
+202.46.50.183 1 1 18781 20180903002959
+111.206.198.214 0 1 2513 
+111.206.198.203 0 1 12140 
+13.57.233.99 10 10 187810 20180929044952
+89.35.39.71 2 2 37562 20180927110401
+52.168.183.16 1 1 18781 20180916130103
+202.46.56.72 1 1 18781 20180916080905
+142.93.180.79 1 1 18781 20180928070015
+111.206.221.3 0 1 10336 
+82.207.175.52 1 1 18781 20180909000443
+180.114.14.185 1 1 18781 20180904220909
+111.202.101.76 0 1 1552 
+111.206.36.10 1 6 143184 20180921155743
+142.93.176.216 18 37 685384 20180922103954
+54.86.73.181 3 3 41673 20180925160613
+203.171.209.6 1 12 512493 20180909232350
+138.197.78.89 18 37 685384 20180917184015
+36.110.199.13 0 4 19141 
+50.202.38.5 6 6 112686 20180924172150
+4.16.114.2 0 1 254108 
+111.206.36.138 0 6 137627 
+36.110.199.38 0 10 164698 
+111.206.36.135 0 3 73599 
+192.99.35.135 1 1 18781 20180927013934
+111.206.222.30 0 1 7998 
+111.206.198.109 0 1 17549 
+111.206.198.233 0 1 10402 
+111.206.221.99 0 2 54802 
+111.206.222.93 0 1 12085 
+142.93.71.47 1 13 208747 20180916114428
+199.30.25.17 0 71 2903177 
+36.110.199.152 0 3 49886 
+40.77.195.185 0 1 3997 
+36.110.199.139 0 10 137606 
+111.206.198.81 0 1 340188 
+40.77.192.130 0 1 1395 
+111.206.222.189 0 1 66845 
+103.96.72.249 1 1 18781 20180929003136
+34.209.223.232 1 1 18781 20180921042254
+123.126.113.168 0 1 14660 
+40.77.188.143 0 11 142455 
+111.206.36.8 0 1 381 
+109.184.95.159 3 3 43615 20180922152549
+98.15.3.46 1 21 403046 20180909214401
+111.206.198.4 0 1 2513 
+36.110.199.45 0 7 41922 
+27.46.128.7 1 1 18781 20180917135129
+202.46.54.117 1 1 18781 20180925225902
+36.110.199.14 0 3 42588 
+52.3.100.151 10 10 186391 20180925160437
+18.207.106.64 1 1 15921 20180930110136
+40.77.189.23 0 22 1446694 
+31.13.115.13 0 6 87589 
+40.77.190.121 0 14 260516 
+34.219.155.183 3 4 47480 20180921012543
+120.229.18.66 1 1 18781 20180912001740
+36.110.199.9 1 2 112215 20180927031545
+54.190.18.113 17 23 351657 20180921163028
+111.206.221.103 0 1 280 
+220.181.51.113 1 1 18781 20180912034206
+74.108.142.229 0 1 134855 
+40.77.189.186 0 15 652141 
+64.246.165.210 1 1 18781 20180916114140
+36.110.199.176 0 3 96770 
+40.77.189.7 0 12 468305 
+111.206.198.84 0 2 73969 
+47.247.81.72 0 1 123546 
+23.110.173.175 1 1 16095 20180907073255
+172.105.225.6 1 1 18781 20180920153659
+111.206.221.37 0 1 15105 
+111.206.221.40 0 1 155551 
+14.215.176.13 1 4 113419 20180916150341
+14.215.176.147 0 4 143911 
+202.46.57.171 1 1 18781 20180923131846
+111.206.198.38 0 1 25217 
+202.46.56.203 1 1 18781 20180917065559
+40.77.195.4 0 1 36089 
+36.110.199.159 0 1 36089 
+52.53.201.78 13 13 244153 20180929093131
+36.110.199.37 0 3 108917 
+104.251.80.161 1 1 15921 20180901042802
+14.215.176.9 0 3 18972 
+202.46.52.167 1 1 18781 20180924210310
+36.110.199.21 0 7 106143 
+54.201.57.38 16 30 484398 20180921141027
+36.110.199.136 0 1 66845 
+40.77.189.48 0 6 371149 
+14.215.176.132 1 1 18781 20180927053425
+18.213.111.115 1 1 16095 20180930110139
+111.206.36.11 1 8 113817 20180904153314
+74.204.17.190 6 159 14393960 20180904132910
+220.243.135.158 1 1 18781 20180903130205
+202.46.53.141 1 1 15921 20180925140854
+180.97.35.164 0 3 95652 
+36.110.199.29 0 6 93209 
+202.46.50.150 0 1 2513 
+40.77.188.174 0 7 431384 
+40.122.109.116 1 1 18781 20180926015323
+18.224.45.86 5 28 472710 20180925090746
+40.77.193.244 0 1 861 
+111.206.36.9 0 10 139043 
+111.206.36.145 0 2 37888 
+54.81.222.233 1 1 15921 20180930110148
+202.46.54.136 1 1 18781 20180924133158
+111.206.36.19 1 10 122108 20180911162302
+84.240.9.6 5 5 75457 20180908074754
+36.110.199.42 0 5 54416 
+103.39.242.237 2 2 34702 20180907032116
+111.206.222.60 0 1 2711 
+34.201.26.82 1 1 18781 20180930084548
+36.110.199.164 0 1 66845 
+111.206.198.75 0 1 2813 
+123.201.46.254 0 1 215881 
+40.77.188.178 0 13 305828 
+220.181.51.79 1 1 18781 20180902213902
+35.162.161.210 1 1 18781 20180906112132
+111.206.198.92 0 1 9431 
+36.110.199.141 0 1 47953 
+14.215.176.146 0 3 112121 
+18.207.106.33 1 1 18781 20180930083439
+41.177.127.167 0 1 215881 
+14.215.176.140 0 7 58653 
+111.93.85.174 1 1 18781 20180928115547
+111.206.36.14 0 4 135058 
+123.126.113.113 0 2 5026 
+38.100.21.78 7 7 115853 20180912225408
+104.162.51.228 0 1 254108 
+180.97.35.216 0 7 73574 
+40.77.188.221 0 21 379493 
+31.13.115.8 0 36 2011432 
+123.126.113.172 0 1 66845 
+34.236.169.224 1 1 18781 20180922113732
+123.126.113.118 0 3 14801 
+14.215.176.136 0 3 29241 
+111.206.198.151 0 1 1395 
+123.125.67.151 1 1 18781 20180914045153
+123.249.88.102 1 1 18781 20180913111328
+167.114.65.240 12 12 190452 20180905131855
+111.206.222.96 0 1 9431 
+18.191.144.134 5 28 472710 20180905220317
+36.110.199.28 0 7 158901 
+180.97.35.88 1 5 46409 20180924114220
+59.173.198.223 1 1 0 20180909165008
+111.206.36.136 0 2 79627 
+111.206.221.51 0 1 8097 
+18.223.172.204 5 28 472710 20180906182909
+138.197.133.236 2 2 0 20180924151829
+46.100.45.130 0 1 123546 
+14.215.176.10 0 3 62287 
+111.206.222.32 0 1 8097 
+36.110.199.17 0 7 48513 
+120.28.247.47 3 100 3364870 20180909233738
+95.141.111.226 3 3 56343 20180920163521
+185.80.222.103 5 176 7818984 20180918212357
+111.206.222.16 0 1 2813 
+75.127.188.147 1 72 2921958 20180924123005
+111.206.198.48 0 1 1552 
+111.206.221.41 0 1 8826 
+42.236.10.124 0 4 38250 
+36.110.199.8 0 3 85789 
+188.165.192.220 2 2 37562 20180907131226
+78.24.217.78 1 1 0 20180902144056
+123.125.143.154 0 3 352776 
+111.206.222.169 0 1 25217 
+111.206.221.24 0 1 1395 
+37.211.191.156 0 1 123546 
+202.46.48.132 0 1 47953 
+123.126.113.184 0 1 25217 
+111.206.198.210 0 1 8308 
+101.89.239.232 1 11 187139 20180906135307
+202.46.54.103 1 1 18781 20180919033535
+40.77.188.209 0 10 715121 
+111.206.198.227 0 1 23479 
+104.251.89.92 1 1 16095 20180917173036
+72.80.140.11 1 72 2912681 20180924072934
+137.226.113.26 6 6 112686 20180925150358
+111.202.101.7 0 2 37484 
+18.236.89.46 8 18 342029 20180921012911
+68.9.154.59 0 1 126892 
+52.90.124.63 1 1 18781 20180905045526
+36.110.199.137 1 5 109569 20180928022536
+192.0.84.123 0 1 148847 
+202.46.51.100 1 1 18781 20180922192551
+142.93.75.82 18 37 685384 20180903023602
+202.46.58.184 1 1 18781 20180903224230
+180.97.35.217 0 3 70867 
+52.176.95.204 1 1 18781 20180925205509
+202.46.51.81 1 1 18781 20180922221935
+165.227.102.140 2 2 37562 20180907031024
+42.236.10.117 0 3 105165 
+219.144.156.49 1 1 18781 20180905224243
+68.40.66.162 1 37 852538 20180924212339
+36.110.199.10 0 10 150339 
+64.209.132.7 9 9 169029 20180930203307
+202.46.50.78 0 1 9861 
+174.127.135.133 1 1 18781 20180917131119
+111.206.198.41 0 1 93434 
+159.65.34.236 18 37 685384 20180926225521
+159.203.99.55 1 13 208747 20180901092843
+54.200.101.114 9 16 254580 20180921012956
+14.215.176.7 0 5 44618 
+31.13.115.7 0 5 82190 
+168.61.186.85 1 1 15730 20180926232322
+202.46.51.28 1 1 18781 20180919200432
+111.206.222.132 0 1 17549 
+142.129.120.36 7 89 3934728 20180915234748
+173.68.69.209 6 88 3918981 20180906103630
+47.20.140.105 11 130 13401913 20180913222624
+74.219.1.226 3 142 13385874 20180910164856
+36.110.199.11 0 4 13189 
+123.126.113.119 0 3 54776 
+111.206.221.11 0 1 12782 
+111.206.222.197 0 1 45027 
+202.46.50.92 1 1 18781 20180901051618
+36.110.199.147 0 5 114992 
+154.51.131.142 1 1 18781 20180923053906
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20180901 10 23 607557 10
+20180902 8 79 3034644 5
+20180903 25 44 798070 8
+20180904 13 359 21949721 8
+20180905 24 60 1111487 9
+20180906 18 371 27139554 9
+20180907 15 58 992060 11
+20180908 28 48 944076 7
+20180909 20 181 6977560 16
+20180910 26 165 13793388 7
+20180911 9 187 8046717 8
+20180912 36 83 2226952 12
+20180913 35 176 14330740 7
+20180914 29 153 4337497 6
+20180915 16 98 4084976 9
+20180916 30 131 4102595 10
+20180917 44 63 1146989 11
+20180918 12 301 12207599 10
+20180919 20 161 5601610 12
+20180920 12 16 381079 9
+20180921 81 199 4081282 15
+20180922 31 55 924296 12
+20180923 60 94 1601746 10
+20180924 16 401 22168215 13
+20180925 31 55 1050714 11
+20180926 59 101 2960398 9
+20180927 13 34 608058 10
+20180928 11 51 1526253 10
+20180929 27 102 3598142 9
+20180930 32 109 3689691 10
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 2
+5mn-15mn 5
+0s-30s 266
+30s-2mn 11
+2mn-5mn 2
+15mn-30mn 5
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 22
+/ 302 5446490 265 224
+/contact.php 56 891576 10 21
+/about.php 44 708180 8 13
+/index.php 35 657335 3 3
+/cerificates.php 28 440440 2 5
+/comingsoon.php 27 783918 0 1
+/service-phonesystem.php 27 356130 1 2
+/service-karaoke.php 26 332748 2 0
+/projects.php 26 764270 0 0
+/service-intercom.php 24 311976 0 0
+/send.php 8 62391 0 6
+/navbar.html 3 423 0 0
+//index.php 1 18781 1 1
+/service-onlineordering.php 24 370464 0 3
+/service-networking.php 22 328416 0 3
+/service-surveillance.php 22 289190 0 2
+/projects.html 22 491612 0 6
+/service-alarm.php 22 318868 0 2
+/sidebar.html 3 3081 0 0
+/service-creditcardmerchant.php 23 348588 0 0
+/service-accesscontrol.php 22 351186 0 1
+/service-pointofsale.php 24 373536 1 0
+END_SIDER

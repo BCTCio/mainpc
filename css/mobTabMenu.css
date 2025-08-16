@@ -1,0 +1,13 @@
+/*!
+ * jQuery mobTabMenu 1.1.0 - www.texelate.co.uk/lab/project/mob-tab-menu/
+ *
+ * Core styles; you shouldn't need to change any of the below
+ */
+ 
+.mob-tab-menu-position-fixed { position: fixed;  margin: 0; overflow: auto; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; }
+.mob-tab-menu-position-fixed-horiz { height: 100%; bottom: 0px; top: 0px; }
+.mob-tab-menu-position-fixed-vert { left: 0px; right: 0px; }
+.mob-tab-menu-position-fixed-left { left: 0px;}
+.mob-tab-menu-position-fixed-top { top: 0px; }
+.mob-tab-menu-position-fixed-right { right: 0px; }
+#mob-tab-menu-pseudo-body { width: 100%; overflow-x: hidden; position: relative; }

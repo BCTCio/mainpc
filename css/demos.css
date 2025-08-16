@@ -1,0 +1,98 @@
+/** Not needed - for demonstration purposes only */
+ 
+ 
+
+article {
+	
+	max-width: 940px;
+	margin: 0 auto 0 auto;
+	padding: 10px;
+	
+}
+
+a.mob-tab-menu-toggle {
+	
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: transparent url('../img/button.gif') no-repeat left top;
+	text-decoration: none;
+	
+}
+
+.mob-tab-menu-active { background-position: left bottom !important; }
+
+nav#mobile-menu {
+	
+	width: 200px;
+	padding: 20px;
+	 
+	border-right: 1px solid #000000;
+	
+}
+
+nav#mobile-menu a {
+	
+	display: block;
+	border-bottom: 1px solid #000000;
+	
+}
+
+a { color: #0782c0; }
+
+a:hover { color: #FFFFFF; }
+
+h1 {
+	
+	color: #999999;
+	font-size: 24px;
+	text-align: center;
+	margin-top: 60px;
+	
+}
+
+h1 + p { text-align: center; }
+
+div#mobile-bar {
+	
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background-color: #000000;
+	text-indent: 10px;
+	padding: 5px 0 5px 0;
+	
+}
+
+body.demo-3 nav#mobile-menu,
+body.demo-4 nav#mobile-menu {
+	
+	width: auto;
+	border: none;
+	
+}
+
+body.demo-4 nav#mobile-menu { text-align: center; }
+
+body.demo-4 nav#desktop-menu {
+	
+	padding: 10px;
+	text-align: center;
+	font-size: 18px;
+	display: none;
+	
+}
+
+body.demo-4 div#mobile-bar { position: absolute; }
+
+@media only screen and (min-width: 900px) {
+	
+	body.demo-4 nav#desktop-menu { display: block; }
+	
+	body.demo-4 div#mobile-bar { display: none; }
+	
+	body.demo-4 p.custom-links { display: none; }
+	
+}
+

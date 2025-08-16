@@ -1,0 +1,37 @@
+20150827T063658: www.mainpcgroup.com/ajax/email_conf.php
+PHP Warning:  require_once(../settings.php): failed to open stream: No such file or directory in /hermes/bosnaweb13a/b128/ywh.mainpc/ajax/email_conf.php on line 3
+PHP Fatal error:  require_once(): Failed opening required '../settings.php' (include_path='.:/usr/local/lib/php-5.3.29-amd64/lib/php') in /hermes/bosnaweb13a/b128/ywh.mainpc/ajax/email_conf.php on line 3
+
+20160604T055757: www.mainpcgroup.com/ajax/email_conf.php
+PHP Warning:  require_once(../settings.php): failed to open stream: No such file or directory in /hermes/bosnaweb13a/b128/ywh.mainpc/ajax/email_conf.php on line 3
+PHP Fatal error:  require_once(): Failed opening required '../settings.php' (include_path='.:/usr/local/lib/php-5.3.29-amd64/lib/php') in /hermes/bosnaweb13a/b128/ywh.mainpc/ajax/email_conf.php on line 3
+
+20161212T110833: www.mainpcgroup.com/ajax/email_conf.php
+PHP Warning:  require_once(../settings.php): failed to open stream: No such file or directory in /hermes/bosnaweb13a/b128/ywh.mainpc/ajax/email_conf.php on line 3
+PHP Fatal error:  require_once(): Failed opening required '../settings.php' (include_path='.:/usr/local/lib/php-5.3.29-amd64/lib/php') in /hermes/bosnaweb13a/b128/ywh.mainpc/ajax/email_conf.php on line 3
+
+20190526T122036: forum.mainpcgroup.com/send.php
+sh: 1: /usr/sbin/sendmail: Permission denied
+
+20200402T031057: www.mainpcgroup.com/send.php
+sh: 1: /usr/sbin/sendmail: Permission denied
+
+20240122T150914: www.mainpcgroup.com/index.php
+suexec failure: could not open log file
+fopen: Read-only file system
+
+20240212T112034: www.mainpcgroup.com/index.php
+suexec failure: could not open log file
+fopen: Read-only file system
+
+20240212T112834: www.mainpcgroup.com/service-intercom.php
+suexec failure: could not open log file
+fopen: Read-only file system
+
+20240212T120338: mainpcgroup.com/index.php
+suexec failure: could not open log file
+fopen: Read-only file system
+
+20250813T134044: mainpcgroup.com/index.php
+suexec policy violation: see suexec log for more details
+

@@ -1,0 +1,780 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 202307 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2533                
+POS_VISITOR 17114               
+POS_DAY 26910               
+POS_DOMAIN 3353                
+POS_LOGIN 3584                
+POS_ROBOT 3739                
+POS_WORMS 4260                
+POS_EMAILSENDER 4391                
+POS_EMAILRECEIVER 4534                
+POS_SESSION 27126               
+POS_SIDER 27327               
+POS_FILETYPES 4669                
+POS_OS 4850                
+POS_BROWSER 4980                
+POS_SCREENSIZE 5209                
+POS_UNKNOWNREFERER 5283                
+POS_UNKNOWNREFERERBROWSER 5594                
+POS_ORIGIN 5875                
+POS_SEREFERRALS 6015                
+POS_PAGEREFS 6170                
+POS_SEARCHWORDS 6425                
+POS_KEYWORDS 6577                
+POS_MISC 2197                
+POS_ERRORS 6636                
+POS_CLUSTER 3440                
+POS_SIDER_404 6767                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230802220736 1 0 40771148609
+FirstTime 20230701000714
+LastTime 20230706014040
+LastUpdate 20230806022744 1 0 0 0 0
+TotalVisits 269                 
+TotalUnique 244                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 250                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 29 138 3140428 39 68 76180
+1 92 144 2129465 148 229 2298531
+2 11 11 142472 27 51 903383
+3 22 22 387637 13 28 203529
+4 16 16 243276 9 43 1224245
+5 19 19 253091 20 20 128033
+6 22 22 368199 12 45 1650098
+7 10 10 181710 10 11 277259
+8 12 12 196699 19 70 1568786
+9 14 89 395105 11 23 203815
+10 8 8 145274 15 17 95227
+11 8 9 132620 15 43 1032908
+12 13 13 188798 18 31 180232
+13 34 84 1907343 30 34 41655
+14 15 15 262934 3 143 140161
+15 18 19 441637 15 30 63547
+16 20 43 888812 27 115 2171397
+17 17 19 726666 15 26 214544
+18 15 16 437709 40 155 2035539
+19 20 90 3216007 16 21 49248
+20 7 7 107263 20 21 196668
+21 16 16 259598 25 119 2772779
+22 8 31 151963 12 19 203865
+23 28 49 716949 15 66 1985003
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 474 902 17021655
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+robot 403 14182518 20230705215911 16
+bot[+:,\.\;\/\\-] 222 3749350 20230705231600 23
+googlebot 35 491982 20230705013320 9
+unknown 10 0 20230705233444 10
+no_user_agent 8 131467 20230705103555 0
+spider 7 210395 20230703235210 0
+custo 7 131467 20230704234319 0
+python 5 93905 20230703034807 0
+crawl 2 206187 20230702075711 0
+mj12bot 1 18781 20230705154804 0
+baiduspider 1 0 20230705205645 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+php 295 4320806 0 0
+css 67 619004 0 0
+png 168 1991942 0 0
+html 179 3258852 0 0
+jpg 37 5542536 0 0
+js 153 1265483 0 0
+gif 3 23032 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 9
+macosx 200
+winlong 1
+winxp 3
+unix 1
+winnt 284
+Unknown 6
+linux 103
+winvista 120
+win2008 184
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 14
+firefox50.0 1
+firefox13.0.1 5
+firefox17.0 3
+mozilla 4
+chrome 629
+msie7.0 1
+firefox113.0 2
+opera 1
+firefox52.0 120
+firefox114.0 114
+Unknown 6
+firefox11.0 1
+safari 9
+firefox47.0 6
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20230704040950
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20230702050316
+Go-http-client/1.1 20230706014040
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20230702050316
+Dalvik/2.1.0_(Linux;_U;_Android_9.0;_ZTE_BA520_Build/MRA58K) 20230704085301
+Go-http-client/1.1 20230706014040
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 281 340
+From1 0 0
+From2 3 3
+From3 11 11
+From4 179 548
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 3 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+http://mainpcusa.com 8 8
+http://mainpcusa.com//about.php 1 1
+http://baidu.com 1 1
+https://www.bing.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 2 0
+409 127 10458
+404 587 486387
+301 2 0
+407 9 3735
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 230
+/blog/wp-includes/wlwmanifest.xml 6 -
+/priv8.php 1 http://mainpcusa.com//priv8.php
+/api/.env 1 -
+/wp-content/plugins/wordpress-three/miin.php 3 www.google.com
+/wp-content/upload.php 1 http://mainpcusa.com//wp-content/upload.php
+/xx.php 1 http://mainpcusa.com/xx.php
+/sftp-config.json 1 -
+/admin.php 2 -
+/2021/wp-includes/wlwmanifest.xml 4 -
+/site/wp-includes/wlwmanifest.xml 6 -
+/laravel/.env 1 -
+/owa/auth/logon.aspx 4 -
+/wp-content/plugins/wp-task-scheduler/scheduler.php 1 -
+/screenshot_1.php 1 http://mainpcusa.com//screenshot_1.php
+/wp-content/plugins/fighter/fk.php 1 http://mainpcusa.com//wp-content/plugins/fighter/fk.php
+/admin/controller/extension/wpm.php 1 http://mainpcusa.com//admin/controller/extension/wpm.php
+/iks/spring/login 1 -
+/wp-content/plugins/wp-post-author/assets/css/awpa-frontend-style.css 15 -
+/wp-content/plugins/masterx/wpx.php 1 http://mainpcusa.com//wp-content/plugins//masterx/wpx.php
+/2019/wp-includes/wlwmanifest.xml 6 -
+/public/admin/assets/plugins/uploadify/uploadify.css 1 -
+/radio.php 1 http://mainpcusa.com//radio.php
+/server/.env 1 -
+/4price.php 1 http://mainpcusa.com//4price.php
+/test/wp-includes/wlwmanifest.xml 6 -
+/blog 2 -
+/bc 2 -
+/admin/Ueditor/net/controller.ashx 1 http://www.mainpcgroup.com/admin/Ueditor/net/controller.ashx
+/xmlrqc.php 1 http://mainpcusa.com//xmlrqc.php
+/Controls/Ueditor/net/controller.ashx 1 http://www.mainpcgroup.com/Controls/Ueditor/net/controller.ashx
+/doc.php 1 http://mainpcusa.com//doc.php
+/default.js 10 -
+/admin/assets/js/ckeditor/filemanager/dialog.php 1 -
+/jquery.color.animation.js 10 -
+/_profiler/phpinfo 1 -
+/e/action/ShowInfo.php 2 http://www.mainpcgroup.com/e/action/ShowInfo.php
+/assets/plugins/filemanager/dialog.php 1 -
+/images/assets/prev.png 3 http://www.mainpcgroup.com/css/jquery.onebyone.css
+/wp_logx.php 1 http://mainpcusa.com//wp_logx.php
+/XxX.php 1 http://mainpcusa.com//XxX.php
+/shop/wp-includes/wlwmanifest.xml 6 -
+/assets/filemanager/dialog.php 1 -
+/old 3 -
+/admin/global/plugins/filemanager/dialog.php 1 -
+/style.php 16 -
+/lock360.php 1 http://mainpcusa.com//lock360.php
+/wp-content/updates.php 2 www.google.com
+/wp-links.php 1 http://mainpcgroup.com/wp-links.php
+/google.php 1 http://mainpcusa.com//google.php
+/main 3 -
+/misc/ajax.js 4 -
+/system/.env 1 -
+/images/onebyone/assets/bullets.png 3 http://www.mainpcgroup.com/css/jquery.onebyone.css
+/0z.php 1 http://mainpcusa.com//0z.php
+/haxor.php 1 http://mainpcusa.com//haxor.php
+/wp-includes/1index.php 1 http://mainpcusa.com//wp-includes/1index.php
+/menuPanda.min.js 10 -
+/wp-admin/xleet.php 1 http://mainpcusa.com//wp-admin/xleet.php
+/media/js/filemanager/dialog.php 1 -
+/upload.php 2 http://mainpcusa.com//upload.php
+/wp-content/plugins/ultimate-member//assets/js/dropdown.js 2 -
+/wp-2021.php 1 http://mainpcusa.com//wp-2021.php
+/utchiha.php 1 http://mainpcusa.com//utchiha.php
+/mainpcgroup.sql 1 -
+/wp-easy.php 1 http://mainpcusa.com//wp-easy.php
+/wxo.php 1 http://mainpcusa.com//wxo.php
+/wp-includes/wlwmanifest.xml 6 -
+/jquery.carousel.js 10 -
+/autoload_classmap.php 1 http://mainpcusa.com//autoload_classmap.php
+/payout.php 1 http://mainpcusa.com//payout.php
+/filemanager/dialog.php 1 -
+/small.php 1 http://mainpcusa.com//small.php
+/shop/.env 1 -
+/ks_inc/common.js 1 http://www.mainpcgroup.com/ks_inc/common.js
+/jquery.touchwipe.min.js 10 -
+/new 3 -
+/wp-admin/css/colors/coffee/index.php 1 -
+/admin/filemanager/dialog.php 1 -
+/old-index.php 1 http://mainpcusa.com//old-index.php
+/ads.txt 17 -
+/1.php 1 http://mainpcusa.com//1.php
+/DKIZ.php 1 http://mainpcusa.com//DKIZ.php
+/wp-content/themes/wp-pridmag/init.php 1 http://mainpcusa.com//wp-content/themes/wp-pridmag/init.php
+/C.php 1 http://mainpcusa.com//C.php
+/admin/editor/filemanager/dialog.php 1 -
+/assets/admin/plugins/uploadify/uploadify.css 1 -
+/xlt.php 1 http://mainpcusa.com//xlt.php
+/ups.php 1 http://mainpcusa.com//ups.php
+/plus/stow.php 1 http://www.mainpcgroup.com/plus/stow.php
+/manager/Ueditor/net/controller.ashx 1 http://www.mainpcgroup.com/manager/Ueditor/net/controller.ashx
+/up.php 1 http://mainpcusa.com//up.php
+/bk 2 -
+/install.php 1 -
+/editor/Ueditor/net/controller.ashx 1 http://www.mainpcgroup.com/editor/Ueditor/net/controller.ashx
+/wordpress/wp-includes/wlwmanifest.xml 6 -
+/view-source: 4 -
+/mininew.php 1 http://mainpcusa.com//mininew.php
+/boutique/assets/scripts/filemanager/dialog.php 1 -
+/sito/wp-includes/wlwmanifest.xml 2 -
+/blog/.env 1 -
+/wp-info.php 1 http://mainpcusa.com//wp-info.php
+/zz.php 1 http://mainpcgroup.com/zz.php
+/repeater.php 1 -
+/ini.php 1 http://mainpcusa.com//ini.php
+/admin/assets/global/plugins/filemanager/dialog.php 1 -
+/wp.php 1 http://mainpcusa.com//wp.php
+/wp-2019.php 1 http://mainpcusa.com//wp-2019.php
+/.env.save 1 -
+/asset/tinymce/filemanager/dialog.php 1 -
+/media-admin.php 1 http://mainpcusa.com//media-admin.php
+/js/colorpicker.js 33 -
+/1337.php 1 http://mainpcusa.com//1337.php
+/html5shim.googlecode.com/svn/trunk/html5.js 10 -
+/wso.php 1 http://mainpcusa.com//wso.php
+/vendor/.env 1 -
+/.env.example 1 -
+/slidebars.js 10 -
+/assets/admin/filemanager/dialog.php 1 -
+/srx.php 1 http://mainpcusa.com//srx.php
+/colorpicker.js 10 -
+/feed/ 4 -
+/.blog 1 -
+/jquery-1-8-2.js 10 -
+/ALFA_DATA/alfacgiapi/ups.php 1 http://mainpcusa.com//ALFA_DATA/alfacgiapi/ups.php
+/wp1/wp-includes/wlwmanifest.xml 6 -
+/wp-content/fw.php 1 http://mainpcusa.com//wp-content/fw.php
+/shell.php 1 http://mainpcusa.com//shell.php
+/1index.php 2 http://mainpcusa.com//1index.php
+/marijuana.php 1 http://mainpcusa.com//marijuana.php
+/wp-admin/rss.php 1 http://mainpcusa.com//wp-admin/rss.php
+/wordpress 3 -
+/wp-content/themes/seotheme/db.php 4 www.google.com
+/wpx.php 1 http://mainpcusa.com//wpx.php
+/wp-2020.php 1 http://mainpcusa.com//wp-2020.php
+/wp-admin/ngetes.php 1 -
+/pi.php 1 http://mainpcusa.com//pi.php
+/wp-content/themes/hello-element/footer.php 3 www.google.com
+/fw.php 1 http://mainpcusa.com//fw.php
+/adminer.php 1 -
+/403.php 1 http://mainpcusa.com//403.php
+/xml.php 1 http://mainpcusa.com//xml.php
+/web/wp-includes/wlwmanifest.xml 6 -
+/new-index.php 1 http://mainpcusa.com//new-index.php
+/Deadcode1975xxxxxxxxxxxxxxxxxxxxxxxxxxxx.php 1 http://mainpcusa.com//Deadcode1975xxxxxxxxxxxxxxxxxxxxxxxxxxxx.php
+/jquery.onebyone.min.js 10 -
+/css/colorpicker.css 30 -
+/wp-content/plugins/easybusy/wp-blog.php 1 http://mainpcusa.com//wp-content/plugins/easybusy/wp-blog.php
+/mad.php 1 http://mainpcusa.com//mad.php
+/wp-includes/assets/pi.php 1 http://mainpcusa.com//wp-includes/assets/pi.php
+/wp-content/plugins/ 3 www.google.com
+/news/wp-includes/wlwmanifest.xml 2 -
+/wp-content/plugins/wc-multivendor-membership/assets/css/wcfmvm-style-memberships.css 1 -
+/magento_version 1 -
+/js/tinymce/plugins/filemanager/dialog.php 1 -
+/images/assets/next.png 3 http://www.mainpcgroup.com/css/jquery.onebyone.css
+/admin/assets/global/plugins/uploadify/uploadify.css 1 -
+/1h6j5.php 1 http://mainpcusa.com//1h6j5.php
+/crypted.php 1 http://mainpcusa.com//crypted.php
+/admin/themes/filemanager/dialog.php 1 -
+/.vscode/sftp.json 1 -
+/home 2 -
+/wp-22.php 1 http://mainpcusa.com//wp-22.php
+/content/Ueditor/net/controller.ashx 1 http://www.mainpcgroup.com/content/Ueditor/net/controller.ashx
+/jquery.simple-sidebar.min.js 10 -
+/a 4 -
+/wikindex.php 1 http://mainpcusa.com//wikindex.php
+/baindex.php 1 http://mainpcusa.com//baindex.php
+/wp-includes/ID3/license.txt 4 -
+/public/.env 1 -
+/utility/convert/index.php 1 http://www.mainpcgroup.com/utility/convert/index.php
+/xl.php 1 http://mainpcusa.com//xl.php
+/xleet.php 1 http://mainpcusa.com//xleet.php
+/wp-2018.php 1 http://mainpcusa.com//wp-2018.php
+/uploads/xleet.php 1 http://mainpcusa.com//uploads/xleet.php
+/x.php 1 http://mainpcusa.com//x.php
+/02.php 1 http://mainpcusa.com//02.php
+/website/wp-includes/wlwmanifest.xml 2 -
+/404.php 1 http://mainpcusa.com//404.php
+/API/.env 1 -
+/humans.txt 1 -
+/Ueditor/net/controller.ashx 1 http://www.mainpcgroup.com/Ueditor/net/controller.ashx
+/xwxx.php 1 http://mainpcusa.com//xwxx.php
+/wp-2022.php 1 http://mainpcusa.com//wp-2022.php
+/3x.php 1 http://mainpcusa.com//3x.php
+/uploads/up.php 1 http://mainpcusa.com//uploads/up.php
+/wp_wrong_datlib.php 1 http://mainpcusa.com//wp_wrong_datlib.php
+/wp-content/plugins/task-controller/index.php 1 -
+/.env 4 -
+/wp-blog.php 1 http://mainpcusa.com//wp-blog.php
+/sites/.env 1 -
+/cms/wp-includes/wlwmanifest.xml 6 -
+/Scripts/ueditor/net/controller.ashx 1 http://www.mainpcgroup.com/Scripts/ueditor/net/controller.ashx
+/2018/wp-includes/wlwmanifest.xml 2 -
+/wp-admin/priv8.php 1 http://mainpcusa.com//wp-admin/priv8.php
+/lufix.php 1 http://mainpcusa.com//lufix.php
+/hehe.php 1 http://mainpcusa.com//hehe.php
+/jquery.easing.1.3.js 10 -
+/util/login.aspx 1 -
+/mini.php 1 http://mainpcusa.com//mini.php
+/wp/wp-includes/wlwmanifest.xml 6 -
+/test 1 -
+/c.php 1 http://mainpcusa.com//c.php
+/roots.php 1 http://mainpcgroup.com/roots.php
+/up-kon.php 1 http://mainpcusa.com//up-kon.php
+/mass.php 1 http://mainpcusa.com//mass.php
+/jquery.prettyPhoto.js 10 -
+/mail/config-v1.1.xml 2 -
+/3index.php 1 http://mainpcusa.com//3index.php
+/app.js 10 -
+/2020/wp-includes/wlwmanifest.xml 4 -
+/media/wp-includes/wlwmanifest.xml 2 -
+/admin 1 -
+/good.php 1 http://mainpcusa.com//good.php
+/wp-god.php 1 http://mainpcusa.com//wp-god.php
+/reminder.php 1 http://mainpcusa.com//reminder.php
+/wp 3 -
+/admin/ckeditor/plugins/filemanager/dialog.php 1 -
+/wp-includes/customize/class-wp-customize-nav-menu.php 1 http://mainpcusa.com//wp-includes/customize/class-wp-customize-nav-menu.php
+/public/scripts/filemanager/dialog.php 1 -
+/wp-admin/setup-config.php 1 http://mainpcusa.com//wp-admin/setup-config.php
+/alfa.php 1 http://mainpcusa.com//alfa.php
+/testing 1 -
+/01.php 1 http://mainpcusa.com//01.php
+/wp-admin/fx.php 1 http://mainpcusa.com//wp-admin/fx.php
+/image/screenshot_1.php 1 http://mainpcusa.com//image/screenshot_1.php
+/2index.php 2 http://mainpcusa.com//2index.php
+/Plugin/ueditor/net/controller.ashx 1 http://www.mainpcgroup.com/Plugin/ueditor/net/controller.ashx
+/wp-x.php 1 http://mainpcusa.com//wp-x.php
+/wp2/wp-includes/wlwmanifest.xml 2 -
+/images/vuln.php 1 http://mainpcusa.com//images/vuln.php
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 250
+34.140.3.108 68 120 1773876 20230702012620
+54.214.227.226 16 16 159742 20230705233450
+117.251.103.186 8 8 128940 20230705034001
+64.124.8.58 7 7 138588 20230704130642
+172.190.204.45 7 9 305291 20230705163128
+172.190.70.179 6 7 332425 20230705183336
+183.136.225.46 6 6 112686 20230706002747
+34.194.45.108 4 4 75124 20230702141846
+172.190.205.116 4 5 229231 20230705155625
+116.99.20.227 4 4 75124 20230701212117
+173.252.87.118 1 1 18781 20230705192733
+161.35.35.161 1 1 12999 20230703172733
+118.99.114.115 2 2 16218 20230701203654
+34.76.242.182 1 1 18781 20230705204628
+14.116.152.84 1 1 18781 20230702100516
+45.61.185.249 1 1 15921 20230704020151
+42.236.10.78 0 13 0 
+192.111.137.34 1 1 18781 20230705191200
+93.158.90.67 1 1 18781 20230704215030
+34.220.176.245 1 1 18781 20230702065135
+66.111.88.68 2 2 24834 20230702211409
+142.93.199.8 2 2 37562 20230701144708
+52.27.63.181 1 1 18781 20230704093956
+217.107.127.113 1 1 15921 20230702063118
+103.153.66.216 1 64 172277 20230702094157
+34.229.241.166 1 1 18781 20230702230615
+121.199.67.132 2 23 417055 20230702165126
+128.199.82.7 2 2 37562 20230702014902
+103.26.209.206 2 2 24834 20230701002654
+67.22.62.254 1 1 29395 20230705034038
+165.22.205.13 1 1 15436 20230702234604
+111.249.60.141 2 2 24834 20230701020221
+74.72.152.246 2 52 1394468 20230701135002
+181.215.82.40 1 1 14494 20230701130120
+172.190.71.5 3 5 499029 20230705174351
+124.78.140.65 2 2 16157 20230701022442
+161.35.132.103 1 1 15963 20230702131016
+35.175.201.95 2 2 37562 20230705143036
+146.190.84.41 3 3 56343 20230701232914
+103.135.135.198 2 2 34744 20230701222320
+38.109.150.3 3 3 56343 20230703173034
+123.182.171.45 2 2 37562 20230704071437
+192.126.209.116 1 1 18781 20230703081028
+164.132.88.120 2 2 24834 20230703055839
+37.204.161.9 2 2 24834 20230703080638
+35.193.163.131 1 1 18781 20230704015246
+35.164.252.68 1 1 18781 20230703092234
+165.22.197.149 1 1 16095 20230701041732
+165.22.59.254 2 2 16157 20230706011346
+51.38.124.246 1 1 18781 20230704142455
+52.154.171.70 1 1 18781 20230704130334
+74.80.208.59 2 2 33709 20230703215229
+198.55.109.152 1 1 18781 20230701130123
+208.91.69.28 1 1 0 20230703183401
+34.77.72.105 1 1 18781 20230701130732
+4.28.226.82 1 1 18781 20230705093643
+209.99.148.74 1 1 15730 20230705034038
+192.46.228.11 1 1 18781 20230702131333
+194.163.188.30 2 2 24834 20230703042257
+108.46.149.148 2 2 24834 20230701133433
+116.107.249.69 3 3 56343 20230701000721
+183.91.185.168 2 2 24834 20230703153912
+72.18.158.238 1 1 18781 20230704065548
+34.140.115.72 1 1 18781 20230702053805
+103.159.206.253 2 2 16158 20230703123018
+146.190.161.128 2 2 37562 20230705165912
+187.103.74.137 1 1 18781 20230702173755
+212.119.41.109 1 1 18781 20230702193033
+93.158.91.29 1 1 18781 20230703012201
+45.200.106.195 2 111 2721071 20230704000711
+35.165.185.70 1 1 18781 20230701000808
+37.65.6.61 1 1 18781 20230703105311
+108.62.70.140 1 1 18781 20230701130106
+36.40.66.38 1 1 18781 20230701092700
+35.91.67.86 1 1 18781 20230705064012
+91.90.122.154 2 2 24834 20230704092102
+211.22.180.1 2 2 24834 20230701004746
+109.200.173.239 2 2 16157 20230704042151
+34.78.128.92 1 1 18781 20230704093625
+58.39.13.42 2 2 24834 20230701063909
+51.91.66.167 1 1 18781 20230704071358
+35.91.163.178 1 1 18781 20230703061149
+23.224.12.232 2 2 34744 20230701235617
+42.83.147.34 1 1 18781 20230705103632
+185.127.92.109 1 1 16095 20230704005123
+68.183.2.168 2 2 37562 20230703164556
+154.16.49.73 1 1 18781 20230703033920
+105.214.28.55 2 2 16158 20230702113332
+3.236.214.173 1 1 18781 20230703191403
+180.183.141.82 2 2 24834 20230704051638
+105.214.74.204 2 2 24834 20230702122208
+164.92.202.204 1 1 29034 20230701172606
+137.184.85.77 1 1 14494 20230704052514
+192.36.71.133 1 1 18781 20230704133510
+192.168.151.0 1 1 15921 20230703215010
+188.134.1.49 1 1 18781 20230703084646
+121.36.56.158 1 1 18781 20230705044549
+206.41.170.145 1 1 13190 20230705034041
+15.235.50.228 1 1 16095 20230703092140
+85.209.150.31 1 1 18781 20230703203834
+181.214.202.15 1 1 18781 20230701130105
+8.212.14.151 2 2 24834 20230702214124
+207.148.31.118 1 1 18781 20230704142435
+134.122.97.159 1 1 13145 20230701174608
+52.12.239.209 1 22 365247 20230705233445
+87.236.176.176 1 1 18781 20230704040950
+104.248.158.27 1 1 18781 20230703182143
+216.180.109.247 1 1 13145 20230701130121
+54.209.159.63 3 3 53657 20230704055546
+62.210.173.73 1 1 18781 20230704030451
+91.207.102.150 1 1 18781 20230703172342
+178.168.193.40 1 1 15921 20230703214251
+34.234.96.23 1 1 18781 20230702220524
+34.208.236.165 1 1 18781 20230701060650
+91.197.39.163 1 1 29034 20230701130120
+102.69.178.233 2 2 16158 20230702183622
+74.80.208.82 1 1 18781 20230704001229
+45.137.20.31 1 1 18781 20230701133653
+137.184.189.109 1 1 15730 20230704213538
+23.236.227.102 1 1 13190 20230701130122
+105.214.92.227 2 2 24834 20230704054422
+178.130.122.13 2 2 16158 20230703053705
+178.130.94.133 2 2 34702 20230701011122
+61.147.15.65 1 1 18781 20230704085400
+74.125.210.130 0 1 12140 
+159.65.26.65 1 1 15921 20230705043321
+136.169.243.170 1 1 15921 20230703113712
+54.244.4.145 1 1 18781 20230703135557
+23.94.58.45 1 1 15963 20230701130107
+123.54.143.5 4 4 75124 20230702191414
+54.226.255.166 1 1 18781 20230702204445
+65.169.38.73 2 2 16158 20230702193333
+42.228.61.245 2 2 24834 20230705034753
+143.110.228.66 1 1 18781 20230702193245
+178.212.48.72 1 1 18781 20230704071305
+185.176.222.46 2 2 37562 20230703122705
+165.227.42.13 1 1 22346 20230701065852
+206.189.123.243 1 1 15564 20230701133548
+51.38.125.194 1 1 18781 20230704142728
+37.110.115.246 1 1 15921 20230701104656
+85.237.210.76 1 1 18781 20230706012534
+54.244.158.221 1 1 18781 20230703092357
+54.245.133.124 1 1 18781 20230702065327
+105.214.66.188 2 2 24834 20230706004613
+18.237.232.57 1 1 18781 20230701060723
+87.236.176.252 1 1 18781 20230703041005
+120.197.219.82 2 2 24834 20230702154407
+46.35.89.188 3 3 34999 20230701011203
+5.161.108.135 1 1 18781 20230701135308
+174.138.50.75 1 1 14494 20230704062720
+40.77.94.252 1 1 16095 20230706014040
+220.132.33.150 1 1 18781 20230706004601
+134.122.44.157 1 1 15963 20230702111823
+72.74.175.50 2 2 24834 20230703135526
+52.203.186.4 1 1 0 20230705143539
+194.163.155.198 2 2 24834 20230705061745
+34.77.176.45 1 1 18781 20230703164236
+52.11.65.100 1 1 18781 20230704060759
+45.56.94.122 2 2 24834 20230701003007
+200.98.129.163 1 1 15921 20230703052358
+34.105.168.56 3 3 56343 20230706003822
+171.5.9.254 2 2 31842 20230702221048
+212.102.57.206 1 1 18781 20230701045401
+31.13.127.116 1 1 18781 20230702050316
+146.70.173.100 2 2 37562 20230705022123
+114.97.184.100 2 2 24834 20230703015809
+64.140.135.231 1 1 14928 20230705034041
+58.211.23.183 4 4 75124 20230704152622
+162.213.37.11 1 1 18781 20230703141740
+185.181.61.115 2 2 16218 20230704020150
+168.151.91.116 1 1 18781 20230705034035
+131.153.142.170 1 1 18781 20230703112920
+74.80.208.70 4 4 63307 20230705235155
+165.22.68.224 1 1 18781 20230704005942
+91.207.102.153 2 2 37562 20230704144909
+87.236.176.91 1 1 18781 20230702210925
+168.151.58.239 1 1 29034 20230705034038
+121.239.48.171 2 2 24834 20230704074008
+113.232.252.186 2 2 24834 20230706005007
+34.211.15.29 1 1 18781 20230703061627
+181.215.103.80 1 1 0 20230701130118
+116.233.104.66 2 2 24834 20230705152553
+103.188.244.234 2 2 24834 20230703175208
+168.151.58.52 1 1 16095 20230705034039
+34.208.75.3 1 1 18781 20230705092826
+64.140.139.133 1 1 13145 20230705034041
+209.99.178.111 1 1 18781 20230705034038
+35.215.86.157 1 1 18781 20230703055636
+180.183.10.204 1 1 15921 20230703182105
+174.138.178.58 1 1 18781 20230702122223
+172.105.82.9 1 1 18781 20230704142416
+188.126.94.249 3 3 43615 20230701193823
+3.93.216.220 1 1 18781 20230701034817
+77.43.162.40 2 2 16158 20230702173822
+69.58.2.145 1 1 15436 20230701130107
+165.22.197.234 2 2 34217 20230704020445
+103.159.206.254 2 2 16158 20230706013315
+124.237.181.16 1 1 18781 20230703151308
+52.25.128.209 1 1 18781 20230702034612
+34.221.92.113 1 1 18781 20230705063920
+223.166.244.132 3 3 56343 20230705191244
+34.229.247.155 1 1 18781 20230703124648
+34.209.128.200 1 1 18781 20230703061354
+54.83.135.248 1 1 18781 20230702224049
+146.56.146.111 4 4 75124 20230701015008
+104.194.194.134 1 1 14494 20230705034041
+104.176.22.24 1 1 15921 20230705201627
+223.112.196.122 4 4 75124 20230702175955
+178.20.42.231 3 3 34999 20230704164857
+34.221.98.235 1 1 18781 20230705191653
+103.153.66.218 1 13 15921 20230702094230
+61.147.15.67 1 1 18781 20230704084423
+8.210.149.16 1 1 15921 20230705185948
+172.93.142.9 1 1 15730 20230701130122
+42.236.10.93 0 4 0 
+186.159.3.193 1 1 18781 20230706004933
+185.222.36.155 1 1 18781 20230702003018
+23.29.32.74 2 2 34876 20230701230609
+31.171.155.14 3 3 34999 20230702134633
+137.184.189.106 1 1 15156 20230704075132
+77.232.40.104 2 2 24834 20230702081324
+111.252.137.216 2 2 24834 20230705193046
+42.236.10.84 0 2 0 
+74.80.208.33 3 3 58548 20230704130419
+137.184.189.105 2 2 30492 20230704040618
+173.252.87.119 0 23 988096 
+41.76.103.182 2 2 16157 20230703182219
+137.184.93.142 1 1 12999 20230701025321
+20.55.75.86 2 2 37562 20230706013008
+173.252.87.7 0 47 1899151 
+31.13.127.13 1 1 0 20230702050315
+180.183.138.83 2 2 16158 20230703004313
+3.239.120.11 1 1 18781 20230703101106
+8.219.211.176 2 2 24834 20230701101416
+34.70.25.52 1 1 18781 20230701142139
+176.31.253.157 3 3 35120 20230704122242
+167.172.234.89 1 1 18781 20230704142412
+61.147.21.52 1 1 18781 20230704084711
+192.64.4.31 1 1 0 20230701164727
+165.227.238.36 1 1 15564 20230704063549
+54.189.180.8 1 1 18781 20230704163612
+64.124.8.174 3 3 54126 20230705181004
+54.202.252.104 1 1 18781 20230702065238
+42.236.10.75 1 5 18781 20230701220327
+95.214.234.103 2 2 24834 20230705043802
+134.122.50.103 1 1 29034 20230701220604
+158.69.251.186 1 1 18781 20230701182638
+8.222.250.167 2 2 24834 20230705063158
+112.78.167.208 2 2 24834 20230703050921
+34.217.122.219 1 1 18781 20230705233442
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 6
+20230701 85 158 2728045 55
+20230702 135 283 3352045 46
+20230703 67 68 1021679 53
+20230704 73 182 3897068 56
+20230705 96 193 5755711 48
+20230706 18 18 267107 11
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 1
+30s-2mn 8
+15mn-30mn 3
+2mn-5mn 2
+0s-30s 253
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 19
+/ 170 3080084 143 127
+/contact.php 72 1146312 62 16
+/send.php 52 307785 0 51
+/index.php 36 657335 9 14
+/about.php 16 241425 6 8
+/comingsoon.php 12 319374 5 5
+/service-accesscontrol.php 12 191556 4 8
+/cerificates.php 11 157300 4 4
+/projects.php 10 264555 3 2
+/service-surveillance.php 10 118305 3 5
+/service-karaoke.php 6 76788 2 0
+/service-intercom.php 9 116991 3 5
+/service-onlineordering.php 8 123488 3 4
+/service-phonesystem.php 9 118710 3 4
+/service-networking.php 8 119424 4 3
+/projects.html 9 178768 5 4
+/service-alarm.php 9 130446 4 4
+/service-creditcardmerchant.php 6 90936 2 1
+/service-pointofsale.php 9 140076 4 4
+END_SIDER

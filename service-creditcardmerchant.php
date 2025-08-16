@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+<meta charset="utf-8" />
+<title>Main Group USA Inc.</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link media="screen" charset="utf-8" rel="stylesheet" href="css/base.css" />
+<link media="screen" charset="utf-8" rel="stylesheet" href="css/skeleton.css" />
+<link media="screen" charset="utf-8" rel="stylesheet" href="css/layout.css" />
+<link media="screen" charset="utf-8" rel="stylesheet" href="css/child.css" />
+<!--[if (IE 6)|(IE 7)]>
+<link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" />
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]--><script type="text/javascript" language="javascript" src="js/jquery-1-8-2.js"></script><script type="text/javascript" src="js/default.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.carousel.js"></script>
+<script type="text/javascript" src="js/jquery.color.animation.js"></script>
+
+
+<!-- color pickers -->
+<link rel="stylesheet" media="screen" type="text/css" href="css/colorpicker.css" />
+<script type="text/javascript" src="js/colorpicker.js"></script>
+<!-- end of color pickers -->
+
+</head>
+
+<body><div class="page-wrapper">
+<div class="slug-pattern slider-expand">
+<div class="background-image" id="1"></div>
+<div class="overlay"><div class="slug-cut"></div>
+</div></div>
+
+<div class="slider-expand">
+<?php
+$page = 'CreditCardMerchant';
+ include("header.inc.php")
+?>
+
+ 
+            <div class="shadow"></div>
+<div class="container">
+<div class="page-title">
+<div class="rg"></div>
+<h1>Credit Card Merchant</h1>
+</div>
+</div>
+</div>
+
+<div class="body">
+<div class="body-round"></div>
+<div class="body-wrapper">
+<div class="side-shadows"></div>
+<div class="content">
+<div class="container callout standard">
+
+ 
+
+</div>
+<div class="callout-hr"></div>
+<div class="container">
+<div class="twelve columns">
+<div class="blog style-2"> 
+<img class="scale-with-grid" src="images/design/09.png" /> 
+<div class="description">
+<br /><br />
+<h5>CREDIT CARD PROCESSING MADE SIMPLE</h5>
+ 
+<p>
+ 
+
+<strong><font style="font-size:18px;">Credit Card Processing Solutions </font></strong> <br />
+
+Main Group USA Inc. offers merchant accounts, cutting-edge technology and secure credit card processing at competitive rates to meet the individual requirements of our clients, and we’ve been doing it consistently since 1992. Our goal is to be your first choice for industry-leading electronic payment processing that’s reliable and secure, customer service that delivers beyond expectations and budget-friendly pricing for all your credit card processing needs.<br /><br />
+
+<strong><font style="font-size:18px;">Point of Sale (POS) Credit Card Processing</font></strong> <br />
+
+Our retail merchant account enables you to authorize, settle and manage face-to-face retail credit and debit card transactions through a variety of POS solutions to help meet your connectivity, processing speed and security needs. Check out the advantages of faster checkouts, reduced telecom costs, immediate real-time online reporting and the reliability of redundant systems offered by our POS credit card processing!<br /><br />
+
+<strong><font style="font-size:18px;">Internet Credit Card Processing</font></strong> <br />
+
+The most popular and flexible method of credit card processing for Internet merchant accounts leverages the power of our electronic payment gateway, which includes a virtual terminal that allows you to manually process any credit card or signature debit card order in real time wherever you have Internet access. Transaction is customizable Internet credit card processing services includes direct swipe via USB capability, 24/7 online reporting, batch processing, integrated shopping cart technology, recurring payments, email management, and instant, multi-location networking.<br /><br />
+
+<strong><font style="font-size:18px;">Rates & Fees</font></strong> <br />
+
+Credit card processing costs are simpler than you think. We take the mystery out of rates and fees, and can save you money in the process.
+Unlike other credit card processors, we don’t hit you up with a long list of hidden fees, and we don’t pull you in with a low teaser rate that shoots up shortly after you sign the contract. We’re upfront about the rates and fees we charge for our products and services.<br /><br />
+
+<strong><font style="font-size:18px;">Why Choice us?</font></strong> <br />
+
+As a full-service merchant account provider with years of experience in the credit card processing industry, we know there’s a lot of competition out there for your business. We also know that the strategic alliances we’ve built with established networks and banks in this country make it possible for us to offer merchant accounts that can truly save our clients money on their processing costs. Plus, every transaction processed through our merchant account is supported by the most robust networks available. </p>
+
+
+</div>
+<div class="clear"></div>
+<div class="foot"></div>
+
+</div><!-- Blog Ends -->
+ 
+<div class="clear"></div>
+<div class="foot"></div>
+
+</div><!-- Blog Ends -->
+
+
+</div> </div>
+</div>
+</div><div class="footer style-2">
+	<div class="background"><div class="stitch"></div></div>
+<div class="foot-nav-bg"></div>
+	<div class="content">
+<div class="patch"></div>
+<div class="blur"></div>
+<div class="pattern">
+
+<div class="clear"></div>
+</div>
+<div class="sixteen columns alpha omega">
+	<div class="foot-nav-bg"></div>
+<div class="foot-nav">
+
+<div class="nav">
+<div class="copy">
+Coptyright © 2013 Main Group USA All Rights Reserved •  Powered by AM STUDIO. 
+</div>
+	</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="elevator_item"> 
+<a id="elevator" onclick="return false;" title="Back To Top"></a> 
+ 
+<div class="arr"></div>
+</div>
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+$('.slidewrap2').carousel({
+slider: '.slider',
+slide: '.slide',
+slideHed: '.slidehed',
+nextSlide : '.next',
+prevSlide : '.prev',
+addPagination: false,
+addNav : false
+});
+});
+</script>
+	<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+<script type="text/javascript" src="http://api.twitter.com/1/statuses/user_timeline/EmpiricalThemes.json?callback=twitterCallback2&count=2"></script>
+
+</div>
+</body>
+
+</html>

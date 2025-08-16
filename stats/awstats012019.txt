@@ -1,0 +1,1888 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201901 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2537                
+POS_VISITOR 41844               
+POS_DAY 62771               
+POS_DOMAIN 3451                
+POS_LOGIN 3685                
+POS_ROBOT 3840                
+POS_WORMS 4582                
+POS_EMAILSENDER 4713                
+POS_EMAILRECEIVER 4856                
+POS_SESSION 63660               
+POS_SIDER 63871               
+POS_FILETYPES 4991                
+POS_OS 5205                
+POS_BROWSER 5401                
+POS_SCREENSIZE 6011                
+POS_UNKNOWNREFERER 6085                
+POS_UNKNOWNREFERERBROWSER 6853                
+POS_ORIGIN 7106                
+POS_SEREFERRALS 7249                
+POS_PAGEREFS 7418                
+POS_SEARCHWORDS 7693                
+POS_KEYWORDS 8083                
+POS_MISC 2201                
+POS_ERRORS 8380                
+POS_CLUSTER 3541                
+POS_SIDER_404 8531                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190201002505 9695 1976387 45741076805
+FirstTime 0
+LastTime 20190131231859
+LastUpdate 20190202022141 9695 9588 106 0 0
+TotalVisits 1524                
+TotalUnique 328                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 633                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 99 125 2178175 85 179 3242967
+1 91 405 8964361 81 196 5260201
+2 70 252 6507254 41 160 3634126
+3 97 174 3292421 264 318 3263645
+4 79 259 6510705 122 293 5240173
+5 58 289 11417888 25 68 1844555
+6 68 94 2200575 32 73 1878105
+7 65 203 6985686 110 176 1374159
+8 84 89 1670797 53 213 2019787
+9 81 211 7166811 34 168 3144261
+10 64 360 14825604 34 161 3188274
+11 75 330 11659998 81 249 2570148
+12 68 236 6249516 54 152 2577438
+13 80 122 2504659 37 83 1263269
+14 89 276 9789962 59 188 4137679
+15 61 154 5294770 546 650 3322227
+16 93 291 8560703 99 203 3301536
+17 70 224 7538714 106 172 4667142
+18 62 78 1679229 66 149 3155892
+19 60 99 2124264 55 75 1798396
+20 86 349 11272297 45 132 2842829
+21 95 115 2278916 41 100 3480344
+22 105 310 10526876 81 149 2816873
+23 111 396 13536223 53 129 1952958
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1911 5441 164736404
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 17
+bot[+:,\.\;\/\\-] 678 39900733 20190131203149 0
+baiduspider 240 5121345 20190130065455 0
+googlebot 192 6414501 20190131210707 0
+infobot 120 1890748 20190131233655 0
+robot 77 9908665 20190131214009 0
+spider 73 1516904 20190127182313 0
+phantom 56 2576227 20190120101137 0
+crawl 44 767490 20190129081128 0
+python 27 507087 20190125200945 0
+no_user_agent 16 273135 20190131085843 0
+core 1 18781 20190115011017 0
+exabot 13 218453 20190130163504 0
+mojeekbot 1 18781 20190121081709 0
+mail\.ru 2 37562 20190123151218 0
+java 15 281715 20190103182523 0
+yandex 11 400915 20190130161618 0
+nutch 8 166083 20190112121845 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+php 344 5681702 0 0
+css 715 15171453 0 0
+png 1262 25762162 0 0
+html 1563 29285009 0 0
+jpg 393 71036731 0 0
+js 1132 17412145 0 0
+Unknown 4 75124 0 0
+gif 28 312078 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 14
+winlong 9
+winxp 24
+win2000 2
+winnt 769
+win98 2
+linuxubuntu 3
+winvista 11
+linux 1133
+macosx 1044
+bsdnetbsd 1
+winunknown 1
+win2003 12
+Unknown 52
+win2008 2378
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 42
+msie6.0 1
+firefox15.0 2
+chrome 3117
+firefox26.0 1
+firefox1.5.0.3 2
+firefox18.0 1
+firefox4.0 1
+msie8.0 2
+firefox6.0.2 6
+firefox64.0 128
+firefox43.0 443
+msie7.0 13
+firefox59.0 1
+firefox23.0 1
+firefox40.1 22
+msie10.6 1
+msie5.0 2
+msie9.0 25
+Unknown 6
+firefox50.0 8
+firefox48.0 4
+firefox42.0 291
+opera 2
+firefox21.0 3
+firefox29.0 9
+firefox58.0 2
+firefox3.5.2 1
+firefox30.0 1
+firefox46.0 1
+konqueror 1
+firefox33.0 2
+firefox25.0 2
+mozilla 419
+firefox37.0 47
+netscape5.0 2
+msie10.0 5
+firefox60.0 1
+firefox36.0 2
+firefox3.6.8 6
+firefox3.1 2
+firefox15.0.1 3
+safari 852
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 10
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t12sns;__http://researchscan.comsys.rwth-aachen.de) 20190126162330
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t12ca;__http://researchscan.comsys.rwth-aachen.de) 20190126225229
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t13rl;__http://researchscan.comsys.rwth-aachen.de) 20190128185812
+Mozilla/5.0 20190120030427
+SafeDNSBot_(https://www.safedns.com/searchbot) 20190118180122
+Mozilla/5.0_Firefox/33.0 20190110193237
+Mozilla/4.0_(compatible;) 20190129070625
+com.google.GoogleMobile/41.0.0_iPhone/12.1.1_hw/iPhone10_1 20190118233154
+axios/0.19.0-beta.1 20190122041700
+Mozilla/5.0_(compatible;_Dataprovider.com) 20190113085013
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+SafeDNSBot_(https://www.safedns.com/searchbot) 20190118180122
+com.google.GoogleMobile/41.0.0_iPhone/12.1.1_hw/iPhone10_1 20190118233154
+axios/0.19.0-beta.1 20190122041700
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1651 2077
+From1 9 9
+From2 56 63
+From3 7 8
+From4 188 3284
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 34 41
+baidu 22 22
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+https://www.facebook.com 3 3
+https://pyr.am/id-dial/mainpcgroup.com 2 2
+http://www.url-opener.com 1 1
+https://www.bing.com 1 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 21
+shoes5t 1
+eachn6w 1
+torn6fw 1
+depthynn 1
+backxhq 1
+beautyi65 1
+lowersux 1
+removekzp 1
+end397 1
+thenowz 1
+missionaeg 1
+amongest 1
+corn8k1 1
+essentiale54 1
+furtherh96 1
+newspaperupp 1
+logu86 1
+dirtytho 1
+suddenlylxd 1
+coming96x 1
+put37z 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 21
+shoes5t 1
+eachn6w 1
+torn6fw 1
+depthynn 1
+backxhq 1
+beautyi65 1
+lowersux 1
+removekzp 1
+end397 1
+thenowz 1
+amongest 1
+missionaeg 1
+corn8k1 1
+essentiale54 1
+furtherh96 1
+newspaperupp 1
+logu86 1
+dirtytho 1
+put37z 1
+coming96x 1
+suddenlylxd 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 7 1404
+206 5 75125
+405 1 243
+406 121 31013
+407 12 4980
+404 2716 1845094
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 832
+/blog/wp-includes/wlwmanifest.xml 4 -
+/en/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/sqzr.asp 1 -
+//plus/niubi.php 1 http://www.mainpcgroup.com//plus/niubi.php
+/plus/dage.php 1 -
+/sqlout.asp 1 -
+/admin/dnhx/sdfg.asp 1 -
+//plus/ver.asp 1 http://www.mainpcgroup.com//plus/ver.asp
+/inc/edit.asp 1 -
+/data/home.asp 1 -
+/css/config.asp 1 -
+//plus/mybak.php 1 http://www.mainpcgroup.com//plus/mybak.php
+/data/cs2/v5she.asp 1 -
+/css/indexe.asp 1 -
+//config/AspCms_Config.asp 3 http://www.mainpcgroup.com//config/AspCms_Config.asp
+/adin/admin_.asp 1 -
+/admin/upload.asp 1 -
+/xmlrpc.php 15 -
+/admincp/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/plus/xsvip.php 1 -
+/plus/mytag_js.php 4 -
+/axiuen.asp 1 -
+//webconfig.txt.php 1 http://www.mainpcgroup.com//webconfig.txt.php
+/inc/index_list.asp 1 -
+/inc/incc.asp 1 -
+/admin/gotop.asp 1 -
+/yuzhiguo-editor/yuzhiguo-com/editor/filemanager/connectors/asp/connector.asp 1 -
+/include/myql.asp 1 -
+/inc/config/config.asp 1 -
+/inc/md5.asp 1 -
+/admin/inc/md5.asp 1 -
+/css/css.asp 1 -
+/test/ 2 -
+//wp-login.php 1 http://www.google.com.hk
+/public/kindeditor/upload_json.ashx 1 https://www.baidu.com/
+/js/ul.content-slide-nav 1 -
+//search.php 1 -
+/goon.asp 1 -
+/css/a.asp 1 -
+/config/co.asp 1 -
+/weki.php 1 -
+/inc/css.asp 1 -
+/function/editor/php/upload_json.php 1 https://www.baidu.com/
+/components/com_jbcatalog/libraries/jsupload/ 1 -
+/images/onebyone/assets/bullets.png 39 http://www.mainpcgroup.com/css/jquery.onebyone.css
+//SqlOut.asp 1 http://www.mainpcgroup.com//SqlOut.asp
+/Wzadmin/KEditor/asp/upload_json.asp 1 https://www.baidu.com/
+/default1.asp 1 -
+/admin/config/jiuge.asp 1 -
+/editor1.asp 1 -
+/ec/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/fymd2/login.asp 1 -
+//Somnus/Somnus.asp 1 http://www.mainpcgroup.com//Somnus/Somnus.asp
+//images/Sql.asp 1 http://www.mainpcgroup.com//images/Sql.asp
+/qq.asp 1 -
+/data/conn/config.php 1 -
+/bjdgj/md5.asp 1 -
+/components/RxR_1547490029.php 1 -
+/ad.php 1 -
+/js/ul.child 1 -
+/admin/myfck/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/service-onlineordering.php' 3 -
+/index.htm 7 -
+/include/mdb.asp 1 -
+/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/edit/asp/upload_json.asp 1 https://www.baidu.com/
+/js/div.visible 1 -
+/yuzhiguoeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/cn/databases/%25%23%40%24%40%23fds%40%23%24%25%25%23.asp 1 -
+//yp/product.php 3 http://www.mainpcgroup.com//yp/product.php
+/fckedit/editor/filemanager/connectors/asp/connector.asp 1 -
+/upload/image/api.asp/x.gif 1 -
+/css/manage.asp 1 -
+/admin/public/htmledit/php/upload_json.php 1 https://www.baidu.com/
+/admin/include/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+//Web_fckeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/administrator/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/shell.asp 1 -
+/kindeditor/asp/upload_json.asp 2 https://www.baidu.com/
+//admin/FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/public/kindeditor/php/upload_json.php 1 https://www.baidu.com/
+//data/cache/asd.php 3 http://www.mainpcgroup.com//data/cache/asd.php
+/wordpress/wp-includes/wlwmanifest.xml 4 -
+/data/css.asp 1 -
+/en/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+//pic/fckimg/image/1.asp 3 http://www.mainpcgroup.com//pic/fckimg/image/1.asp
+/babyelogs.asp 1 -
+/admin/confiig.asp 1 -
+/yousiteadmin/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/images/manage.asp 1 -
+/js/application/x-shockwave-flash 1 -
+//FCKeditor3/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/ljl7tz.asp 1 -
+/admin_login.asp 1 -
+//data/cache/t.php 1 http://www.mainpcgroup.com//data/cache/t.php
+/as.asp 1 -
+/uploadfiles/xm.asp 1 -
+//data/img/css/xianf.ASP 3 http://www.mainpcgroup.com//data/img/css/xianf.ASP
+/system/editor/kindeditor/php/upload_json.php 1 https://www.baidu.com/
+/eWebEditor/upload.asp 2 https://www.baidu.com/
+/data/incc.asp 1 -
+/content/editor/ashx/upload_json.ashx 1 https://www.baidu.com/
+/templates/red.asp 1 -
+/plus/data.php 1 -
+/admin/southidceditor/css/office/editor.asp 1 -
+/ac2.asp 1 -
+/editor/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/images/zenme.asp 1 -
+/404/index_list.asp 1 -
+/imgs/conn.asp 1 -
+/new/ 2 -
+/yousiteadmin/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/cn/index.asp 1 -
+/about/r1.asp 1 -
+/admin/UploadFace/KindEditor/upload_json.ashx 1 https://www.baidu.com/
+/js/li.selected 1 -
+/js/a.pp_close 1 -
+/admin/admin/cache.asp 1 -
+/harass.asp 1 -
+//90.asp 5 http://www.mainpcgroup.com//90.asp
+/wp-admin/ 9 -
+/dxyylc/indesax.asp 1 -
+/script.asp 1 -
+/english/editor/editor/filemanager/connectors/asp/connector.asp 1 -
+///weki.asp 1 http://www.mainpcgroup.com///weki.asp
+//dang.php 1 http://www.mainpcgroup.com//dang.php
+/images/.asp 1 -
+/help.asp 1 -
+/cert/shows.asp 1 -
+/javascript/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+//chece.php 1 http://www.mainpcgroup.com//chece.php
+/toto/yy.asp 1 -
+//kdatebase/index_.asp 1 http://www.mainpcgroup.com//kdatebase/index_.asp
+/bbb.asp 1 -
+/css/403.asp 1 -
+/admin/mdb.asp 1 -
+/kindeditor/asp.net/upload_json.ashx 1 https://www.baidu.com/
+/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+//bsm.asp 1 http://www.mainpcgroup.com//bsm.asp
+//FCKeditor3/editor/filemanager/connectors/php/connector.php 1 -
+/admin/code.asp 1 -
+/admin/r1.asp 1 -
+//coon.php 1 http://www.mainpcgroup.com//coon.php
+/vu5n26.asp 1 -
+/admin/include/kindeditor/php/upload_json.php 1 https://www.baidu.com/
+/manager/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/OWA/ 2 
+/images/assets/next.png 39 http://www.mainpcgroup.com/css/jquery.onebyone.css
+/dxyylc/css.asp 1 -
+/llxs.asp 1 -
+/edit/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+//Sjaibiusa.Dsa.asp 1 http://www.mainpcgroup.com//Sjaibiusa.Dsa.asp
+/dxyylc/md5.php 1 -
+//plus/x.php 1 http://www.mainpcgroup.com//plus/x.php
+/upload/links/month_1806/fuckjq.asp 1 -
+/com3.indexlx.asp 1 -
+//data/conn/config.php 1 http://www.mainpcgroup.com//data/conn/config.php
+/mune.asp 1 -
+/omgdiy.asp 1 -
+/inc/poker.asp 1 -
+//plus/bakup.hp 3 http://www.mainpcgroup.com//plus/bakup.hp
+/shop/terms.jsp 1 -
+/article/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/in/md5.asp 1 -
+/admin/system/editor/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/templates/system/css/system.css 4 -
+/admin/include/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/images/index_list.asp 1 -
+//data/cache/flye.php 2 http://www.mainpcgroup.com//data/cache/flye.php
+/jycpcx.asp 1 -
+/pysy.asp 1 -
+/connst.asp 1 -
+/Data/kindeditor/php/upload_json.php 1 https://www.baidu.com/
+//FCKeditor3/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/inc/conn1.asp 1 -
+/shop/product.jsp 2 -
+/admin/kindeditor/php/upload_json.php 1 https://www.baidu.com/
+/uploadfiles/ying.asp 1 -
+/inc/tool.asp 1 -
+/wp/ 9 -
+//indax.asp 1 http://www.mainpcgroup.com//indax.asp
+/kdatebase/index_.asp 1 -
+/helmap.asp 1 -
+/cms/wp-includes/wlwmanifest.xml 4 -
+/js/scroll.prettyphoto 2 -
+/bjdgj/md5.php 1 -
+//x.asp 1 http://www.mainpcgroup.com//x.asp
+/demo/ 2 -
+//plus/ad_js.php 10 -
+//FCKeditor3/editor/filemanager/connectors/aspx/connector.aspx 1 -
+/htmledit/editor/filemanager/connectors/asp/connector.asp 1 -
+//tcb.php 1 http://www.mainpcgroup.com//tcb.php
+/bianjiqi/editor/filemanager/connectors/asp/connector.asp 1 -
+/inc/data.asp 1 -
+/control/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/admin/inc/jiuge.asp 1 -
+//plus/11m.php 1 http://www.mainpcgroup.com//plus/11m.php
+//FCKeditor/editor/filemanager/connectors/php/connector.php 1 -
+/polk.aspx 1 -
+//diandian.aspx 3 http://www.mainpcgroup.com//diandian.aspx
+/welcome.asp 1 -
+/about.php' 1 -
+//wiki.php 1 http://www.mainpcgroup.com//wiki.php
+/wp-content/plugins/formcraft/file-upload/server/php/upload.php 1 http://www.mainpcgroup.com/wp-content/plugins/formcraft/file-upload/server/php/upload.php
+//plus/mycak.php 1 http://www.mainpcgroup.com//plus/mycak.php
+/manage/include/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/fckedit/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/inc/kk.asp 1 -
+/word.asp 1 -
+/admin/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/web1/index.asp 4 -
+//dcman/BaseManage/TemplatePath_Manage.aspx 1 -
+/admin/inc/editor.asp 1 -
+/newsbak.asp 1 -
+/canhua1.asp 1 -
+//plus/bakup.php 1 http://www.mainpcgroup.com//plus/bakup.php
+/ip.asp 1 -
+/editor/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/edit/editor/filemanager/connectors/asp/connector.asp 1 -
+/js/div.pp_pic_holder,div.ppt,.pp_fade 1 -
+/1.asp 1 -
+/public/upload_json.php 1 https://www.baidu.com/
+/joomla/robots.txt 1 -
+/public/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/siteweb.asp 1 -
+/xm.asp 1 -
+/content/upload_json.php 1 https://www.baidu.com/
+/bftvp15111.asp 1 -
+/uploadfile/a.asp 1 -
+/utility/convert/data/config.inc.php 1 -
+/inc/xike.asp 1 -
+/shop/index.jsp 28 -
+/new/wp-admin/ 2 -
+//data/%23AspCms252.asp 1 http://www.mainpcgroup.com//data/#AspCms252.asp
+/webmanage/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/images/sheng.asp 1 -
+/concon.asp 2 -
+/404.asp 1 -
+/list.asp 1 -
+/indec.asp 1 -
+/admin/shell.asp 1 -
+/test/cnm.asp 1 -
+/inc/one.asp 1 -
+/english/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/eWebEditor/asp/upload.asp 1 https://www.baidu.com/
+/data/%23%24%25%26frd453fgec%25%24%23@%23.asp 1 -
+/admin/tunbengdu.asp 1 -
+/inc/zenme.asp 1 -
+/e/incs/kindeditor/ashx/upload_json.ashx 1 https://www.baidu.com/
+/System/eWebEditor/asp/upload.asp 1 https://www.baidu.com/
+/inc/upload.asp 1 -
+/editor/kindeditor/php/upload_json.php 1 https://www.baidu.com/
+/fymd2/abc.asp 1 -
+/shijian/shijian.asp 1 -
+/css.asp 1 -
+/ajax/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/test.asp 1 -
+//e/admin/cao.php 1 http://www.mainpcgroup.com//e/admin/cao.php
+/csx.asp 1 -
+/css/inc.asp 1 -
+/qq1.asp 1 -
+/images/sqlin.asp 1 -
+/prels/solo.asp 1 -
+/wp-content/plugins/dzs-zoomsounds/admin/upload.php 1 http://www.mainpcgroup.com/wp-content/plugins/dzs-zoomsounds/admin/upload.php
+/include/function.asp 1 -
+//plus/spider.php 1 http://www.mainpcgroup.com//plus/spider.php
+/images/img.asp 1 -
+/js/a.pp_expand,a.pp_contract 1 -
+//robot.php 1 http://www.mainpcgroup.com//robot.php
+/admin/southidceditor/include/md5.asp 1 -
+//data/data/index.php 1 http://www.mainpcgroup.com//data/data/index.php
+/js/youtu.be/ 1 -
+/inc/mdb.asp 1 -
+/bss.asp 1 -
+/new/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/blog/administrator/index.php 2 -
+/admxn.asp 1 -
+//wp-includes/css/modules.php 1 http://www.mainpcgroup.com//wp-includes/css/modules.php
+/admin/login.asp 1 -
+/upload/links/month_1805/fuckjq.asp 1 -
+/admin/css.asp 1 -
+//Templates/test.asp 1 http://www.mainpcgroup.com//Templates/test.asp
+/indax.asp 1 -
+/images/lists.asp 1 -
+/upload/links/month_1809/fuckjq.asp 1 -
+//datas.php 1 http://www.mainpcgroup.com//datas.php
+//plus/result.php 4 http://www.mainpcgroup.com//plus/result.php
+//page.php 1 http://www.mainpcgroup.com//page.php
+/config/aaity.asp 1 -
+//admin/FCKeditor/editor/filemanager/connectors/php/connector.php 1 -
+/data/data/css.asp 1 -
+/upload/links/month_1803/fuckjq.asp 1 -
+//plus/laobiao.php 1 http://www.mainpcgroup.com//plus/laobiao.php
+/index12.asp 1 -
+//auto.aspx 3 http://www.mainpcgroup.com//auto.aspx
+//1.aspx 3 http://www.mainpcgroup.com//1.aspx
+/wordpress/wp-config.php~ 2 -
+/inc/const.asp 1 -
+/sitemap.xml 1 -
+/public/editor/ashx/upload_json.ashx 1 https://www.baidu.com/
+//login.php 3 http://www.mainpcgroup.com//login.php
+/content/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/Static/Editor/kindeditor/php/upload_json.php 1 https://www.baidu.com/
+/admin/uploads.asp 1 -
+/public/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/admin/inc/logout.asp 1 -
+/enyas.asp 1 -
+/conn/lyxin.asp 2 -
+/css/md5.asp 1 -
+//NewsType.asp 1 -
+/templets/plus/sky.php 1 -
+/v5s/v5she.asp 1 -
+//plus/read.php 2 http://www.mainpcgroup.com//plus/read.php
+/bsm.asp 1 -
+//plus/moon 3 http://www.mainpcgroup.com//plus/moon
+/wp-content/plugins/Tevolution/tmplconnector/monetize/templatic-custom_fields/css/jquery.lightbox.css 1 http://www.mainpcgroup.com/wp-content/plugins/Tevolution/tmplconnector/monetize/templatic-custom_fields/css/jquery.lightbox.css
+/r.asp 1 -
+/rxr.php 1 -
+/conn.asp 1 -
+/yibiao/suiyuan.asp 1 -
+/uploadfiles/a.asp 1 -
+/xf.asp 1 -
+/uploadfiles/dama.asp 1 -
+/en/htmledit/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/data/r1.asp 1 -
+/public/upload_json.ashx 1 https://www.baidu.com/
+/cn/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/admin/inc/footer.asp 1 -
+/en/htmledit/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/lists.asp 1 -
+/uploads/Sagitta921SB1.jpg 1 -
+/admin/kindeditor/ashx/upload_json.ashx 1 https://www.baidu.com/
+/xord.asp 1 -
+//admin/FCKeditor/editor/filemanager/connectors/aspx/connector.aspx 1 -
+/css/r1.asp 1 -
+/edit/php/upload_json.php 1 https://www.baidu.com/
+/admin/southidceditor/uploadfile/lele.asp 1 -
+//admin_login.php 1 http://www.mainpcgroup.com//admin_login.php
+/admin/cofng.asp 2 -
+/images/iundex.asp 1 -
+/include/helperss/filter.helpear.php 1 -
+/Static/Library/kindeditor/php/upload_json.php 1 https://www.baidu.com/
+/admin/booter.asp 1 -
+//FCKeditor/editor/filemanager/connectors/aspx/connector.aspx 1 -
+/date/js/v5/s/v5she.asp 1 -
+//xxoo 3 http://www.mainpcgroup.com//xxoo
+/js/fun2.asp 1 -
+/js/ul.deep-child 1 -
+/xuncenadmin/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/function/md5.asp 1 -
+/.well-known/assetlinks.json 10 -
+/tapic.asp 1 -
+/databases/%25%23%40%24%40%23fds%40%23%24%25%25%23.asp 1 -
+/Admin/Controls/KindEditor/asp.net/upload_json.ashx 1 https://www.baidu.com/
+/upload/file/ok.asp/sell.gif 1 -
+/css/xf.asp 1 -
+/utility/convert/include/rom2823.php 1 -
+/data/data/index.php 1 -
+/embed/ 1 -
+/data/%235dp8gh.asp 1 -
+/zenme.asp 1 -
+/_libs/kindeditor-4.1.10/asp.net/upload_json.ashx 1 https://www.baidu.com/
+/images/sql.asp 1 -
+/admim/md5.asp 1 -
+/dxyylc/aimi.asp 1 -
+/blog/robots.txt 10 -
+/plus/mytag_j.php 1 -
+/admin/indax.asp 1 -
+//c32as.php 1 http://www.mainpcgroup.com//c32as.php
+/js/a.link,a.zoom 1 -
+/sb.asp 1 -
+//huake.aspx 3 http://www.mainpcgroup.com//huake.aspx
+/wp/wp-includes/wlwmanifest.xml 4 -
+/smile.asp 1 -
+/images/inc.asp 1 -
+/inc/editor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/css/aaity.asp 1 -
+/shop/case_info.jsp 1 -
+/inc/concon.asp 1 -
+//FCKeditor3/editor/filemanager/connectors/asp/connector.asp 1 -
+/inc/config.asp 1 -
+/inc/manage.asp 1 -
+//wuji.aspx 3 http://www.mainpcgroup.com//wuji.aspx
+//admin/ 3 http://www.mainpcgroup.com//admin/
+/en/inc/editor/editor/filemanager/connectors/asp/connector.asp 1 -
+/.onebyone.hide 3 -
+/css/index_list.asp 1 -
+/upload/slide/month_1804/rootxx.asp 1 -
+//wiki.asp 1 http://www.mainpcgroup.com//wiki.asp
+/shop/help_desk.jsp 1 -
+/news/edit/editor/filemanager/connectors/asp/connector.asp 1 -
+/pioy.asp 1 -
+/abc.asp 1 -
+/images/design/prettyPhoto/light_rounded/btnNext.png 1 http://www.mainpcgroup.com/css/prettyPhoto.css
+/js/div.parent 1 -
+/user.asp 1 -
+//bulao.php 1 http://www.mainpcgroup.com//bulao.php
+/xiaolei.php 1 -
+/wordpress/ 10 -
+/coon.asp 1 -
+/network.asp 1 -
+/plus/bakup.php 1 -
+/bat.asp 1 -
+/inc/ubb.asp 1 -
+/cn/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/a.asp 1 -
+/site/wp-includes/wlwmanifest.xml 4 -
+/images/shell.asp 1 -
+/thumb.asp 1 -
+/content/kindeditor/upload_json.ashx 1 https://www.baidu.com/
+/config/aiy.asp 1 -
+/include/code/mp.php 1 -
+//install/m7lrv.php 1 http://www.mainpcgroup.com//install/m7lrv.php
+/kindeditor/upload_json.ashx 1 https://www.baidu.com/
+/editor/asp/upload_json.asp 1 https://www.baidu.com/
+/netsys/htmledit/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+//Uploads/show/rose.php 1 -
+//admin/error.asp 1 http://www.mainpcgroup.com//admin/error.asp
+/dir.asp 1 -
+/inc/js.asp 1 -
+/bianjiqi/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/admin/images/sql.asp 1 -
+/Zkeditor/asp/upload_json.asp 1 https://www.baidu.com/
+//x.aspx 3 http://www.mainpcgroup.com//x.aspx
+/fckeditor/editor/filemanager/connectors/php/upload.php 4 -
+/lrrpv51331.asp 1 -
+//Web_fckeditor/editor/filemanager/connectors/aspx/connector.aspx 1 -
+/images/ying.asp 1 -
+//include/code/mp.php 1 http://www.mainpcgroup.com//include/code/mp.php
+/public/kindeditor/ashx/upload_json.ashx 1 https://www.baidu.com/
+/wp-content/plugins/wp-formgenerator/changelog.txt 1 http://www.mainpcgroup.com/wp-content/plugins/wp-formgenerator/changelog.txt
+//admin/Admin_Ta.asp 1 http://www.mainpcgroup.com//admin/Admin_Ta.asp
+/v5se.asp 1 -
+//admin/sdfg.asp 1 http://www.mainpcgroup.com//admin/sdfg.asp
+/UploadFace/KindEditor/upload_json.ashx 1 https://www.baidu.com/
+//data/s.asp 1 http://www.mainpcgroup.com//data/s.asp
+//weki.asp 1 http://www.mainpcgroup.com//weki.asp
+/inc/jiuge.asp 1 -
+/img/shows.asp 1 -
+/inc/9tu.asp 1 -
+/incc.asp 1 -
+/8.asp 1 -
+/manage/include/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/uploadfiles/canhua1.asp 1 -
+/admin/x.asp 1 -
+//jiansheng.aspx 3 http://www.mainpcgroup.com//jiansheng.aspx
+/admin/images/root.asp 1 -
+/confings.asp 1 -
+/wp-login.php 4 -
+/bgodlogs.asp 1 -
+/Admin/kindeditor-4.1.10-l/asp/upload_json.asp 1 https://www.baidu.com/
+/english/editor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/data/aiy.asp 1 -
+//angie.asp 1 http://www.mainpcgroup.com//angie.asp
+//admin.php/module/action/param1/$%7B@eval($_POST%5Bc%5D)%7D 3 http://www.mainpcgroup.com//admin.php/module/action/param1/${@eval($_POST[c])}
+/jiuge.asp 1 -
+/4ll3ygbjj/ll44/css.asp 1 -
+/kindeditor/ashx/upload_json.ashx 1 https://www.baidu.com/
+/abc.php 1 -
+/net.asp 1 -
+//plus/90sec.php 1 http://www.mainpcgroup.com//plus/90sec.php
+//testxx.aspx 2 http://www.mainpcgroup.com//testxx.aspx
+/htmledit/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/js/img.over 1 -
+/content/kindeditor/php/upload_json.php 1 https://www.baidu.com/
+/controls/kindeditor/asp.net/upload.aspx 1 https://www.baidu.com/
+//shell.php 2 http://www.mainpcgroup.com//shell.php
+/inc/newfile.asp 1 -
+/admin/inc/help.asp 1 -
+/suiyuan.asp 1 -
+/images/root.asp 1 -
+/new/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/htmledit/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/include/incon.asp 1 -
+/xuncenadmin/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/images/mm.php 1 -
+/11m.php 1 -
+/cmd.asp 1 -
+/admincp/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/js/a.big-button,a.medium-button 1 -
+/admin/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/9tu.asp 1 -
+/images/incc.asp 1 -
+/admin/lists.asp 1 -
+/data/data.asp 1 -
+/upload/file/api.asp/x.gif 1 -
+/ec/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+//admin/images/Sql.asp 1 http://www.mainpcgroup.com//admin/images/Sql.asp
+//weki.php 1 http://www.mainpcgroup.com//weki.php
+/q.asp 1 -
+/images/cach.asp 2 -
+/ads.txt 1 -
+/content/editor/upload_json.ashx 1 https://www.baidu.com/
+/admin/w78eWebEditor/upload.asp 1 https://www.baidu.com/
+//1234.php 1 http://www.mainpcgroup.com//1234.php
+/ruijia_ysh/database/%23sql.asp 1 -
+/sitemap/templates/met/SqlIn.asp 1 -
+/editor/kindeditor/asp/upload_json.asp 1 https://www.baidu.com/
+/md5.asp 1 -
+/404/shows.asp 1 -
+/Static/Js/kindeditor/php/upload_json.php 1 https://www.baidu.com/
+/content/editor/php/upload_json.php 1 https://www.baidu.com/
+//data/cache/a.php 1 http://www.mainpcgroup.com//data/cache/a.php
+//admin/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/images/upload.asp 1 -
+/public/editor/upload_json.ashx 1 https://www.baidu.com/
+/include/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/manager/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+//install/md5.php 1 http://www.mainpcgroup.com//install/md5.php
+/css/mdb.asp 1 -
+/banner.asp 1 -
+/admin/images/editor/editor.asp 1 -
+/images/eiaiy.asp 1 -
+/service-creditcardmerchant.php' 2 -
+/i.asp 1 -
+/inc/upfile_classs.asp 1 -
+/javascript/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/bocai/bocai/includ.asp 1 -
+//data/cache/gh.php 1 http://www.mainpcgroup.com//data/cache/gh.php
+/zxc.asp 1 -
+/images/xike.asp 1 -
+/images/swfupload/images/uploadye.php 1 -
+//include/helperss/filter.helpear.php 1 http://www.mainpcgroup.com//include/helperss/filter.helpear.php
+/js/colorpicker.js 269 http://www.mainpcgroup.com/service-intercom.php
+//houzi.aspx 3 http://www.mainpcgroup.com//houzi.aspx
+/js/ul.accordion 1 -
+/robots.txt 338 -
+//plus/e7xue.php 1 http://www.mainpcgroup.com//plus/e7xue.php
+/guest/fa.asp 1 -
+/temp/wp-admin/ 1 -
+//include/ckeditor/plugins/pagebreak/images/inCahe.php 1 http://www.mainpcgroup.com//include/ckeditor/plugins/pagebreak/images/inCahe.php
+/wei.asp 1 -
+/data/s.asp 1 -
+/upfile/concon.asp 1 -
+//css.asp 2 http://www.mainpcgroup.com//css.asp
+/indexe.asp 1 -
+/admin/w78eWebEditor/asp/upload.asp 1 https://www.baidu.com/
+//Web_fckeditor/editor/filemanager/connectors/php/connector.php 1 -
+//FCKeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/inc/links.asp 1 -
+/admin/rrr.asp 1 -
+/inc/md5%20.asp 1 -
+//plus/moon.php 2 http://www.mainpcgroup.com//plus/moon.php
+/public/kindeditor/upload_json.php 1 https://www.baidu.com/
+//data/data.asp 1 http://www.mainpcgroup.com//data/data.asp
+/KEditor/asp/upload_json.asp 1 https://www.baidu.com/
+/images/cofng.asp 1 -
+/iundex.asp 1 -
+/keditor/asp/upload_json.asp 1 https://www.baidu.com/
+/ier5.asp 1 -
+/include/conu.asp 1 -
+/c_option.asp 1 -
+/readme.asp 1 -
+/include/ckeditor/plugins/pagebreak/images/inCahe.php 1 -
+/conm.asp 1 -
+/12345.asp 1 -
+/adminasc/inc/class.asp 1 -
+/juhua/juhua.asp 1 -
+/admin/js/css.asp 1 -
+/install/modurnlecscache.php 1 -
+/images/css.asp 1 -
+/css/colorpicker.css 261 http://www.mainpcgroup.com/service-intercom.php
+//facaizlu.asp 1 http://www.mainpcgroup.com//facaizlu.asp
+//t.php 1 http://www.mainpcgroup.com//t.php
+/images/zend.asp 1 -
+/english/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/inc/lists.asp 1 -
+/upfile_class.asp 1 -
+/admin/editor/kindeditor/php/upload_json.php 1 https://www.baidu.com/
+//plus/mytag_j.php 3 http://www.mainpcgroup.com//plus/mytag_j.php
+//x.php 1 http://www.mainpcgroup.com//x.php
+/css/gb2312.asp 1 -
+/admin/image/sqlin.asp 1 -
+//data/cache/qq.php 1 http://www.mainpcgroup.com//data/cache/qq.php
+/admin/images/cal_date_over.gif 4 -
+/inc/indexe.asp 1 -
+/include/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/include/md5.asp 1 -
+//index.asp 1 http://www.mainpcgroup.com//index.asp
+/editor/kindeditor/ashx/upload_json.ashx 1 https://www.baidu.com/
+/weki.asp 1 -
+//install/modurnlecscache.php 1 http://www.mainpcgroup.com//install/modurnlecscache.php
+/conn1.asp 1 -
+/zzz.asp 1 -
+/admin/southidceditor/error.asp 1 -
+/css/upload.asp 1 -
+//md5.asp 1 http://www.mainpcgroup.com//md5.asp
+/plus/e7xue.php 1 -
+///lib/smarty/plugins/modifier.config.php 1 -
+//images/swfupload/images/uploadye.php 1 http://www.mainpcgroup.com//images/swfupload/images/uploadye.php
+/admin77/baitian.asp 1 -
+//FCKeditor3/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/admin/kindeditor/asp/upload_json.asp 1 https://www.baidu.com/
+/codie.asp 1 -
+/fck/editor/filemanager/connectors/asp/connector.asp 1 -
+/control/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/js/li.nav-bullet 1 -
+/blog/ 9 -
+/v5seok.asp 1 -
+/Clkj_Edit/asp/upload_json.asp 2 https://www.baidu.com/
+/js/a.pp_expand 1 -
+//FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/manage/sqlin.asp 1 -
+/404/manage.asp 1 -
+/js/3.1.4 1 -
+/css/shows.asp 1 -
+/images/bolair.asp 1 -
+/zx.asp 1 -
+/bbs/umeditor/php/upload_json.php 1 https://www.baidu.com/
+//images/css/Thumb.asp 1 http://www.mainpcgroup.com//images/css/Thumb.asp
+/images/constt.asp 1 -
+//FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/zmbjq/asp/upload_json.asp 1 https://www.baidu.com/
+//book/story_dod_hjkdsafon.php 1 http://www.mainpcgroup.com//book/story_dod_hjkdsafon.php
+/11m.asp 1 -
+/mail/config-v1.1.xml 3 -
+/data/js/omg/v5she.asp 1 -
+/lien.asp 1 -
+/cc.asp 1 -
+/admin/gou.asp 1 -
+/somnus/somnus.asp 1 -
+/yuzhiguoeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/newsinfo.asp 1 -
+//Web_fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/data/xike.asp 1 -
+/ajax/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/plus/count.php 1 -
+/upload/upfiles.asp 1 -
+/login.asp 1 -
+/d5.asp 1 -
+/databases/data.asp 1 -
+/data/js/css/xo/v5she.asp 1 -
+/plus/mybak.php 1 -
+/inc/couu.asp 1 -
+/img/cnmb.asp 1 -
+//1.php 4 http://www.mainpcgroup.com//1.php
+/images/mm.asp 1 -
+/admin7z.asp 1 -
+/inc/editor/editor/filemanager/connectors/asp/connector.asp 1 -
+/cert/check.asp 1 -
+//utility/convert/data/config.inc.php 2 http://www.mainpcgroup.com//utility/convert/data/config.inc.php
+/article/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+//data/%235Dp8Gh.asp 1 http://www.mainpcgroup.com//data/#5Dp8Gh.asp
+//Web_fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/dns.asp 1 -
+//stt.aspx 3 http://www.mainpcgroup.com//stt.aspx
+/dxyylc/md5.asp 1 -
+/9m.asp 1 -
+/z.asp 1 -
+/joomla/ 2 -
+/admin_int.asp 1 -
+//inc/config.asp 1 http://www.mainpcgroup.com//inc/config.asp
+/images/assets/prev.png 39 http://www.mainpcgroup.com/css/jquery.onebyone.css
+//data/cache/c32as.php 1 http://www.mainpcgroup.com//data/cache/c32as.php
+/inc/conu.asp 1 -
+/administrator/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/img/manage.asp 1 -
+/en/databases/%25%23%40%24%40%23fds%40%23%24%25%25%23.asp 1 -
+/yuzhiguo-editor/yuzhiguo-com/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/img/css/xianf.asp 1 -
+//yijuhua.php 1 http://www.mainpcgroup.com//yijuhua.php
+/images/config.asp 1 -
+/admin/system/editor/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/style.asp 1 -
+/inc.asp 1 -
+/admin.asp 1 -
+/paodu.asp 1 -
+/content/kindeditor/upload_json.php 1 https://www.baidu.com/
+/joomla/administrator/index.php 2 -
+/ip.php 1 -
+/admin/config.asp 1 -
+/kindeditor/upload_json.php 1 https://www.baidu.com/
+/.slide.testimonials 5 -
+//T_book.aspx 3 http://www.mainpcgroup.com//T_book.aspx
+/autodiscover/autodiscover.xml 620 -
+//Fightings.asp 1 http://www.mainpcgroup.com//Fightings.asp
+/inc/cofng.asp 1 -
+/baidunews.asp 1 -
+//fuck.php 2 http://www.mainpcgroup.com//fuck.php
+/yc.asp 1 -
+/q2.asp 1 -
+/wp-includes/wlwmanifest.xml 4 -
+/bocadmin/Public/editor/php/upload_json.php 1 https://www.baidu.com/
+/cnm/cnm.asp 1 -
+/aas.asp 1 -
+/10.asp 1 -
+/plus/cars.php 1 -
+//base/admin/cache.asp 1 http://www.mainpcgroup.com//base/admin/cache.asp
+/images/mdb.asp 1 -
+/stoys.asp 1 -
+/news/edit/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/config/aspcms_config.asp 1 -
+/v5she.asp 1 -
+//php168/1ist.php 1 http://www.mainpcgroup.com//php168/1ist.php
+/myadmin/kindeditor_4.1.5/asp/upload_json.asp 1 https://www.baidu.com/
+/upload/links/month_1808/fuckjq.asp 1 -
+/images/editor/jiuge.asp 1 -
+//upLoad/links/month_1803/fuckjq.asp 1 http://www.mainpcgroup.com//upLoad/links/month_1803/fuckjq.asp
+/admin/jiuge.asp 1 -
+//bbs/utility/convert/data/config.inc.php 2 http://www.mainpcgroup.com//bbs/utility/convert/data/config.inc.php
+/fang.asp 1 -
+/content/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/mm.php 1 -
+/fightings.asp 1 -
+/administrator/index.php 2 -
+/plus/laobiao.php 1 -
+/js/video/quicktime 1 -
+/runas.asp 1 -
+/temp/ 2 -
+//FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/htmledit/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+//xmlrpc.php 1 http://www.google.com.hk
+/bbs/constt.asp 1 -
+//Web_fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/admin/upload/upload.asp 1 -
+/home/ 2 -
+/images/cache.asp 1 -
+/upload/links/month_1807/fuckjq.asp 1 -
+/module/html_editor/editor/filemanager/connectors/asp/connector.asp 1 -
+/umeditor/php/upload_json.php 1 https://www.baidu.com/
+/inc/iudex.asp 1 -
+//404.php 1 http://www.mainpcgroup.com//404.php
+/inc/r1.asp 1 -
+/inc/sqzr.asp 1 -
+/inc/shows.asp 1 -
+/gg.asp 1 -
+/inc/myql.asp 1 -
+//plus/long.php 1 http://www.mainpcgroup.com//plus/long.php
+//dufu.php 1 http://www.mainpcgroup.com//dufu.php
+/admin/login.php 4 -
+/plus/diaosi.php 1 -
+//Templates/red.asp 1 http://www.mainpcgroup.com//Templates/red.asp
+/v5seo.asp 1 -
+//include/data/fonts/uddatasql.php 1 http://www.mainpcgroup.com//include/data/fonts/uddatasql.php
+/scripts/fck/editor/filemanager/connectors/asp/connector.asp 1 -
+/public/editor/upload_json.php 1 https://www.baidu.com/
+//.aspx 6 http://www.mainpcgroup.com//.aspx
+/upload/links/month_1804/fuckjq.asp 1 -
+/scripts/fck/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+//manage/Images/Sql.asp 1 http://www.mainpcgroup.com//manage/Images/Sql.asp
+/old/ 2 -
+/site/wp-admin/ 2 -
+/admin/myfck/editor/filemanager/connectors/asp/connector.asp 1 -
+//sitemap/templates/met/SqlIn.asp 1 http://www.mainpcgroup.com//sitemap/templates/met/SqlIn.asp
+/main/ 2 -
+/4ll3ygbjj/ll44/md5.asp 1 -
+/admin/productedit.asp 1 -
+/dxyylc/cache_aimi.asp 1 -
+/js/click.prettyphoto 1 -
+/admin/dan.asp 1 -
+/eiaiy.asp 1 -
+/include/data/fonts/uddatasql.php 1 -
+//data/admin/sky.php 1 http://www.mainpcgroup.com//data/admin/sky.php
+/data/date.asp 1 -
+/editor_duck.asp 1 -
+/zzcom.asp 1 -
+/plus/90sec.php 1 -
+//plus/xss.php 1 http://www.mainpcgroup.com//plus/xss.php
+/images/pic.asp 1 -
+/upload/aaity.asp 1 -
+//data/%23data.asp 2 http://www.mainpcgroup.com//data/%23data.asp
+/shows.asp 1 -
+/str.asp 1 -
+/diy/confings.asp 1 -
+/member/userinfos.asp 1 -
+/owa/ 2 
+/upload/links/month_1810/fuckjq.asp 1 -
+/wp-content/plugins/wp-easy-gallery-pro/admin/php.php 2 http://www.mainpcgroup.com/wp-content/plugins/wp-easy-gallery-pro/admin/php.php
+/aspcms_data/data.asp 1 -
+/smt5/zhieditor/upload_json.asp 1 https://www.baidu.com/
+//11.aspx 3 http://www.mainpcgroup.com//11.aspx
+/iudex.asp 1 -
+/upload/slide/month_1810/fuckjq.asp 1 -
+/module/html_editor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+//utility/convert/include/rom2823.php 1 http://www.mainpcgroup.com//utility/convert/include/rom2823.php
+/netsys/htmledit/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/upload/file/ad.asp 1 -
+//admin/FCKeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/webmanage/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/data/ 1 -
+/dlxxy/admin_.asp 1 -
+/images/md5.asp 1 -
+//Rose20190103002022.txt 1 -
+/admin/1maizi.asp 1 -
+/eval.asp 1 -
+/site/ 2 -
+/gb2312.asp 1 -
+/include/couu.asp 1 -
+//da.php 1 http://www.mainpcgroup.com//da.php
+/web1/contact.asp 5 -
+/admin/admin_ta.asp 1 -
+/en/inc/editor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/js/div.tcontent 1 -
+//plus/helen.php 1 http://www.mainpcgroup.com//plus/helen.php
+/js/v5/v5she.asp 1 -
+/fck/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/exchweb/bin/ 2 
+/hongdbs.asp 1 -
+/admin/error.asp 1 -
+/js/a.active 1 -
+//polk.aspx 3 http://www.mainpcgroup.com//polk.aspx
+//images/cache.asp 1 http://www.mainpcgroup.com//images/cache.asp
+/data/%23aspcms.asa 1 -
+//uploads/da.php 1 http://www.mainpcgroup.com//uploads/da.php
+//test.php 1 http://www.mainpcgroup.com//test.php
+/admin/xm.asp 1 -
+/sket.asp 1 -
+//plus/mytag_js.php 24 http://www.mainpcgroup.com//plus/mytag_js.php
+/include/incc.asp 1 -
+/data/config.php 1 -
+//1.asp 2 http://www.mainpcgroup.com//1.asp
+//wuwu11.php 1 http://www.mainpcgroup.com//wuwu11.php
+/en.asp 1 -
+/tool.asp 1 -
+/wp-content/plugins/photo-gallery/filemanager/UploadHandler.php 1 http://www.mainpcgroup.com/wp-content/plugins/photo-gallery/filemanager/UploadHandler.php
+//admin/FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/root.asp 1 -
+/htmleditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/templates/r1.asp 1 -
+/kindeditor/php/upload_json.php 1 https://www.baidu.com/
+/aiy.asp 1 -
+//img/wen.php 1 http://www.mainpcgroup.com//img/wen.php
+/imc/upload_json.asp 1 https://www.baidu.com/
+/yy.asp 1 -
+/images/jdownloads/screenshots/rxrking.php3.g 1 -
+/topp.asp 1 -
+/css/cofng.asp 1 -
+/x.asp 1 -
+/public/editor/php/upload_json.php 1 https://www.baidu.com/
+//admin/index.asp 1 http://www.mainpcgroup.com//admin/index.asp
+/xike.asp 1 -
+/htmleditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 633
+142.93.184.142 36 74 1370768 20190124045258
+5.196.64.109 35 35 600731 20190112004230
+66.11.128.152 30 30 563430 20190131231859
+54.186.240.143 21 36 616263 20190114004515
+54.214.164.28 20 27 390027 20190114011909
+113.67.10.191 19 19 328537 20190108163732
+18.191.144.104 19 19 356839 20190127010921
+13.58.240.96 19 19 356839 20190128183816
+3.16.22.104 19 19 356839 20190124204004
+110.184.163.172 19 19 328537 20190130030436
+202.46.52.14 1 1 29034 20190101152547
+3.16.79.196 8 8 150248 20190128223757
+202.46.51.39 1 1 18781 20190101180857
+106.120.173.113 0 1 25217 
+111.206.221.50 0 1 2711 
+130.204.111.87 0 1 123546 
+40.77.194.85 0 1 15105 
+14.215.176.15 1 29 411912 20190126013038
+40.77.195.97 0 1 25217 
+111.206.198.86 0 1 93434 
+106.120.173.65 0 1 2513 
+14.215.176.142 0 3 84775 
+106.120.173.107 0 1 8097 
+3.17.37.54 6 6 112686 20190126150846
+40.77.190.86 0 1 2470 
+66.102.6.10 1 25 1228266 20190113073017
+202.46.52.44 0 1 15105 
+3.16.54.147 10 10 187810 20190120135733
+35.173.182.19 1 1 18781 20190111020256
+13.58.141.246 8 8 150248 20190117182848
+108.6.11.43 2 71 2763127 20190101024522
+3.16.149.74 10 10 187810 20190123025620
+18.188.31.130 11 11 206591 20190128011004
+111.206.198.39 0 1 2711 
+111.206.198.91 0 1 1799 
+216.250.114.162 3 3 56343 20190116082553
+111.206.198.100 0 3 16839 
+111.206.198.107 0 1 10174 
+18.188.83.193 11 11 206591 20190127070741
+31.13.127.18 0 8 622970 
+111.206.221.42 0 1 136375 
+3.16.57.165 14 14 262934 20190128013855
+18.220.176.8 14 14 262934 20190127063738
+40.77.194.28 0 1 381 
+40.77.189.207 0 3 97456 
+202.46.52.65 1 1 18781 20190102125553
+45.57.166.121 1 1 15963 20190130214709
+52.14.172.201 11 11 206591 20190124171054
+40.77.190.59 0 5 159828 
+111.206.198.174 0 2 8478 
+109.184.182.197 2 2 24834 20190119030746
+112.34.110.29 0 7 151785 
+40.77.193.214 0 1 25217 
+81.173.112.207 2 2 34876 20190112032048
+60.178.62.55 1 1 18781 20190105023952
+52.15.80.96 16 16 300496 20190126123835
+18.224.184.7 10 10 187810 20190126213815
+18.225.9.116 10 10 187810 20190126223839
+18.222.130.166 15 15 281715 20190127193904
+40.77.188.94 0 4 44540 
+18.217.75.8 9 9 169029 20190127213849
+106.120.173.152 0 1 2470 
+111.206.222.38 0 1 93434 
+40.77.192.180 0 1 8826 
+18.188.211.54 8 8 150248 20190128190821
+65.33.98.8 0 1 127359 
+14.215.176.18 0 1 14660 
+202.46.52.165 1 1 18781 20190125221233
+104.248.215.142 4 4 75124 20190112192738
+35.222.61.59 1 1 18781 20190126215523
+106.120.173.71 0 1 9431 
+109.184.206.238 2 2 24834 20190112053951
+18.221.14.40 13 13 244153 20190128040734
+18.188.240.21 10 10 187810 20190128060742
+40.77.189.153 0 1 1799 
+106.120.173.149 0 1 14660 
+40.77.188.207 0 1 36089 
+18.188.69.138 8 8 150248 20190128043742
+138.128.248.248 0 1 123546 
+18.221.138.103 16 16 300496 20190128193932
+111.206.198.77 0 1 209520 
+137.99.113.176 1 72 2921958 20190111104733
+173.252.95.11 1 16 779291 20190128043836
+202.46.57.176 1 1 18781 20190104090154
+204.141.42.194 3 3 50797 20190131214950
+18.222.106.157 15 15 281715 20190127130900
+3.16.25.235 11 11 206591 20190127233725
+52.14.138.220 11 11 206591 20190127223938
+40.77.192.195 0 1 12782 
+111.206.222.177 0 1 1552 
+40.77.190.124 0 1 2711 
+27.47.6.7 1 71 2831442 20190120222824
+40.77.193.165 0 2 11901 
+13.59.244.237 11 11 206591 20190119205929
+40.77.192.53 0 1 8826 
+40.77.188.39 0 1 1552 
+18.221.208.166 5 28 472710 20190123144723
+40.77.189.67 0 1 9861 
+173.80.164.243 2 89 4545510 20190118053216
+111.206.36.12 0 2 36470 
+40.77.194.245 0 1 47953 
+115.239.212.71 1 11 101715 20190107220521
+18.191.37.80 10 10 187810 20190126183750
+40.77.192.248 0 1 66845 
+111.206.222.184 0 1 36089 
+40.77.253.67 0 1 14660 
+18.222.222.174 9 9 169029 20190128180850
+18.222.105.94 5 5 93905 20190124141042
+40.77.193.105 0 1 8826 
+172.241.169.24 1 1 15921 20190131173610
+111.206.198.101 0 1 1552 
+171.101.162.41 0 1 123546 
+40.77.253.40 0 1 1552 
+204.155.150.132 1 1 18781 20190122012534
+144.168.162.250 1 1 18781 20190122020525
+111.206.198.117 0 1 5591 
+138.197.111.187 2 26 417494 20190116071247
+98.0.153.27 2 78 2958005 20190109122716
+54.234.233.155 4 4 0 20190127160737
+18.219.100.132 10 10 187810 20190126220754
+40.77.253.187 0 1 25217 
+223.38.60.198 0 1 123546 
+220.181.51.70 1 1 18781 20190125033211
+139.169.70.160 0 1 126892 
+40.77.190.85 0 3 37865 
+18.191.162.82 5 28 472710 20190115200050
+202.46.49.191 0 1 14660 
+18.217.237.116 12 12 225372 20190128003814
+137.226.113.27 4 4 75124 20190120180437
+202.46.54.98 1 1 18781 20190130110750
+3.16.128.13 12 12 225372 20190128203844
+40.77.195.164 0 2 103295 
+138.197.111.212 1 13 208747 20190131152634
+111.206.198.15 0 1 1552 
+18.222.109.213 8 8 150248 20190128123909
+100.2.87.176 4 119 5512120 20190121222923
+18.222.194.146 8 8 150248 20190123015620
+23.81.53.74 1 1 15921 20190107220824
+111.206.198.6 0 1 1395 
+111.206.36.143 0 5 45693 
+123.125.67.207 1 1 18781 20190119060621
+180.97.35.13 0 2 94257 
+49.205.48.225 1 74 2925931 20190108233433
+3.16.164.152 13 13 244153 20190127023758
+40.77.189.173 0 3 24556 
+14.215.176.135 0 9 214209 
+13.57.233.99 9 9 169029 20190127192634
+40.77.253.124 0 1 14660 
+202.46.50.191 1 1 18781 20190124042136
+40.77.188.114 0 5 80562 
+111.206.221.3 0 1 17549 
+40.77.189.113 0 4 41561 
+158.69.17.231 1 1 8913 20190108022625
+54.84.186.126 1 73 2925777 20190130103907
+54.244.56.32 7 13 205559 20190114013720
+18.219.233.161 9 9 169029 20190126040833
+111.206.198.109 0 1 8718 
+66.102.6.6 0 26 920448 
+18.216.12.224 18 18 338058 20190127163716
+108.41.240.251 1 73 2922112 20190115114110
+13.59.157.70 9 9 169029 20190123222624
+106.120.173.101 0 1 93434 
+40.77.193.72 0 1 381 
+40.77.193.197 0 1 9431 
+40.77.192.130 0 1 93434 
+3.16.48.71 10 10 187810 20190128093835
+111.206.222.70 0 1 12782 
+18.217.202.71 7 7 131467 20190117185952
+40.77.189.228 0 6 100594 
+3.17.110.73 9 9 169029 20190125163724
+202.46.53.204 1 1 18781 20190112070736
+75.185.10.238 0 1 122439 
+98.116.40.24 2 74 2944558 20190102163614
+111.206.198.4 0 1 1395 
+40.77.193.56 0 1 1552 
+58.100.111.159 1 1 18781 20190112192537
+76.67.134.173 0 1 123546 
+111.206.198.120 0 1 17549 
+173.252.95.21 0 9 391891 
+23.106.26.114 1 1 16095 20190112070332
+14.192.55.74 1 1 8913 20190107132734
+40.77.195.69 0 1 823 
+40.77.188.30 0 4 157315 
+40.77.252.112 0 1 17549 
+202.46.49.140 1 1 18781 20190131204746
+220.181.51.113 1 1 18781 20190113222253
+40.77.193.68 0 1 1799 
+40.77.192.198 0 1 9431 
+180.163.220.68 0 12 629778 
+18.216.87.106 9 9 169029 20190126143926
+14.215.176.13 0 2 94257 
+14.215.176.144 0 5 65369 
+3.17.140.127 15 15 281715 20190127093750
+3.17.77.114 9 9 169029 20190127080738
+18.224.2.67 11 11 206591 20190119155741
+202.46.50.74 1 1 18781 20190124024659
+116.23.248.140 1 1 18781 20190109121845
+14.215.176.147 0 2 50423 
+111.206.221.19 0 2 27730 
+40.77.193.15 0 1 47953 
+40.77.193.248 0 1 25217 
+52.53.201.78 13 13 244153 20190129212449
+14.215.176.9 2 23 457415 20190129012646
+104.248.192.41 1 1 18781 20190104132904
+171.248.185.10 1 1 15156 20190126091739
+111.206.36.11 0 3 96968 
+106.120.173.74 0 1 12782 
+111.206.222.165 0 1 2840 
+18.223.23.251 7 7 131467 20190128230753
+72.16.59.205 0 1 127359 
+40.77.194.193 0 1 9861 
+18.191.251.234 13 13 244153 20190128063949
+111.206.222.174 0 1 2711 
+18.191.117.6 15 15 281715 20190127181025
+18.191.12.231 5 5 93905 20190125073814
+8.8.244.174 1 1 16095 20190104045508
+202.46.54.15 1 1 18781 20190126221451
+51.75.168.171 3 3 56343 20190106164758
+18.217.87.102 9 9 169029 20190128073810
+40.77.194.124 0 1 823 
+173.252.95.1 0 7 507301 
+40.77.252.20 0 1 8097 
+111.206.36.14 0 3 94575 
+3.17.141.2 8 8 150248 20190127003719
+47.244.144.39 2 2 47815 20190107215507
+104.236.63.174 1 13 208747 20190119232455
+111.206.198.87 0 2 1776 
+50.116.20.78 1 1 18781 20190122041700
+111.206.198.47 0 1 8097 
+220.181.51.76 1 1 18781 20190117202713
+52.128.52.2 1 6 906186 20190111105846
+111.206.198.145 0 1 340188 
+31.13.127.2 0 12 87885 
+59.56.241.218 1 1 18781 20190127081600
+18.191.222.205 10 10 187810 20190128130802
+18.223.108.8 8 8 150248 20190127153821
+14.215.176.16 2 21 349007 20190119013455
+14.215.176.10 0 7 144390 
+18.223.171.194 11 11 206591 20190128210823
+111.206.198.70 0 1 340188 
+38.100.21.67 6 11 171768 20190113065516
+40.77.189.121 0 5 58127 
+66.220.149.33 0 14 256369 
+14.215.176.148 1 25 618163 20190131013131
+192.99.39.172 2 2 37562 20190120030428
+52.2.28.246 1 1 18781 20190109011101
+40.77.188.61 0 3 36043 
+3.16.138.5 9 9 169029 20190123235753
+40.77.193.247 0 1 1799 
+159.203.91.241 5 5 93905 20190111234836
+64.246.161.30 1 1 18781 20190114120028
+115.239.212.68 0 7 146683 
+66.220.149.5 0 8 890529 
+40.77.189.58 0 5 80974 
+202.46.48.197 1 1 18781 20190102125554
+14.215.176.133 0 8 87783 
+40.77.189.29 0 5 24078 
+185.211.245.158 1 1 18781 20190125101450
+40.77.194.32 0 1 93434 
+40.77.253.219 0 1 9861 
+40.77.189.101 0 3 29923 
+111.206.222.54 0 1 15105 
+40.77.190.67 0 1 12782 
+112.34.110.28 0 6 146550 
+111.206.221.7 0 2 18924 
+40.77.252.49 0 2 3572 
+3.17.151.223 11 11 206591 20190127221002
+111.206.222.146 0 1 2513 
+40.77.188.130 0 8 83719 
+40.77.189.229 0 3 81996 
+103.219.206.11 2 64 2612808 20190120233018
+39.189.229.142 2 2 37562 20190118225353
+40.77.194.29 0 1 9861 
+13.59.67.250 17 17 319277 20190128083956
+158.69.225.35 12 12 190452 20190113085015
+40.77.252.115 0 1 47953 
+52.53.151.140 1 1 18781 20190130145706
+54.39.183.162 4 4 75124 20190114140639
+45.32.94.210 1 1 15921 20190122144827
+111.206.221.49 0 1 47953 
+139.5.242.76 2 46 920483 20190129041518
+40.77.195.177 0 1 66845 
+3.16.49.127 8 8 150248 20190125143826
+18.217.199.81 13 13 244153 20190128173804
+40.77.189.43 0 2 26375 
+14.215.176.143 2 10 237445 20190109012802
+18.218.2.161 2 2 37562 20190103224046
+3.17.163.202 12 12 225372 20190122115748
+111.206.222.214 0 1 37880 
+111.206.198.71 0 2 9896 
+165.227.210.170 1 13 208747 20190104115544
+40.77.194.197 0 1 9861 
+40.77.192.238 0 1 17549 
+40.77.194.173 0 1 14660 
+104.227.160.163 1 1 12798 20190130214710
+68.179.174.212 1 1 12999 20190125043015
+66.220.149.38 0 10 622684 
+111.206.221.34 0 1 25217 
+18.191.182.120 5 5 93905 20190127190816
+14.215.176.7 0 1 47953 
+106.120.173.98 0 2 26040 
+14.215.176.8 2 21 442415 20190112022412
+40.77.193.213 0 1 1395 
+40.77.193.86 0 1 1395 
+40.77.193.87 0 1 17549 
+14.215.176.14 0 10 241899 
+142.93.69.33 18 37 685384 20190128211133
+18.220.134.185 6 6 112686 20190116175938
+12.69.225.30 4 85 3687605 20190123144314
+18.218.76.175 17 17 319277 20190128160847
+185.220.70.132 3 56 2225327 20190126073847
+101.53.136.143 2 2 37562 20190115144912
+132.232.161.16 1 1 18781 20190114030833
+106.120.173.83 0 1 823 
+40.77.252.130 0 1 1552 
+40.77.192.32 0 1 2513 
+40.77.189.76 0 2 67226 
+111.206.221.29 0 1 219374 
+40.77.189.161 0 2 22643 
+3.17.109.151 13 13 244153 20190127053817
+71.224.131.217 0 1 127359 
+66.220.149.12 0 12 399814 
+14.215.176.149 3 55 931132 20190117030329
+101.89.29.86 0 12 189966 
+18.221.190.171 7 7 131467 20190128213837
+24.90.107.162 4 97 5799867 20190108103552
+18.223.122.203 12 12 225372 20190125093838
+66.102.6.8 0 19 705790 
+111.206.198.37 0 1 6255 
+40.77.253.142 0 1 3997 
+111.206.222.160 0 1 280 
+202.46.55.14 0 1 1552 
+18.216.206.239 15 15 281715 20190128030733
+18.221.76.172 5 5 93905 20190121125739
+111.206.222.21 0 1 5904 
+111.206.222.78 0 1 10402 
+111.206.198.45 0 1 2840 
+18.220.58.223 7 7 131467 20190127210819
+40.77.188.32 0 4 75002 
+18.223.182.11 10 10 187810 20190127033734
+123.125.67.209 1 1 18781 20190121000605
+50.234.252.44 1 1 18781 20190112032927
+202.46.49.74 1 1 18781 20190131162611
+40.77.188.154 0 4 53569 
+3.17.140.40 12 12 225372 20190125120841
+137.226.113.28 4 4 75124 20190126225229
+40.77.193.184 0 1 14660 
+158.69.124.228 3 3 50180 20190112170552
+111.206.221.111 0 1 4504 
+40.77.190.2 0 3 63531 
+180.97.35.56 0 4 19406 
+40.77.189.243 0 2 129523 
+40.77.192.49 0 1 2470 
+111.206.198.89 0 1 37880 
+40.77.190.60 0 6 36048 
+202.46.54.187 0 1 1799 
+40.77.188.23 0 4 29910 
+145.239.28.216 2 2 37562 20190116000514
+111.206.198.32 0 1 219374 
+14.215.176.11 0 15 171011 
+40.77.188.110 0 1 861 
+66.220.149.2 1 17 505089 20190108055624
+40.77.189.118 0 2 18372 
+14.215.176.6 0 3 97395 
+202.46.53.91 1 1 18781 20190118064227
+111.206.198.27 0 1 254108 
+40.77.195.33 0 1 36089 
+111.206.198.228 0 1 5217 
+111.206.221.87 0 2 14334 
+18.222.114.216 1 1 18781 20190110193237
+18.222.191.184 9 9 169029 20190127013717
+18.224.21.166 9 9 169029 20190128111111
+69.125.219.241 10 89 3992620 20190116131233
+52.91.61.38 1 1 18781 20190108103611
+111.206.222.180 0 1 5591 
+31.13.127.14 0 14 460899 
+172.58.224.214 2 75 3750516 20190122205524
+36.110.199.12 0 4 27798 
+111.206.221.94 0 1 2711 
+68.199.79.100 7 183 9257060 20190111220256
+174.127.135.253 1 1 18781 20190112032756
+23.82.86.183 1 1 15921 20190116013555
+34.212.80.119 2 2 37562 20190120163737
+40.77.194.240 0 1 36089 
+40.77.189.89 0 3 27006 
+40.77.253.212 0 1 2711 
+18.191.64.16 15 15 281715 20190126200843
+203.171.209.5 0 3 485046 
+111.206.198.13 0 1 187406 
+180.97.35.58 0 3 69937 
+77.120.152.161 2 2 34702 20190130031656
+117.214.140.155 1 3 64731 20190103033723
+111.206.198.232 0 1 154 
+164.248.116.67 0 1 126892 
+40.77.189.77 0 2 101531 
+111.206.198.51 0 1 2513 
+13.58.137.107 11 11 206591 20190128113935
+111.206.221.17 0 1 5657 
+111.206.198.104 0 1 7174 
+202.46.48.122 1 1 22346 20190124161145
+146.185.202.74 1 1 18781 20190121143418
+52.14.145.245 14 14 262934 20190128000926
+46.239.30.112 0 1 163286 
+111.206.221.44 0 1 8826 
+111.206.198.73 0 3 241703 
+111.206.198.12 0 1 11182 
+18.224.70.96 7 7 131467 20190127183952
+40.77.189.157 0 2 2894 
+35.225.37.50 1 1 18781 20190120101109
+18.218.118.227 2 2 37562 20190128233756
+139.162.109.26 1 1 18781 20190101102359
+23.229.36.174 1 1 13145 20190130214707
+18.191.27.77 6 6 112686 20190127060825
+106.120.173.119 0 2 1776 
+18.223.117.68 8 8 150248 20190126233815
+14.215.176.5 0 16 256606 
+111.206.198.124 0 2 57809 
+111.206.198.46 0 2 102152 
+40.77.252.226 0 1 15105 
+31.13.127.5 1 14 493344 20190102054522
+111.206.221.5 0 1 2914 
+40.77.188.203 0 2 39877 
+93.120.164.102 2 2 24834 20190115023059
+64.209.132.8 4 4 75124 20190117141250
+74.10.14.50 2 46 951313 20190114125458
+202.46.51.155 1 1 18781 20190114165456
+18.191.233.49 7 7 131467 20190127230835
+112.34.110.156 1 6 76903 20190103015439
+40.77.188.107 0 5 80504 
+34.227.89.30 1 1 18781 20190120030427
+111.206.198.82 0 1 280 
+3.17.72.18 18 18 338058 20190128090809
+40.77.194.88 0 1 93434 
+8.18.120.7 1 1 15921 20190124010049
+46.119.126.222 2 2 37562 20190109152951
+202.46.56.12 1 1 18781 20190128223216
+111.206.222.171 0 1 155551 
+18.219.132.254 8 8 150248 20190124025734
+111.206.221.88 0 1 6349 
+138.68.180.18 6 6 120767 20190115144100
+14.215.176.20 0 18 247943 
+18.222.151.28 7 7 131467 20190127203736
+36.110.199.135 0 6 56671 
+40.77.188.153 0 1 66845 
+111.206.198.19 0 1 381 
+173.252.95.12 0 15 513555 
+40.77.190.97 0 1 381 
+18.219.245.160 10 10 187810 20190128050854
+111.206.221.36 0 1 15105 
+111.206.198.122 0 3 18930 
+40.77.189.119 0 4 44570 
+18.191.249.115 11 11 206591 20190128200828
+18.217.147.149 13 13 244153 20190128220855
+111.206.198.52 0 1 8826 
+40.77.193.162 0 1 15105 
+40.77.189.183 0 3 66325 
+111.206.222.99 0 1 9861 
+180.97.35.61 0 1 47953 
+111.206.198.241 0 2 11771 
+18.219.102.78 7 7 131467 20190128053708
+40.77.194.208 0 1 2513 
+40.77.193.101 0 1 15105 
+40.77.252.108 0 1 823 
+203.171.209.6 0 16 2586912 
+13.59.196.155 5 5 93905 20190128120941
+123.125.67.210 1 1 18781 20190123222059
+50.202.38.5 1 1 18781 20190117183100
+31.13.127.21 0 12 522145 
+18.223.188.123 15 15 281715 20190128071103
+202.46.48.29 1 1 18781 20190128214736
+111.206.36.138 0 3 66897 
+36.110.199.63 0 4 57901 
+40.77.192.0 0 1 861 
+40.77.192.208 0 1 12782 
+180.179.142.108 4 4 75124 20190127075828
+18.216.253.174 5 5 93905 20190124191119
+123.125.67.214 1 1 18781 20190121184436
+111.206.198.24 0 1 25217 
+18.222.89.148 2 2 37562 20190120202821
+40.77.189.120 0 1 1395 
+34.219.210.77 1 1 18781 20190131102418
+40.77.194.254 0 1 36089 
+109.184.213.30 5 5 68449 20190127223041
+34.204.91.146 1 1 18781 20190120030427
+23.82.85.76 1 1 16095 20190127221655
+36.110.199.66 0 3 69696 
+111.26.163.42 1 1 18781 20190113161234
+180.163.220.3 1 8 77205 20190112022656
+40.77.194.161 0 22 415582 
+18.222.208.48 11 11 206591 20190126080812
+111.206.36.8 1 6 57671 20190125015858
+3.17.67.255 16 16 300496 20190128163824
+23.229.36.175 1 1 15730 20190130214713
+66.220.149.9 0 11 247473 
+18.222.55.57 5 28 472710 20190123122332
+202.46.54.117 1 1 18781 20190111233907
+3.17.65.61 15 15 281715 20190126030927
+117.41.183.82 8 8 150248 20190124033251
+23.106.253.51 1 1 18781 20190111024340
+165.227.78.136 1 13 208747 20190127172239
+24.87.70.88 1 41 857865 20190123101851
+140.242.26.200 2 77 2957851 20190107160648
+40.77.193.46 0 1 9861 
+191.241.168.186 1 1 15921 20190108223200
+18.191.215.241 11 11 206591 20190128033719
+163.172.137.135 4 25 446385 20190121113626
+18.223.107.37 9 9 169029 20190127050733
+111.206.198.34 0 1 5904 
+202.46.53.164 1 1 18781 20190126174504
+111.206.198.88 0 1 15105 
+45.59.20.171 1 1 16095 20190120095223
+202.46.53.159 1 1 18781 20190101194652
+111.206.198.208 0 1 17549 
+113.93.239.224 1 49 2124359 20190115010916
+202.46.50.99 1 1 18781 20190127235536
+159.89.35.122 18 37 685384 20190114203310
+52.27.130.10 1 1 18781 20190125085314
+40.77.192.66 0 1 66845 
+159.65.189.124 1 13 208747 20190123191812
+111.206.221.46 0 1 136375 
+221.2.44.75 6 6 93905 20190102112026
+40.77.192.244 0 1 2513 
+36.110.199.136 1 5 186208 20190102015539
+85.222.122.174 6 6 101594 20190120072642
+89.234.68.91 6 6 101488 20190120221953
+173.252.95.19 0 14 459454 
+24.38.199.161 0 1 254108 
+52.15.139.194 11 11 206591 20190127040846
+111.206.221.14 0 1 381 
+165.227.212.161 18 37 685384 20190110013119
+180.97.35.60 1 8 118432 20190113031534
+18.223.135.142 10 10 187810 20190128141022
+72.52.111.47 1 1 18781 20190127002123
+90.31.203.247 1 69 2844330 20190115114903
+202.46.57.11 1 1 18781 20190126024508
+14.215.176.4 0 2 114798 
+14.215.176.21 2 26 538405 20190121030845
+111.206.198.75 0 1 25217 
+35.226.54.188 10 10 186304 20190102212006
+106.120.173.131 0 1 2470 
+202.46.53.50 1 1 18781 20190124024126
+3.16.21.14 9 9 169029 20190126103806
+111.206.221.113 0 1 209520 
+174.127.135.182 1 1 18781 20190111174700
+202.46.50.89 0 1 8826 
+14.215.176.140 0 7 56544 
+3.16.78.133 10 10 187810 20190128170747
+34.218.58.137 1 1 18781 20190117072341
+40.77.192.77 0 1 66845 
+111.206.222.31 0 1 10473 
+18.218.231.141 10 10 187810 20190127123850
+74.62.189.18 1 3 64731 20190118145948
+34.221.106.206 1 1 18781 20190104064606
+111.206.221.92 0 1 12782 
+13.59.15.248 15 15 281715 20190123115754
+40.77.194.100 0 2 18372 
+111.206.198.123 0 1 25217 
+3.17.58.50 12 12 225372 20190128020903
+106.120.173.140 0 1 1552 
+123.125.67.151 1 1 18781 20190129152916
+159.89.43.235 18 37 685384 20190119135131
+159.203.70.167 1 13 208747 20190112095740
+18.222.145.63 13 13 244153 20190126163949
+193.213.38.152 1 1 18781 20190117061524
+173.252.95.2 0 11 270466 
+111.206.198.26 0 1 1552 
+112.34.110.149 0 3 23036 
+40.77.252.255 0 1 381 
+40.77.194.130 0 1 2470 
+154.16.137.243 1 1 18781 20190113175538
+104.227.52.50 1 1 15921 20190116005337
+67.84.80.34 1 48 1810439 20190105173357
+111.206.198.23 0 1 1799 
+95.141.111.226 3 3 56343 20190131110407
+111.206.198.20 0 1 3690 
+111.206.198.209 0 1 4780 
+206.189.8.141 3 3 56563 20190118180122
+40.77.188.167 0 2 11339 
+18.217.76.214 8 8 150248 20190123055744
+40.77.188.59 0 1 36089 
+40.77.195.11 0 1 25217 
+111.206.221.24 0 1 823 
+18.191.16.77 9 9 169029 20190128080806
+18.223.117.225 16 16 300496 20190126100754
+54.218.244.45 1 1 18781 20190111162323
+36.4.141.21 1 1 18781 20190110164833
+40.77.253.155 0 1 1395 
+18.223.159.227 9 9 169029 20190128150821
+40.77.193.251 0 1 381 
+40.77.188.91 0 1 66845 
+118.69.248.82 0 1 123546 
+18.220.22.217 1 1 18781 20190110175638
+40.77.188.156 0 2 3092 
+180.163.220.4 0 8 115014 
+137.226.113.26 4 4 75124 20190128185812
+220.181.51.107 1 1 18781 20190120001846
+8.26.157.150 0 1 254108 
+34.238.168.226 1 1 18781 20190103030000
+47.91.167.12 6 6 98644 20190110141927
+40.77.189.171 0 1 12782 
+40.77.194.24 0 21 379493 
+31.13.127.10 0 12 734715 
+40.77.192.179 0 2 38800 
+35.173.183.130 1 1 18781 20190128014552
+40.77.253.83 0 1 15105 
+115.239.212.72 0 4 149876 
+111.206.198.76 0 1 254108 
+112.245.159.216 4 4 75124 20190113163226
+18.223.44.6 12 12 225372 20190128103854
+111.206.198.105 0 1 8826 
+54.218.253.203 13 24 479635 20190114002030
+111.206.222.83 0 1 25217 
+3.17.61.196 1 1 18781 20190104064036
+202.46.57.88 1 1 18781 20190124224319
+220.181.108.183 0 1 353826 
+202.46.54.11 1 1 18781 20190114014450
+111.206.198.54 0 1 2826 
+134.175.132.129 3 3 50797 20190106063940
+18.188.29.163 8 8 150248 20190123092705
+18.216.89.236 11 11 206591 20190124053051
+14.215.176.17 1 14 154307 20190104020105
+3.17.12.72 16 16 300496 20190129000831
+180.97.35.86 0 4 48289 
+40.77.193.181 0 2 14581 
+72.90.244.250 7 180 8213078 20190122233536
+40.77.252.68 0 2 79627 
+18.216.245.139 14 14 262934 20190127161001
+3.17.39.199 5 5 93905 20190127000858
+18.188.98.200 7 7 131467 20190126210745
+18.191.237.208 1 1 18781 20190104224022
+184.75.55.250 2 81 3842372 20190125143734
+40.77.192.212 0 1 8097 
+154.51.131.142 1 1 18781 20190109162017
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20190101 9 100 3446022 8
+20190102 67 256 7973170 51
+20190103 54 86 1849054 53
+20190104 54 90 1758112 54
+20190105 72 139 3493686 55
+20190106 74 120 2310737 55
+20190107 33 173 4680924 31
+20190108 67 319 13358733 44
+20190109 63 175 4990003 60
+20190110 78 120 2593485 53
+20190111 64 359 14997346 54
+20190112 83 144 3043960 63
+20190113 115 268 6651015 64
+20190114 108 177 3449388 60
+20190115 73 317 10149088 61
+20190116 66 158 5390284 56
+20190117 61 109 2468348 60
+20190118 59 151 6069864 56
+20190119 76 170 3743300 57
+20190120 73 234 7895418 63
+20190121 63 254 7958835 57
+20190122 63 310 13136590 56
+20190123 66 266 7519911 55
+20190124 71 109 2102611 46
+20190125 58 161 5413190 57
+20190126 60 157 4221713 57
+20190127 63 98 1994780 59
+20190128 72 164 4766216 55
+20190129 7 101 2947558 6
+20190130 28 112 3595419 9
+20190131 11 44 767644 9
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 3
+5mn-15mn 7
+30s-2mn 16
+2mn-5mn 2
+15mn-30mn 11
+0s-30s 1471
+30mn-1h 14
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 25
+/ 1541 28847616 1480 1435
+/contact.php 49 780129 16 22
+/about.php 41 659895 7 18
+/index.php 28 525868 5 2
+/cerificates.php 22 346060 3 6
+/comingsoon.php 19 551646 1 2
+/projects.html 17 379882 1 6
+/service-surveillance.php 17 223465 1 3
+/service-accesscontrol.php 17 271371 2 3
+/service-intercom.php 16 207984 2 1
+/send.php 9 71304 3 8
+/service-karaoke.php 15 191970 1 1
+/navbar.html 1 141 0 0
+//index.php 5 93905 0 1
+/service-onlineordering.php 16 246976 1 3
+/projects.php 13 382135 0 0
+// 3 56343 0 1
+/service-phonesystem.php 15 197850 0 0
+/service-networking.php 16 238848 0 4
+//index.php/Index/index/name/$%7B@eval($_POST%5Bc%5D)%7D 3 56343 0 1
+/service-alarm.php 16 231904 0 4
+/sidebar.html 1 1027 0 0
+/service-creditcardmerchant.php 16 242496 1 3
+//index.php/Home/AppUpload/commentUpload 1 18781 0 0
+/service-pointofsale.php 14 217896 0 0
+END_SIDER

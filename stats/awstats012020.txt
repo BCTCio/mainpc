@@ -1,0 +1,795 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 202001 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2550                
+POS_VISITOR 13725               
+POS_DAY 23463               
+POS_DOMAIN 3460                
+POS_LOGIN 3693                
+POS_ROBOT 3848                
+POS_WORMS 4541                
+POS_EMAILSENDER 4672                
+POS_EMAILRECEIVER 4815                
+POS_SESSION 24317               
+POS_SIDER 24525               
+POS_FILETYPES 4950                
+POS_OS 5174                
+POS_BROWSER 5348                
+POS_SCREENSIZE 5884                
+POS_UNKNOWNREFERER 5958                
+POS_UNKNOWNREFERERBROWSER 6469                
+POS_ORIGIN 6717                
+POS_SEREFERRALS 6860                
+POS_PAGEREFS 7037                
+POS_SEARCHWORDS 7366                
+POS_KEYWORDS 7518                
+POS_MISC 2214                
+POS_ERRORS 7577                
+POS_CLUSTER 3549                
+POS_SIDER_404 7701                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200201000011 8976 2005846 60831902821
+FirstTime 20200101033200
+LastTime 20200131225516
+LastUpdate 20200202021750 8976 8735 240 0 0
+TotalVisits 215                 
+TotalUnique 168                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 283                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 8 9 284276 67 124 5624945
+1 30 207 7179929 123 202 6518908
+2 60 173 7052006 155 278 7882828
+3 43 117 4103306 82 195 4057860
+4 61 115 2494730 81 202 6040121
+5 7 30 919047 52 123 4947037
+6 19 141 4187427 87 125 5088434
+7 12 96 4544779 74 129 3792195
+8 51 146 4200282 92 143 5643499
+9 32 423 24489443 87 276 5901391
+10 22 405 24519639 56 227 6423610
+11 51 348 11854235 35 155 4680262
+12 35 224 8565416 68 154 5400229
+13 68 267 8011256 58 160 4888394
+14 41 657 26350905 43 207 4612487
+15 10 197 15343639 48 133 5446233
+16 47 55 1128043 46 73 3719722
+17 28 243 11360528 128 210 5553633
+18 24 209 8234487 128 198 4582985
+19 7 163 7158294 106 151 4095411
+20 27 139 4116413 96 175 4802674
+21 23 52 1377960 70 126 4526621
+22 45 488 31142100 79 184 4458350
+23 26 241 17117111 71 126 3380010
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 777 5145 235735251
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 15
+bot[+:,\.\;\/\\-] 804 64904420 20200131230713 125
+infobot 736 11574823 20200131185846 64
+googlebot 376 13180327 20200131215811 42
+robot 216 19825447 20200131200004 43
+baiduspider 163 4830039 20200131090525 0
+crawl 146 2504147 20200130202929 1
+msnbot 130 1783305 20200131175732 15
+spider 61 1137415 20200129180202 1
+mail\.ru 29 256222 20200129195341 15
+yandex 27 210777 20200124032626 15
+python 16 225372 20200125134238 3
+no_user_agent 3 37562 20200128041834 0
+ia_archiver 3 31926 20200120084225 1
+java 20 375620 20200103193410 0
+unknown 22 0 20200128224626 22
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 624 13376683 0 0
+png 1944 47425830 0 0
+txt 3 0 0 0
+php 530 8928066 0 0
+html 241 4475167 0 0
+jpg 820 146820633 0 0
+js 935 14134309 0 0
+Unknown 3 56343 0 0
+gif 45 518220 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 12
+winxp 64
+winlong 9
+win2000 1
+winnt 2435
+linuxubuntu 3
+winvista 271
+linux 737
+macosx 526
+win16 1
+linuxdebian 1
+Unknown 223
+win2008 874
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 37
+firefox28.0 7
+msie6.0 8
+firefox71.0 71
+chrome 4023
+firefox26.0 2
+firefox52.0 64
+firefox98.0 1
+firefox49.0 1
+msie8.0 1
+msie7.0 44
+firefox3.5.8 2
+firefox59.0 1
+firefox65.0 1
+msie9.0 20
+Unknown 6
+firefox11.0 1
+netscape 2
+firefox50.0 3
+msie5.01 1
+firefox48.0 6
+firefox72.0 142
+firefox55.0 1
+opera 3
+firefox21.0 2
+firefox30.0 1
+firefox56.0 4
+firefox45.0 1
+firefox68.0 2
+firefox3.5.5 1
+firefox33.0 1
+mozilla 289
+firefox25.0 1
+netscape5.0 25
+firefox22.0 1
+msie10.0 4
+firefox51.0 2
+safari 400
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 9
+Mozilla/5.0 20200110202836
+Mozilla 20200108075334
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20200129205718
+KickFire 20200129022622
+Mozilla/5.0_(Windows;_N;_;_en-US)_AppleWebKit/527__(KHTML,_like_Gecko,_Safari/419.3)_Qt/4.5.3 20200106025902
+uclassify.com/1.0 20200129020036
+Mozilla/4.0_(compatible;) 20200131122512
+Mozilla/5.0_(compatible;_Dataprovider.com) 20200112144718
+Orbo 20200119202657
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20200129205718
+KickFire 20200129022622
+uclassify.com/1.0 20200129020036
+Orbo 20200119202657
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 455 775
+From1 0 2
+From2 47 63
+From3 17 23
+From4 258 4282
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 44 60
+baidu 2 2
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 6
+http://www.rockbridgecountyva.gov 9 9
+https://zvuker.net 3 3
+https://stop-nark.ru/narko 3 3
+https://www.ecosia.org 1 1
+https://axis.lightning.force.com 1 1
+https://www.bing.com 0 6
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+403 1 212
+206 3 56343
+301 1 239
+404 1319 1133643
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 138
+/js/div.parent 1 -
+/wordpress/ 2 -
+/service-pointofsale.php' 1 -
+/kcfinder/upload.php 1 -
+/router.php 1 -
+/laravel/.env 4 -
+/js/div.pp_pic_holder,div.ppt,.pp_fade 1 -
+/htadmin/login.php 1 -
+/Projects 1 -
+/iks/spring/login 2 -
+/vendor/kcfinder/upload.php 1 -
+/sites/all/libraries/mailchimp//vendor/phpunit/phpunit/phpunit.xsd 1 -
+/admindede/login.php 1 -
+/xmlrpc.php 3 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 2 -
+/service-accesscontrol.php' 1 -
+/statics/js/admin_common.js 3 -
+/modules/bamegamenu/ajax_phpcode.php 4 -
+/images/assets/prev.png 45 http://www.mainpcgroup.com/css/jquery.onebyone.css
+/js/ul.content-slide-nav 1 -
+/static/.gitignore 4 -
+/administrator/ 2 -
+/service-karaoke.php' 1 -
+/misc/ajax.js 2 -
+/d/txt/test.txt 1 http://www.mainpcgroup.com/d/txt/test.txt
+/editor/dialogs/internal.js 1 http://www.mainpcgroup.com/editor/dialogs/internal.js
+/images/onebyone/assets/bullets.png 46 http://www.mainpcgroup.com/css/jquery.onebyone.css
+/admin/webeditor/dialog/dialog.js 1 http://www.mainpcgroup.com/admin/webeditor/dialog/dialog.js
+/joomla/administrator/index.php 1 -
+/wp-login.php 3 -
+//utility/convert/index.php 1 http://www.mainpcgroup.com//utility/convert/index.php
+/wp-json/wp/v2/users 1 -
+/administrator/language/en-GB/install.xml 2 -
+/js/common.js 2 http://www.mainpcgroup.com/js/common.js
+/js/img.over 1 -
+/service-intercom.php' 1 -
+/service-onlineordering.php' 1 -
+/wp-admin/admin-ajax.php 1 -
+/public/js/wind.js 2 -
+/statics/css/crop.css 1 -
+/webeditor/dialog/dialog.js 1 http://www.mainpcgroup.com/webeditor/dialog/dialog.js
+/js/div.visible 2 -
+/configuration.php 1 -
+/public/simpleboot/css/simplebootadmin.css 3 -
+//c.php 2 http://www.mainpcgroup.com//c.php
+/ads.txt 63 -
+/blog/administrator/index.php 1 -
+/admin/view/javascript/common.js 2 -
+//robots.php 2 http://www.mainpcgroup.com//robots.php
+/up.php 4 -
+/administrator/index.php 1 -
+/manage/login.php 1 -
+/admin/southidceditor/dialog/dialog.js 1 http://www.mainpcgroup.com/admin/southidceditor/dialog/dialog.js
+//vendor/phpunit/phpunit/phpunit.xsd 3 -
+/ews 1 -
+/js/comm.js 2 -
+/js/video/quicktime 1 -
+/webedit/dialog/dialog.js 1 http://www.mainpcgroup.com/webedit/dialog/dialog.js
+//libsoft.php 10 http://www.mainpcgroup.com//libsoft.php
+/test/.env 4 -
+/service-alarm.php' 1 -
+/manager/login.php 1 -
+/js/colorpicker.js 445 -
+/sitemap.xml 2 -
+/clientSlider 1 -
+/js/ul.accordion 1 -
+/admin/southidceditor/upload.asp 1 http://www.mainpcgroup.com/admin/southidceditor/upload.asp
+/ckeditor/plugins/kcfinder/upload.php 1 -
+/dede/login.php 1 -
+/admin/includes/general.js 2 -
+/admin/login.php 1 -
+/index.asp../1.php 1 http://www.mainpcgroup.com/index.asp../1.php
+/include/calendar/calendar-cn.js 1 http://www.mainpcgroup.com/include/calendar/calendar-cn.js
+/vpn/../vpns/cfg/smb.conf 2 https://www.mainpcgroup.com/vpn/../vpns/cfg/smb.conf
+//12345.php 2 http://www.mainpcgroup.com//12345.php
+/modules/jmsslider/ajax_jmsslider.php 4 -
+//plus/moon.php 1 http://www.mainpcgroup.com//plus/moon.php
+/ckfinder/core/connector/asp/connector.asp 1 http://www.mainpcgroup.com/ckfinder/core/connector/asp/connector.asp
+/wp-includes/js/jquery/jquery.js 2 -
+/css/colorpicker.css 422 -
+/bitrix/admin/index.php 1 -
+/Contact 1 -
+/modules/verticalmegamenus/VerticalMegaMenusUploadImage.php 4 -
+/js/click.prettyphoto 1 -
+/public/js/image.js 3 -
+/plugins/kcfinder/upload.php 1 -
+/public/static/.gitignore 1 -
+/sliderName 1 -
+/admin/editor/kcfinder/upload.php 1 -
+/service-networking.php' 1 -
+/edit/themes/default/default.css 1 http://www.mainpcgroup.com/edit/themes/default/default.css
+/vendor/phpunit/phpunit/build.xml 2 -
+/modules/verticalmegamenus/images/temps/up.php 4 -
+/images/assets/next.png 46 http://www.mainpcgroup.com/css/jquery.onebyone.css
+//x.php 2 http://www.mainpcgroup.com//x.php
+/editor/themes/default/default.css 2 http://www.mainpcgroup.com/editor/themes/default/default.css
+/modules/jmsslider/views/img/layers/up.php 4 -
+/js/header-rollup-554.js 2 -
+/admin/ueditor/dialogs/internal.js 1 http://www.mainpcgroup.com/admin/ueditor/dialogs/internal.js
+/js/ul.deep-child 1 -
+/admin/kcfinder/upload.php 1 -
+//robots1.php 2 http://www.mainpcgroup.com//robots1.php
+/.well-known/assetlinks.json 14 -
+//SiteServer/Ajax/ajaxOtherService.aspx 1 http://www.mainpcgroup.com//SiteServer/Ajax/ajaxOtherService.aspx
+/assets/kcfinder/upload.php 1 -
+/modules/groupcategory/GroupCategoryUploadImage.php 4 -
+/data/admin/allowurl.txt 2 -
+/modules/smartprestashopthemeadmin/ajax_smartprestashopthemeadmin.php 4 -
+/public/admin/kindeditor/themes/default/default.css 1 http://www.mainpcgroup.com/public/admin/kindeditor/themes/default/default.css
+/blog/ 2 -
+/config/AspCms_config.asp 1 -
+/admin/.env 4 -
+/.env 7 -
+/wp/ 2 -
+/embed/ 2 -
+/js/a.pp_expand 1 -
+/htaccess.txt 1 -
+/administrator/help/en-GB/toc.json 2 -
+/js/3.1.4 1 -
+/js/div.tcontent 1 -
+/ewebedit/upload.asp 1 http://www.mainpcgroup.com/ewebedit/upload.asp
+//uploadfile/member/0/0x0.php 2 http://www.mainpcgroup.com//uploadfile/member/0/0x0.php
+/js/scroll.prettyphoto 1 -
+/images/editor/separator.gif 2 -
+//nuan.php 2 http://www.mainpcgroup.com//nuan.php
+/edit/dialogs/internal.js 1 http://www.mainpcgroup.com/edit/dialogs/internal.js
+//plus/mytag_js.php 1 http://www.mainpcgroup.com//plus/mytag_js.php
+/public/router.php 3 -
+/Services 1 -
+/public/ui/v1/js/sea.js 3 -
+/public/Editor/themes/default/default.css 1 http://www.mainpcgroup.com/public/Editor/themes/default/default.css
+//laravel/vendor/phpunit/phpunit/phpunit.xsd 4 -
+/wangdafa 3 -
+/js/upimg/dialog.js 1 http://www.mainpcgroup.com/js/upimg/dialog.js
+/vendor/phpunit/phpunit/phpunit.xsd 4 -
+/plugins/system/debug/debug.xml 2 -
+/assets/plugin/kcfinder/upload.php 1 -
+//user.php 1 554fcae493e564ee0dc75bdf2ebf94caads|a:2:{s:3:\"num\"
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 283
+52.34.226.234 36 60 1016174 20200125034751
+35.162.23.4 35 59 997393 20200124043238
+34.221.147.186 31 51 878576 20200115134915
+104.162.187.34 28 236 20132405 20200120020434
+5.196.64.109 25 25 422678 20200114173059
+34.214.164.38 22 22 384880 20200126165925
+91.183.83.65 20 54 1982809 20200106025914
+35.205.61.9 18 32 427022 20200105132332
+34.76.188.110 18 32 427022 20200119013651
+159.65.175.251 18 37 685384 20200112132411
+108.15.104.117 1 74 2925931 20200106093713
+99.177.113.100 1 48 1810439 20200125144026
+34.211.180.209 1 1 15730 20200103165242
+40.77.190.132 0 1 9431 
+108.41.229.173 7 102 5587146 20200113230545
+40.77.189.161 0 2 12374 
+40.77.189.218 0 2 27928 
+159.138.159.76 0 1 367677 
+40.77.190.182 0 1 66845 
+209.128.119.19 1 1 18781 20200129022622
+52.72.246.41 1 1 18781 20200107014821
+54.202.135.187 1 1 18781 20200112030056
+208.64.33.101 2 2 37562 20200130204619
+40.128.126.254 7 189 10153935 20200122170153
+159.138.154.234 1 1 15730 20200111003106
+167.114.172.223 12 12 185391 20200107022451
+88.119.207.44 2 2 0 20200116030634
+75.50.58.81 4 145 12728092 20200116154719
+40.77.188.141 0 1 36089 
+120.24.174.215 1 1 18781 20200107020010
+104.245.145.56 1 1 18781 20200110123247
+194.6.231.247 1 1 18781 20200123200029
+109.184.183.163 2 2 24834 20200130010219
+159.138.151.253 0 1 168809 
+114.239.53.231 1 1 18781 20200114233610
+110.229.216.207 1 1 18781 20200109003022
+158.222.176.41 1 73 2922112 20200129233532
+46.101.9.216 7 7 133912 20200126090830
+34.67.181.17 10 10 186304 20200101122826
+40.77.190.60 0 1 2470 
+69.171.251.40 1 1 0 20200122142438
+45.12.220.201 1 1 15436 20200127113447
+119.82.103.20 2 74 3001581 20200113010759
+40.77.188.13 0 1 8097 
+40.77.189.26 0 1 8826 
+157.55.166.187 4 4 37562 20200119141916
+40.77.190.216 0 1 17549 
+40.77.189.141 0 1 9431 
+47.17.53.123 0 1 155551 
+45.144.64.236 15 15 281715 20200101083736
+40.77.188.229 0 1 1799 
+66.249.85.1 0 1 123546 
+67.244.9.211 4 81 2999386 20200122112825
+173.252.127.24 1 1 0 20200129205718
+159.138.153.138 0 1 163286 
+51.79.24.191 2 2 18781 20200117092712
+125.117.171.144 1 1 18781 20200130180940
+185.41.5.178 2 2 37562 20200120215102
+35.233.215.107 2 2 37562 20200122071920
+34.219.137.226 5 9 121600 20200115120054
+47.89.240.56 0 2 383443 
+34.223.53.217 18 18 309756 20200126165150
+5.197.27.192 0 1 123546 
+40.77.189.12 0 1 823 
+54.245.172.14 1 1 14494 20200103023924
+159.138.152.206 1 1 15730 20200121111544
+40.77.190.208 0 1 15105 
+40.77.190.248 0 1 93434 
+159.138.148.75 1 1 14928 20200119224503
+159.138.156.41 0 1 215881 
+40.77.188.72 0 1 47953 
+197.83.237.174 0 1 127359 
+40.77.190.8 0 1 36089 
+40.77.189.80 0 1 14660 
+40.77.188.207 0 3 33792 
+40.77.188.27 0 1 1395 
+159.138.156.184 0 1 127281 
+115.212.183.178 1 1 18781 20200106195410
+40.77.190.112 0 2 10826 
+111.193.235.191 1 31 1014871 20200125134251
+159.138.151.142 1 1 14928 20200126224656
+203.171.209.5 0 10 1616820 
+159.138.152.162 0 1 239972 
+47.33.34.169 1 19 1345288 20200125140841
+5.248.255.159 3 3 56343 20200102194043
+197.255.201.211 8 161 5987178 20200114092423
+114.239.105.38 13 13 244153 20200114233636
+40.77.189.168 0 1 2513 
+54.67.5.55 0 2 24280 
+112.16.0.101 1 1 18781 20200102195725
+159.138.157.208 1 1 18781 20200111003113
+40.77.188.55 0 1 47953 
+162.247.7.18 1 1 18781 20200101161200
+168.80.237.10 1 1 18781 20200108015024
+40.77.188.90 0 1 93434 
+40.68.60.25 1 49 2686469 20200117225335
+172.58.227.87 1 69 2818415 20200131225516
+40.77.189.53 0 2 16257 
+151.138.13.148 9 9 169029 20200129074155
+185.224.140.215 2 2 37562 20200123113940
+40.77.188.4 0 1 66845 
+40.77.189.147 0 1 47953 
+208.64.108.126 3 80 2977745 20200121122154
+40.77.190.51 0 1 1799 
+159.138.148.16 1 1 16095 20200121150923
+195.201.167.163 1 22 398274 20200110093431
+182.74.243.48 2 2 34876 20200103101143
+52.32.102.56 1 1 18781 20200122110823
+102.167.150.251 0 1 123546 
+100.38.74.145 2 70 2863111 20200109014512
+159.138.153.120 1 2 151303 20200115214140
+210.52.224.27 1 1 18781 20200121073136
+40.77.191.70 0 1 1552 
+40.77.188.93 0 1 1552 
+54.191.3.14 4 4 46274 20200115131922
+40.77.188.64 0 2 15928 
+107.175.209.20 1 1 18781 20200114164501
+40.77.188.220 0 1 17549 
+159.203.96.191 18 37 685384 20200116183430
+40.77.188.164 0 1 2711 
+40.77.189.187 0 1 9431 
+159.138.128.203 1 1 18781 20200128020056
+159.138.128.27 0 1 127359 
+197.255.203.165 2 77 2957851 20200113072242
+47.90.203.159 0 1 136375 
+40.77.190.97 0 3 79176 
+51.77.129.167 1 72 2921958 20200107022513
+142.93.191.243 1 13 208747 20200112204007
+40.77.189.119 0 1 14660 
+159.65.37.178 17 36 669463 20200128224632
+207.68.254.2 3 55 1858817 20200130123534
+183.146.188.51 1 1 18781 20200102040023
+158.69.27.211 12 12 185391 20200112144547
+79.143.190.218 0 1 163286 
+40.77.189.64 0 1 12782 
+173.252.127.3 1 1 0 20200128173138
+203.171.209.6 0 4 646728 
+50.202.38.5 1 1 18781 20200130235728
+159.138.149.39 1 1 18781 20200128162950
+54.218.199.67 1 1 18781 20200116100133
+101.75.215.212 8 8 127592 20200111065142
+94.19.87.162 0 1 123546 
+40.77.190.71 0 1 8097 
+54.81.110.126 1 1 18781 20200108111452
+189.253.89.51 1 71 2906028 20200109182749
+107.77.70.117 0 1 187742 
+202.137.249.3 2 78 2958005 20200101082444
+52.6.136.4 1 1 18781 20200106183736
+40.77.188.143 0 2 106216 
+66.246.224.12 17 17 319277 20200131091824
+159.138.158.178 0 1 216156 
+40.77.190.226 0 1 381 
+40.77.191.32 0 1 9431 
+95.216.149.140 1 1 18781 20200105010054
+52.53.177.126 1 1 18781 20200103135030
+175.157.43.119 0 1 123546 
+36.112.86.11 3 3 53483 20200115114709
+176.9.111.189 17 23 1497039 20200123024453
+34.213.222.38 1 1 14494 20200124003828
+64.246.165.210 1 1 18781 20200121172256
+40.77.189.186 0 1 17549 
+52.207.238.205 1 1 18781 20200113082123
+159.138.150.145 1 1 18781 20200115214137
+40.77.188.56 0 1 25217 
+40.77.189.41 0 1 823 
+176.164.254.128 0 1 148847 
+107.175.235.179 1 1 15921 20200114164508
+35.163.6.233 1 1 18781 20200126164901
+40.77.188.82 0 1 2711 
+54.147.121.38 1 1 18781 20200109130010
+159.203.108.239 18 37 685384 20200108081236
+54.187.211.107 15 17 313499 20200115124734
+40.77.190.84 0 2 96145 
+74.130.205.185 0 1 127359 
+108.27.217.121 1 49 2293366 20200131170630
+47.254.157.107 5 5 93905 20200108102904
+159.138.128.225 1 1 16095 20200128033815
+40.77.189.78 0 1 2470 
+52.165.45.87 2 2 37562 20200105093112
+159.203.103.62 17 36 669463 20200120204051
+159.138.154.202 1 1 15730 20200115214137
+117.93.33.97 2 2 24834 20200109131015
+172.254.70.98 2 79 2961824 20200108142439
+44.228.128.135 1 1 14494 20200125035225
+159.138.148.114 0 1 215881 
+159.138.128.81 1 1 16095 20200115214151
+40.77.190.12 0 1 2513 
+159.138.158.195 1 1 15730 20200128062132
+54.214.200.252 1 1 18781 20200102143939
+51.77.246.201 1 72 2921958 20200112144715
+49.7.20.28 2 2 37562 20200127061620
+100.25.142.181 1 1 18781 20200110202836
+52.39.237.79 1 1 18781 20200131013611
+159.203.85.194 18 37 685384 20200104043108
+24.190.239.53 0 7 1172876 
+52.172.140.171 6 6 112686 20200115131411
+36.101.193.217 0 1 168809 
+179.42.236.251 0 1 127359 
+114.241.187.201 1 1 18781 20200107053419
+207.239.60.46 11 332 11573467 20200113142607
+45.12.220.230 1 1 15436 20200115173748
+75.127.188.147 2 129 11731488 20200116091934
+58.250.125.185 2 2 37562 20200127061616
+159.138.159.223 0 1 216156 
+47.135.205.248 1 71 2906028 20200121223318
+160.116.180.236 1 1 18781 20200105151843
+76.218.242.70 0 1 129608 
+24.103.26.206 3 73 3771324 20200103090454
+46.185.69.181 3 3 56343 20200103023849
+35.164.96.41 1 1 15730 20200126045126
+54.70.54.127 1 1 15730 20200125162034
+40.77.188.167 0 1 8826 
+40.77.190.65 0 1 8097 
+166.137.252.34 0 1 167974 
+69.116.50.93 4 81 2996526 20200128143333
+37.44.255.52 2 2 24834 20200108111705
+110.229.216.185 1 1 18781 20200109015120
+208.125.20.21 1 71 2906028 20200119104100
+40.77.189.250 0 1 47953 
+40.77.191.12 0 2 13163 
+188.170.80.88 0 1 123546 
+3.15.211.24 5 28 472710 20200111133258
+40.77.188.85 0 1 9861 
+89.208.84.207 1 48 2489968 20200101033200
+40.77.191.71 0 1 1552 
+134.6.105.130 2 79 2961824 20200130141410
+106.39.246.14 2 2 37562 20200127061616
+40.77.190.9 0 1 66845 
+34.217.38.93 1 1 18781 20200109114225
+40.77.189.132 0 1 2513 
+40.77.190.202 0 1 14660 
+40.77.189.29 0 1 2470 
+162.1.129.9 0 1 127359 
+40.77.188.208 0 1 36089 
+40.77.188.188 0 1 8097 
+182.74.243.46 2 2 34876 20200103170822
+74.101.48.181 1 74 2925931 20200117112433
+70.31.4.60 1 1 15921 20200112155422
+40.77.189.10 0 1 36089 
+151.106.9.1 1 1 18781 20200126072324
+96.250.221.98 2 98 4586732 20200103123833
+40.77.188.204 0 1 1395 
+108.7.44.43 1 1 18781 20200122102649
+108.41.60.134 4 80 4172950 20200116142616
+40.77.188.238 0 1 12782 
+70.19.64.94 3 73 2881030 20200125172246
+40.77.188.16 0 1 25217 
+40.77.188.48 0 1 17549 
+157.36.86.40 1 10 305974 20200111042230
+108.128.21.232 2 2 37562 20200125121417
+210.138.128.60 0 1 133743 
+40.77.189.225 0 1 15105 
+159.138.128.197 1 1 18781 20200121093910
+40.77.188.129 0 2 34043 
+40.77.188.74 0 1 381 
+173.251.48.6 18 359 23346466 20200116112833
+40.77.188.144 0 1 1799 
+40.77.188.173 0 2 76706 
+74.71.222.209 1 49 2293366 20200114183632
+52.4.236.226 1 1 18781 20200129020036
+40.77.188.105 0 1 1395 
+35.247.11.16 2 2 37562 20200110090606
+40.77.190.28 0 1 93434 
+35.223.72.28 1 1 18781 20200119202657
+67.223.14.20 0 1 254108 
+221.197.69.73 2 82 2995909 20200108201436
+159.138.148.56 1 1 18781 20200122123552
+98.7.101.9 1 69 2844330 20200129093451
+174.127.135.130 2 2 37562 20200114145537
+74.68.83.171 4 126 11526254 20200130230252
+60.182.119.166 1 1 18781 20200110012012
+40.77.191.6 0 1 15876 
+159.138.158.93 0 1 209520 
+182.18.223.23 0 1 127359 
+40.77.189.122 0 2 4022 
+40.77.189.137 0 1 823 
+197.255.203.87 3 78 2973772 20200110101038
+40.77.190.176 0 1 823 
+40.77.189.214 0 1 36089 
+142.93.73.184 18 37 685384 20200124210327
+216.177.214.34 0 1 122439 
+40.77.190.177 0 1 1799 
+154.51.131.142 1 1 18781 20200109230408
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20200101 41 165 6296509 7
+20200102 11 79 2834681 6
+20200103 15 134 6385930 9
+20200104 24 128 4798954 3
+20200105 22 60 1158923 4
+20200106 26 256 8847766 6
+20200107 19 168 6489902 7
+20200108 33 213 7289257 10
+20200109 10 149 6011424 8
+20200110 9 109 4128833 6
+20200111 17 78 2650624 10
+20200112 34 136 4036182 6
+20200113 22 390 17183675 9
+20200114 43 332 13586171 11
+20200115 71 178 5239704 15
+20200116 43 613 46766825 8
+20200117 5 129 6156488 4
+20200118 2 3 199244 2
+20200119 48 341 23646428 9
+20200120 24 44 940563 4
+20200121 9 158 6373595 7
+20200122 16 189 8786781 8
+20200123 21 28 1733845 4
+20200124 54 98 1858953 3
+20200125 48 237 8173150 10
+20200126 51 52 1112924 7
+20200127 5 17 1234759 5
+20200128 27 123 3754157 8
+20200129 7 147 5841566 7
+20200130 16 269 16750862 8
+20200131 4 122 5466576 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 1
+5mn-15mn 3
+2mn-5mn 7
+15mn-30mn 3
+30s-2mn 20
+0s-30s 176
+30mn-1h 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 25
+/ 218 4000353 163 116
+/contact.php 64 1018944 10 27
+/about.php 55 885225 10 14
+/index.php 49 920269 9 16
+/cerificates.php 35 550550 8 9
+/comingsoon.php 32 929088 1 1
+/service-alarm.php 28 405832 3 6
+/service-surveillance.php 28 368060 0 3
+/service-intercom.php 27 350973 2 0
+/service-onlineordering.php 27 416772 3 4
+/send.php 5 26739 0 3
+/service-karaoke.php 24 307152 1 0
+/blog/robots.txt 2 0 0 1
+//index.php 8 150248 0 0
+/projects.php 27 793665 0 2
+// 5 93905 1 1
+/service-phonesystem.php 26 342940 0 0
+/service-networking.php 27 403056 3 5
+/projects.html 17 379882 0 3
+/index.php/component/users 3 56343 0 1
+/joomla/robots.txt 1 0 0 0
+/sidebar.html 1 1027 0 0
+/service-creditcardmerchant.php 22 333432 0 1
+/service-accesscontrol.php 23 367149 0 1
+/service-pointofsale.php 23 357972 1 1
+END_SIDER

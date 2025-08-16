@@ -1,0 +1,1357 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201508 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2541                
+POS_VISITOR 33568               
+POS_DAY 47417               
+POS_DOMAIN 3462                
+POS_LOGIN 3695                
+POS_ROBOT 3850                
+POS_WORMS 4525                
+POS_EMAILSENDER 4656                
+POS_EMAILRECEIVER 4799                
+POS_SESSION 48287               
+POS_SIDER 48485               
+POS_FILETYPES 4934                
+POS_OS 5144                
+POS_BROWSER 5326                
+POS_SCREENSIZE 5875                
+POS_UNKNOWNREFERER 5949                
+POS_UNKNOWNREFERERBROWSER 6566                
+POS_ORIGIN 6863                
+POS_SEREFERRALS 7007                
+POS_PAGEREFS 7195                
+POS_SEARCHWORDS 7975                
+POS_KEYWORDS 8247                
+POS_MISC 2204                
+POS_ERRORS 8435                
+POS_CLUSTER 3551                
+POS_SIDER_404 8595                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150901000847 12771 2796825 28747014876
+FirstTime 0
+LastTime 20150831223953
+LastUpdate 20150901023227 12771 12144 626 0 0
+TotalVisits 271                 
+TotalUnique 217                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 412                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 17 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 11 161 4923305 51 159 3883795
+1 14 297 10179895 55 133 4382239
+2 11 171 5777636 32 70 3076028
+3 46 281 8072028 93 138 4099796
+4 80 396 4030506 64 103 1907174
+5 7 157 6012378 56 90 2607334
+6 55 689 18159358 91 195 7295437
+7 13 123 4609287 45 87 2487108
+8 17 286 12142022 44 110 5346152
+9 16 471 18934699 69 124 3548830
+10 63 882 31713833 153 262 8952527
+11 26 396 14941877 66 196 5290317
+12 34 561 22559206 58 234 3503668
+13 22 183 9412621 61 134 1878084
+14 18 556 22323618 44 176 4461638
+15 12 511 20459964 367 437 2945995
+16 11 507 20722872 44 119 3064571
+17 20 173 6352460 38 140 9052040
+18 46 679 30531337 78 347 5491234
+19 22 343 15052694 41 247 6518875
+20 8 168 6674309 93 189 14200319
+21 11 224 8544659 85 205 11012091
+22 21 170 6261856 64 123 3730729
+23 10 143 5531837 100 162 6178632
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 594 8528 313924257
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 15
+bot[+:,\.\;\/\\-] 689 25003883 20150831174116 0
+googlebot 551 58968265 20150831234908 0
+robot 156 21291973 20150827001425 0
+baiduspider 131 2505947 20150829221432 0
+seznambot 95 12609131 20150831230125 0
+sogou 43 711599 20150831161720 0
+yandex 24 420008 20150831191259 0
+spider 23 371973 20150831193244 0
+crawl 23 395228 20150822095111 0
+slurp 21 363665 20150822145416 0
+no_user_agent 4 18781 20150830132010 0
+exabot 2 31563 20150831213208 0
+surveybot 4 63126 20150824000048 0
+titan 1 18781 20150829232704 0
+mail\.ru 2 31563 20150819133135 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 1100 21967035 0 0
+png 3956 84482128 0 0
+php 266 2991477 0 0
+html 327 5503655 0 0
+js 1594 23666843 0 0
+jpg 1185 174217743 0 0
+gif 99 1095166 0 0
+svg 1 210 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 12
+linuxredhat 1
+winlong 1115
+winxp 882
+winnt 501
+win2000 1
+linuxubuntu 33
+winvista 918
+linux 577
+macosx 1805
+win2003 75
+Unknown 85
+win2008 2535
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 35
+msie6.0 25
+firefox28.0 14
+firefox5.0 4
+firefox20.0 2
+firefox4.0.1 1
+chrome 3707
+firefox3.0.14 1
+firefox4.0 513
+firefox34.0 6
+firefox3.5.3 1
+firefox24.0 1
+firefox31.0 15
+msie8.0 538
+firefox13.0.1 1
+firefox6.0.2 14
+msie7.0 175
+firefox3.6.9 1
+msie9.0 259
+firefox1.5 1
+Unknown 34
+firefox17.0 53
+firefox40.0 154
+firefox21.0 13
+firefox29.0 32
+firefox38.0 211
+mozilla 799
+firefox39.0 560
+netscape5.0 1
+firefox22.0 44
+firefox14.0.1 2
+msie10.0 13
+firefox2.0.0.16 1
+firefox8.0.1 1
+firefox35.0 92
+safari 1239
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 8
+Mozilla/5.0 20150811085219
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20150826134213
+Mozilla/5.0_(compatible;_DomainAppender_/1.0;__http://www.profound.net/domainappender) 20150831221513
+Mozilla/5.0_(compatible;_coccoc/1.0;__http://help.coccoc.com/) 20150830142910
+Go-http-client/1.1 20150825121814
+iskanie_(_http://www.iskanie.com) 20150817235652
+ltx71_-_(http://ltx71.com/) 20150817121630
+Mozilla/5.0_(compatible;_Lipperhey-Kaus-Australis/5.0;__https://www.lipperhey.com/en/about/) 20150823182501
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20150826134213
+Go-http-client/1.1 20150825121814
+iskanie_(_http://www.iskanie.com) 20150817235652
+ltx71_-_(http://ltx71.com/) 20150817121630
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 224 321
+From1 0 0
+From2 72 144
+From3 22 50
+From4 276 8013
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+google 64 136
+baidu 4 4
+sogou 1 1
+yahoo 3 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 13
+http://www.nycba.us/ch/processMember.php 4 4
+http://www.mainpcus.com 4 4
+http://www.nychinaren.com/company/task_view/id_40713.html 3 3
+http://www.lightspeedpos.com/find-a-reseller/ 2 2
+http://www.bing.com/search 2 2
+http://www.bing.com/entities/search 1 1
+http://www.nychinaren.com/company/task_review/id_40713.html 1 1
+http://fiostrending.verizon.com/search/index.php 1 1
+http://www.encore-usa.com/ar/wheretobuy/universal-product 1 1
+https://www.facebook.com 1 1
+http://www.lightspeedpos.com/en/find-a-reseller/ 1 1
+http://www.nychinaren.com/company/task_message/id_41410.html 1 1
+http://translate.baiducontent.com/transpage 0 28
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 5
+maingroupusainc. 2
+mainpcgroupusainc. 2
+main+pc+brooklyn+nyc 1
+us+bank+merchant+account+credit+card+machine 1
+main+pc 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 13
+maingroupusainc. 2
+pc 2
+main 2
+mainpcgroupusainc. 2
+nyc 1
+credit 1
+account 1
+merchant 1
+brooklyn 1
+bank 1
+card 1
+us 1
+machine 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+403 1 205
+206 27 364831
+405 1 235
+500 1 519
+406 51 13274
+407 3 1245
+404 2327 1728818
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 552
+/forms/admin/scripts/fckeditor.2641/editor/fckeditor.html 1 -
+/javascript/editors/fckeditor/editor/fckeditor.html 1 -
+/js/lib/fckeditor/editor/fckeditor.html 1 -
+/static/scripts/ajax/FCKeditor/editor/fckeditor.html 1 -
+/INC/GenericDB/assetmanager/assetmanager.asp 1 -
+/wms_admin/upload_simple/uploadTester.asp 1 -
+/Admin/fckeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/wysiwyg/fckeditor/editor/fckeditor.html 1 -
+/packages/portal/includes/js/editor/editor/assetmanager/assetmanager.php 1 -
+/editor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/admin/upload.asp 1 -
+/admin/edit/default_image.aspx 1 -
+/SiteEngineManager/components/Editor/assetmanager/assetmanager.asp 1 -
+/baomin/up/upfile_photo.asp 1 -
+/novice/FCKeditor/editor/fckeditor.html 1 -
+/office/readme.txt 1 -
+/FileUploads/uploadTester.asp 1 -
+/fckeditor1/editor/fckeditor.html 1 -
+/FCKeditor/editor/filemanager/connectors/test.html 1 -
+/administrator/SiteEngineManager/components/Editor/assetmanager/assetmanager.asp 1 -
+/manage/editor/fckeditor.html 1 -
+/apps/ecms/scripts/Editor/assetmanager/assetmanager.php 1 -
+/affiliate/affiliate53/fckeditor/editor/fckeditor.html 1 -
+/administrator/editors/fckeditor/fckeditor.html 1 -
+/js/ul.content-slide-nav 1 -
+/up_BookPicPro.asp 1 -
+/mt/mt-static/plugins/FCKeditor/fckeditor/editor/fckeditor.html 1 -
+/text/plain 1 -
+/siteBackHtml 19 -
+/components/com_joomleague/assets/classes/open-flash-chart/ofc_upload_image.php 1 -
+/images/design/icons/warning_16.png 17 http://www.mainpcgroup.com/css/base.css
+/images/footer-logo.png 17 http://www.mainpcgroup.com/css/layout.css
+/images/onebyone/assets/bullets.png 126 http://www.mainpcgroup.com/css/jquery.onebyone.css
+/data-filter=* 1 -
+/script/fckeditor/editor/fckeditor.html 1 -
+/eshterak/uploadTester.asp 1 -
+/commun/Editor/assetmanager/assetmanager.php 1 -
+/upfile/upfile.asp 1 -
+/system/fckeditor/editor/fckeditor.html 1 -
+/nam/uploadTester.asp 1 -
+/common/htmlarea/editor/fckeditor.html 1 -
+/WebAdmin/FCKeditor/editor/fckeditor.html 1 -
+/site/mambots/editors/fckeditor/fckeditor.html 1 -
+/web-files/fckeditor/editor/fckeditor.html 1 -
+/js/ul.child 1 -
+/HTMLEditor/editor/fckeditor.html 1 -
+/cn/product.asp 2 -
+/index.htm 13 -
+/components/com_creativecontactform/fileupload/index.php 1 -
+/rootadmin/assetmanager/assetmanager.php 1 -
+/js/div.visible 1 -
+/upfile_flash.asp 1 -
+/editor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/html/js/editor/fckeditor/editor/fckeditor.html 1 -
+/gbe/modules/content/admin/fckeditor/editor/fckeditor.html 1 -
+/adminsys/assetmanager/assetmanager.asp 1 -
+/favicon.gif 14 -
+/applications/ClassifiedListingsManager/components/AssetManager/assetmanager.asp 1 -
+/images/design/icons/arrow_right_16.png 17 http://www.mainpcgroup.com/css/base.css
+/plugins/editors/idoeditor/themes/advanced/php/image.php 1 -
+/BasicClass/Editor/assetmanager/assetmanager.asp 1 -
+/upfile_affix.asp 1 -
+/DCBSP2/tacorner/uploadTester.asp 1 -
+/glossary/fckeditor/editor/fckeditor.html 1 -
+/application/x-www-form-urlencoded 1 -
+/library/editor/fckeditor/editor/fckeditor.html 1 -
+/shop/adv_search.jsp 1 -
+/Admin/fCKeditor/editor/filemanager/connectors/test.html 1 -
+//www.facebook.com/plugins/like.html 1 -
+/administration/scripts/editor/assetmanager/assetmanager.php 1 -
+/js/%7Bpath%7D 1 -
+/blog/wp-content/plugins/fckeditor-for-wordpress-plugin/fckeditor/editor/fckeditor.html 1 -
+/lists/admin/FCKeditor/editor/fckeditor.html 1 -
+/cn/index.asp 1 -
+/shop 1 -
+/admin/default_image.asp 1 -
+/html/proudphufah/admin/fckeditor/editor/fckeditor.html 1 -
+/js/li.selected 1 -
+/support/uploadTester.asp 1 -
+/ACG-NWL/assetmanager/assetmanager.asp 1 -
+/admin/SiteEngineManager/components/Editor/assetmanager/assetmanager.aspx 1 -
+/scripts/fckeditor/editor/fckeditor.html 1 -
+/db/include/class/fckeditor/editor/fckeditor.html 1 -
+/upfile/upload.asp 1 -
+/images/.asp 1 -
+/panel/FCKeditor/editor/fckeditor.html 1 -
+/assetmanager.php 1 -
+/_engine/fckeditor/editor/fckeditor.html 1 -
+/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/include/js/fckeditor/editor/fckeditor.html 1 -
+/assets/includes/fckeditor/editor/fckeditor.html 1 -
+/plugins/editors/innova/assetmanager/assetmanager.php 1 -
+/innova-assetmanager/assetmanager.php 1 -
+/clientScript/InnovaStudio/assetmanager/assetmanager.aspx 1 -
+/wspro/html/js/editor/fckeditor/editor/fckeditor.html 1 -
+/crm/include/fckeditor/editor/fckeditor.html 1 -
+/admin/assetmanager/assetmanager.php 1 -
+/admin/is_editor/assetmanager/assetmanager.php 1 -
+/shop/contact_us.jsp 2 -
+/fortbildning/test/uploadTester.asp 1 -
+/images/assets/next.png 121 http://www.mainpcgroup.com/css/jquery.onebyone.css
+/UI/Tools/FCKeditor/editor/fckeditor.html 1 -
+/displays/removes 1 -
+/portal/html/js/editor/fckeditor/editor/fckeditor.html 1 -
+/admin/editor/default_Image.asp 1 -
+/baoming/up/upload_photo.asp 1 -
+/apple-touch-icon.png 1 -
+/shop/terms.jsp 1 -
+/kmustkjc/plugins/editors/fckeditor/editor/fckeditor.html 1 -
+/Lib/editor/assetmanager/assetmanager.php 1 -
+/admin/FCKeditor/editor/filemanager/connectors/php/connector.php 1 -
+/admin/assetmanager/default.asp 1 -
+/feng/readme.txt 1 -
+/js/assetmanager/assetmanager.php 1 -
+/-c/2 1 -
+/upfile_img.asp 1 -
+/video/quicktime 1 -
+/.qawaka/helpers/editor/assetmanager/assetmanager.php 1 -
+/shop/product.jsp 7 -
+/administrator/components/com_maianmedia/utilities/charts/php-ofc-library/ofc_upload_image.php 1 -
+/assetmanagerOLD/assetmanager.asp 1 -
+/AWT/editor/fckeditor.html 1 -
+/cn/news.asp 1 -
+/adminicpsb/script/fckeditor/editor/fckeditor.html 1 -
+/js/scroll.prettyphoto 1 -
+/assets/js/fckeditor/editor/fckeditor.html 1 -
+/inurl-/fckeditor/editor/fckeditor.html 1 -
+/scripts/assetmanager/assetmanager.asp 1 -
+/admin/FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/bscw_resources/javascript/FCKeditor/editor/fckeditor.html 1 -
+/FileZilla.xml 1 -
+/noflashhtml 1 -
+/EditorNEW/assetmanager/assetmanager.asp 1 -
+/public/js/fckeditor/editor/fckeditor.html 1 -
+/admin/fckeditor1/editor/fckeditor.html 1 -
+/applications/JobListingManager/components/Editor/assetmanager/assetmanager.asp 1 -
+/modules/editor/fckeditor/editor/fckeditor.html 1 -
+/include/editor/fckeditor.html 1 -
+/web1/download/standard_application_form.pdf 1 -
+/libs/fckeditor/editor/fckeditor.html 1 -
+/web1/index.asp 12 -
+/news/fckeditor/editor/fckeditor.html 1 -
+/baomin/up/upload_photo.asp 1 -
+/admin/templates/editor/fckeditor.html 1 -
+/shop/about_us.jsp 1 -
+/login/editors/fckeditor/editor/fckeditor.html 1 -
+/cms/_includes/fckeditor/editor/fckeditor.html 1 -
+/admin/FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/cms/app/webroot/js/fckeditor/editor/fckeditor.html 1 -
+/inc/upload.html 1 -
+/site/modules/fckeditor/fckeditor.html 1 -
+/images/design/prettyPhoto/dark_rounded/contentPattern.png 17 http://www.mainpcgroup.com/css/prettyPhoto.css
+/manage/upfile_flash.asp 1 -
+/webmail/fckeditor/editor/fckeditor.html 1 -
+/owner/uploadtester.asp 1 -
+/~documents/CMGA6/registration/public/fckeditor/editor/fckeditor.html 1 -
+/stara/include/FCKeditor/editor/fckeditor.html 1 -
+/system/ext/fckeditor/editor/fckeditor.html 1 -
+/Providers/HtmlEditorProviders/Fck/fckeditor/editor/fckeditor.html 1 -
+/adm_gerencia/fckeditor/editor/fckeditor.html 1 -
+/wp-content/plugins/chenpress/FCKeditor/editor/fckeditor.html 1 -
+/admin/upfile.asp 1 -
+/mailing/tools/fckeditor/editor/fckeditor.html 1 -
+/tt/uploadTester.asp 1 -
+/webmanager/FCKeditor/editor/fckeditor.html 1 -
+/admin/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/shop/index.jsp 25 -
+/fckeditor/jscripts/editor/fckeditor.html 1 -
+/admin/assetmanager/assetmanager.asp 2 -
+/gestion/FCKeditor/editor/fckeditor.html 1 -
+/resimler/apt-014/uploadTester.asp 1 -
+/download/FileZilla.xml 1 -
+/edit/editor/fckeditor.html 1 -
+/mynews/admin/editor/assetmanager/assetmanager.asp 1 -
+/blogscript/fckeditor/editor/fckeditor.html 1 -
+/asp/freeupload/uploadTester.asp 1 -
+/manage/scfileflash.asp 1 -
+/and/or 1 -
+/sites/all/libraries/fckeditor/editor/fckeditor.html 1 -
+/pebble/FCKeditor/editor/fckeditor.html 1 -
+/common/fckeditor/editor/fckeditor.html 1 -
+/jsincludes/FCKeditor/editor/fckeditor.html 1 -
+/sites/all/modules/fckeditor/fckeditor/editor/fckeditor.html 1 -
+/editor/assetmanager/asset.asp 1 -
+/wysiwyg/assetmanager/assetmanager.php 1 -
+/FreeASPUpload/uploadTester.asp 1 -
+/Editor/assetmanager/assetmanager.aspx 1 -
+/admin/rte/RTE_popup_file_atch.asp 1 -
+/admin/fck/editor/fckeditor.html 1 -
+/web1/news.asp 2 -
+/cart/admin/htmleditor/editor/fckeditor.html 1 -
+/Fckeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/webmail/plugins/html_mail/fckeditor/editor/fckeditor.html 1 -
+/data/fckeditor/editor/fckeditor.html 1 -
+/components/com_joomsport/includes/imgres.php 1 -
+/assetmanager/assetmanager.php 1 -
+/admin/uploadTester.asp 1 -
+/webyep-system/program/opt/fckeditor/editor/fckeditor.html 1 -
+/aproweb/Admin/uploadTester.asp 1 -
+/fwx/vb/upload/freeaspupload/uploadTester.asp 1 -
+/Editor/editor/filemanager/connectors/test.html 1 -
+/editor/assetmanager/assetmanager.aspx 1 -
+/administrator/fckeditor/editor/fckeditor.html 1 -
+/paginas/fckeditor/editor/fckeditor.html 1 -
+/lib/editor3/assetmanager/assetmanager.asp 1 -
+/editor/editor/filemanager/connectors/php/connector.php 1 -
+/admin/libexterne/fckeditor/editor/fckeditor.html 1 -
+/administrator/components/com_extplorer/uploadhandler.php 1 -
+/uploads/clear.jpg 1 -
+/sitemap.xml 40 -
+/admin/upfile1.asp 1 -
+/js/krte/editor/fckeditor.html 1 -
+/Picload/uploadTester.asp 1 -
+/pliki/adm/fckeditor/editor/fckeditor.html 1 -
+/admin/Editor/assetmanager/assetmanager.asp 1 -
+/includes/phpEasyAdmin/form/textarea/editor/fckeditor.html 1 -
+/admin/default_image.aspx 1 -
+/images/design/icons/add_16.png 17 http://www.mainpcgroup.com/css/base.css
+/admin/WYSIWYGeditor/assetmanager/assetmanager.aspx 1 -
+/upload/uploadTester.asp 1 -
+/customcontent/USDA_ECM_OVERVIEW/cvx06_sco01/FCKeditor/editor/fckeditor.html 1 -
+/images/design/icons/star_16.png 17 http://www.mainpcgroup.com/css/base.css
+/shop/return_policy.jsp 1 -
+/plugins/fckeditor-spip-2/fckeditor/editor/fckeditor.html 1 -
+/cn/contact.asp 4 -
+/js/3rdparty/fckeditor/editor/fckeditor.html 1 -
+/outils/fckeditor/editor/fckeditor.html 1 -
+/browserconfig.xml 9 -
+/upload/upfile.asp 1 -
+/administration/editor/assetmanager/assetmanager.php 1 -
+/app/webroot/js/fckeditor/editor/fckeditor.html 1 -
+/SiteEngineManager/components/Editor/assetmanager/assetmanager.aspx 1 -
+/levimccollum/uploadtester.asp 1 -
+/db/uploadTester.asp 1 -
+/uploads/Sagitta921SB1.jpg 2 -
+/admin/include/uploadTester.asp 1 -
+/cms/HTMLEditor/editor/fckeditor.html 1 -
+/sites/efeefe.no-ip.org/modules_bak/fckeditor/fckeditor/editor/fckeditor.html 1 -
+/templates/us/admin-panel/HTML_Editor/assetmanager/assetmanager.php 1 -
+/admin/view/javascript/fckeditor/editor/fckeditor.html 1 -
+/editor/library/editor4_2_1/assetmanager/assetmanager.php 1 -
+/Test/Upload/uploadTester.asp 1 -
+/register/fckeditor/editor/fckeditor.html 1 -
+/apple-touch-icon-120x120.png 1 -
+/src/azelastin/assetmanager/assetmanager.php 1 -
+/joomla/Medkorp/mambots/editors/fckeditor/editor/fckeditor.html 1 -
+/webyep-system/programm/opt/fckeditor/editor/fckeditor.html 1 -
+/joshiken/html/mambots/editors/fckeditor/editor/fckeditor.html 1 -
+/Uppicpro.asp 1 -
+/artsconnect/newsite/mambots/editors/fckeditor/editor/fckeditor.html 1 -
+/blog/FCKeditor/editor/fckeditor.html 1 -
+/text/javascript 1 -
+/asetrack/includes/fckeditor/editor/fckeditor.html 1 -
+/fckeditor/fckeditor/editor/fckeditor.html 1 -
+/editor/assetmanager/assetmanager.asp 1 -
+/site/fckeditor/editor/fckeditor.html 1 -
+/distancelearning/sites/all/modules/fckeditor/fckeditor/editor/fckeditor.htm 1 -
+/modules/fckeditor/fckeditor/editor/fckeditor.html 1 -
+/editor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/web1/rma.asp 2 -
+/embed/ 2 -
+/upfile_photo.asp 1 -
+/sites/all/modules/civicrm/packages/OpenFlashChart/php-ofc-library/ofc_upload_image.php 1 -
+/wp-content/plugins/fckeditor-for-wordpress-plugin/fckeditor/editor/fckeditor.html 1 -
+/assetmanager/asset.asp 1 -
+/js/a.link,a.zoom 1 -
+/user_data/packages/miyabunnew/fckeditor/editor/fckeditor.html 1 -
+/shop/case_info.jsp 2 -
+/newsletters/upload/Test1/uploadTester.asp 1 -
+/shop/user_editor.jsp 1 -
+/administrator/components/com_simplephotogallery/lib/uploadFile.php 1 -
+/c4sql8-solidarieta/html/images_sys/fckeditor.o/editor/fckeditor.html 1 -
+/template/js_lib/fckeditor/editor/fckeditor.html 1 -
+/shop/help_desk.jsp 2 -
+/common/third_party/FCKeditor/editor/fckeditor.html 1 -
+/system/templates/modules/admin/editor/assetmanager/assetmanager.php 1 -
+/images/design/prettyPhoto/light_rounded/btnNext.png 17 http://www.mainpcgroup.com/css/prettyPhoto.css
+/dhtml_editor/editor/fckeditor.html 1 -
+/dekra/FCKeditor/editor/fckeditor.html 1 -
+/upload_flash.asp 1 -
+/editor/editor/filemanager/connectors/asp/connector.asp 1 -
+/administrator/php/editor/fckeditor.html 1 -
+/library/fckeditor/editor/fckeditor.html 1 -
+/Editor/assetmanager/assetmanager.asp 2 -
+/admin/uploadarticles/uploadTester.asp 1 -
+/application/x-ecmascript 1 -
+/RTE_popup_file_atch.asp 1 -
+/CMS/RTE_popup_file_atch.asp 1 -
+/admin/up_BookPicPro.asp 1 -
+/ftpmanager/Editor/assetmanager/assetmanager.asp 1 -
+/admin/includes/rte/editor/fckeditor.html 1 -
+/upfile_flash1.asp 2 -
+/resources/fckeditor/editor/fckeditor.html 1 -
+/innovaeditor/assetmanager/assetmanager.php 1 -
+/editor/assetmanager/assetmanager.php 1 -
+/uploads/4870%20512MB.jpg 1 -
+/php/fckeditor/editor/fckeditor.html 1 -
+/includes/RTE/RTE_popup_file_atch.asp 1 -
+/FCKeditor/editor/fckeditor.html 1 -
+/files/static/fckeditor/editor/fckeditor.html 1 -
+/public_html/mambots/editors/fckeditor/editor/fckeditor.html 1 -
+/bip/KW/fckeditor/editor/fckeditor.html 1 -
+/site/lib/FCKeditor/editor/fckeditor.html 1 -
+/edit/default_image.asp 1 -
+/wp-login.php 5 -
+/admin/upfile_flash1.asp 1 -
+/administrator/components/com_rokdownloads/assets/uploadhandler.php 1 -
+/mc/uploadTester.asp 1 -
+/FCKeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/ContentUpload/admin/freeASPUpload/uploadTester.asp 1 -
+/Manage/Include/fckeditor/editor/fckeditor.html 1 -
+/%23!cerificates 1 -
+/readme.txt 1 -
+/Backend/FCKeditor/editor/fckeditor.html 1 -
+/admin/system/editor/fckeditor/editor/fckeditor.html 1 -
+/controls/fckeditor/editor/fckeditor.html 1 -
+/inv/assetmanager/assetmanager.php 1 -
+/admin/fckeditor/editor/fckeditor.html 1 -
+/edit/assetmanager/assetmanager.asp 1 -
+/edit/default_image.aspx 1 -
+/admin/editors/fckeditor/editor/fckeditor.html 1 -
+/admin/EDITOR/RTE_popup_file_atch.asp 1 -
+/system/upfile_flash.asp 1 -
+/fckeditor_ap/editor/fckeditor.html 1 -
+/kj/uploadTester.asp 1 -
+/%23!contact 1 -
+/admin/MembersAreaManager/components/Editor/assetmanager/assetmanager.asp 1 -
+/Innovastudio5.5/assetmanager/assetmanager.php 1 -
+/cms/fckeditor/editor/fckeditor.html 1 -
+/module/00023/59/FCKeditor/editor/fckeditor.html 1 -
+/fckphp/editor/fckeditor.html 1 -
+/FileZillaPortable/Data/settings/filezilla.xml 1 -
+/fronteiranorte/editor/editor/fckeditor.html 1 -
+/path/fckeditor/editor/fckeditor.html 1 -
+/CFIDE/scripts/ajax/FCKeditor/editor/fckeditor.html 1 -
+/dev/bholaday/uploadTester.asp 1 -
+/plugins/htmleditor2/assetmanager/assetmanager.php 1 -
+/images/design/icons/error_button_16.png 17 http://www.mainpcgroup.com/css/base.css
+/web1/download/international_mainpc_group_account_application_form.pdf 1 -
+/puglia2/innova/assetmanager/assetmanager.asp 1 -
+/ccmail/fckeditor/editor/fckeditor.html 1 -
+/site/modules/fckeditor/fckeditor/editor/fckeditor.html 1 -
+/upload/upload.asp 1 -
+/themes/mantaTheme1/newsmail/templates/javaScript/fckeditor/editor/fckeditor.html 1 -
+/main/inc/lib/fckeditor/editor/fckeditor.html 1 -
+/js/colorpicker.js 339 http://www.mainpcgroup.com/
+/robots.txt 365 -
+/includes/fckeditor/editor/fckeditor.html 1 -
+/js/ul.accordion 1 -
+/Includes/Advertiser/uploadTester.asp 1 -
+/intranet/fckeditor/editor/fckeditor.html 1 -
+/Uploads/uploadTester.asp 1 -
+/admin/edit/default_image.asp 1 -
+/shop/showcase.jsp 1 -
+/admin/editor/default_Image.aspx 1 -
+/admin/common/editor/assetmanager/assetmanager.php 1 -
+/generator/assetmanager/assetmanager.php 1 -
+/admin/SiteEngineManager/components/Editor/assetmanager/assetmanager.asp 1 -
+/guanli/upfile_flash.asp 1 -
+/Up_BookPic.asp 1 -
+/utilities/external/fckeditor/editor/fckeditor.html 1 -
+/yonetim/editor/assetmanager/assetmanager.php 1 -
+/rte/rte_popup_file_atch.asp 1 -
+/shop/assets/js/fckeditor/editor/fckeditor.html 1 -
+/boss/upfile_flash.asp 1 -
+/admin/assetmanager/assetmanager.aspx 1 -
+/beheer/editor/assetmanager/assetmanager.asp 1 -
+/css/colorpicker.css 342 http://www.mainpcgroup.com/
+/loaded 1 -
+/jquery.org/license 1 -
+/shop/product_view.jsp 1 -
+/mambots/editors/fckeditor/editor/fckeditor.html 1 -
+/portfolio/aui/FCKeditor/editor/fckeditor.html 1 -
+/upfile_photo1.asp 1 -
+/include/fckeditor/editor/fckeditor.html 1 -
+/includes/editors/fckeditor/editor/fckeditor.html 1 -
+/a 1 -
+/web1/news_info.asp 1 -
+/hegn/assetmanager/assetmanager.asp 1 -
+/frame/lib/fckeditor/editor/fckeditor.html 1 -
+/system/up_BookPicPro.asp 1 -
+/chinese/scripts2/uploadTester.asp 1 -
+/oa/fckeditor/editor/fckeditor.html 1 -
+/plugins/HTMLeditor/FCKeditor/editor/fckeditor.html 1 -
+/~cwcheng/C_Lan/fckeditor/editor/fckeditor.html 1 -
+/core/php/fckeditor/editor/fckeditor.html 1 -
+/upsave.asp 1 -
+/uploads/HP%20ProLiant%20DL380%20G6%20E5530.jpg 1 -
+/upfile_flash888.asp 1 -
+/jeunes/fckeditor/editor/fckeditor.html 1 -
+/aspupload.asp 1 -
+/uploads/blkwidow.jpg 1 -
+/wp-content/plugins/fckeditor_for_wordpress/fckeditor/editor/fckeditor.html 1 -
+/application/x-shockwave-flash 1 -
+/js/li.nav-bullet 1 -
+/admin/panel/fckeditor/fckeditor.html 1 -
+/admin/editor/assetmanager/assetmanager.php 1 -
+/forms/services/uploadTester.asp 1 -
+/text/xml 1 -
+/admin/templates/fckeditor/editor/fckeditor.html 2 -
+/inc/uploadTester.asp 1 -
+/c/2 1 -
+/GestaoProService/includes/fckeditor/editor/fckeditor.html 1 -
+/ofrzeditor/assetmanager/assetmanager.asp 1 -
+/beheer/novosite_editor/assetmanager/assetmanager.php 1 -
+/system/lib/ext/fckeditor/editor/fckeditor.html 1 -
+/AutoDiscover/AutoDiscover.xml 7 -
+/modules/fckeditor/editor/fckeditor.html 1 -
+/edit/innoEdit/assetmanager/assetmanager.asp 1 -
+/fengoffice/readme.txt 1 -
+/start/public/editor/assetmanager/assetmanager.php 1 -
+/ASP/dropbox/uploadTester.asp 1 -
+/app/resources/javascript/FCKeditor/2.3.1/editor/fckeditor.html 1 -
+/newsite/FCKeditor/editor/fckeditor.html 1 -
+/components/com_agileplmform/views/agileplmform/js/uploadify.php 1 -
+/upfile_pic.asp 1 -
+/fck/editor/fckeditor.html 1 -
+/addon/FCKeditor/editor/fckeditor.html 1 -
+/demo/uploadTester.asp 1 -
+/administrator/fckeditor1/editor/fckeditor.html 1 -
+/directory/edt/assetmanager/assetmanager.php 1 -
+/editor/editor/filemanager/connectors/aspx/connector.aspx 1 -
+/admin/editor/assetmanager/assetmanager.asp 1 -
+/FCKeditor/editor/filemanager/connectors/aspx/connector.aspx 1 -
+/FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/jiameng/scfileflash.asp 1 -
+/admin/actualites4/editor/fckeditor.html 1 -
+/images/design/prettyPhoto/light_rounded/loader.gif 17 http://www.mainpcgroup.com/css/prettyPhoto.css
+/admin/editor/fckeditor.html 1 -
+/admin/fckeditor_ap/editor/fckeditor.html 1 -
+/admin/inc/scripts/assetmanager/assetmanager.asp 1 -
+/images/assets/prev.png 121 http://www.mainpcgroup.com/css/jquery.onebyone.css
+/baom/up/upfile_photo.asp 1 -
+/community/mambots/editors/fckeditor/editor/fckeditor.html 1 -
+/manage/up_BookPicPro.asp 1 -
+/innova/assetmanager/assetmanager.asp 1 -
+/FCKeditor/editor/filemanager/connectors/php/connector.php 1 -
+/extensions/FCKeditor/fckeditor/editor/fckeditor.html 1 -
+/images/footer-style2-logo.png 17 http://www.mainpcgroup.com/css/layout.css
+/sites/default/files/tmp/ 1 -
+/blog/admin/FCKeditor/editor/fckeditor.html 1 -
+/resorce/admin/article/FCKeditor/editor/fckeditor.html 1 -
+/admin/produtos/fckeditor/editor/fckeditor.html 1 -
+/pub/mambots/editors/fckeditor/editor/fckeditor.html 1 -
+/js/fckeditor/editor/fckeditor.html 1 -
+/upload_affix.asp 1 -
+/js/{path} 1 -
+/inc/upfile_flash.asp 1 -
+/inc.old/GenericDB/assetmanager/assetmanager.asp 1 -
+/PIC_UP.asp 1 -
+/autodiscover/autodiscover.xml 4 -
+/new2/admin/js/fckeditor/editor/fckeditor.html 1 -
+/web1/rma_pro1.asp 1 -
+/cn/open.asp 1 -
+/next/prev 1 -
+/administrator/Editor/assetmanager/assetmanager.asp 1 -
+/sites/all/libraries/fckeditor/fckeditor.html 1 -
+/test/operator/UploadFile/uploadTester.asp 1 -
+/multicms/packages/fckeditor/editor/fckeditor.html 1 -
+/ceprtools/freeASPUpload/uploadTester.asp 1 -
+/gallery/fckeditor/editor/fckeditor.html 1 -
+/adminweb/util/fckeditor/editor/fckeditor.html 1 -
+/uploadTester.asp 1 -
+/editor/editor/fckeditor.html 1 -
+/upload.html 1 -
+/public/js/fckeditor/fckeditor.html 1 -
+/V2/utils/WYSEditor/editor/fckeditor.html 1 -
+/labs/uploadTester.asp 1 -
+/editors/fckeditor/editor/fckeditor.html 1 -
+/uploads/HP%20ProLiant%20ML350.jpg 1 -
+/web-local/fak/rj/admin/FCKeditor/editor/fckeditor.html 1 -
+/web1/download/USA_Customer%20Application%20Form.pdf 2 -
+/plugins/innova/assetmanager/assetmanager.php 1 -
+/componentes3.7/fckeditor/editor/fckeditor.html 1 -
+/INC/GenericDB/assetmanager/assetmanager.php 1 -
+/modules/pm_advancedsearch4/js/uploadify/uploadify.php 1 -
+/mods/ckeditor/fckeditor.html 1 -
+/inc/upfile.asp 1 -
+/javascripts/fckeditor/editor/fckeditor.html 2 -
+/fhadmin/lib/fckeditor/editor/fckeditor.html 1 -
+/cn/rma.asp 1 -
+/FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/data-filter= 1 -
+/upload_upfile.asp 1 -
+/admin/upfile_flash.asp 1 -
+/classifieds/submit/FCKeditor/editor/fckeditor.html 1 -
+/Editor/editor/filemanager/browser/default/connectors/test.html 1 -
+/dadamail/dada/extras/packages/fckeditor/editor/fckeditor.html 1 -
+/drupal/sites/all/modules/fckeditor/fckeditor/editor/fckeditor.html 1 -
+/kyoshobutiken/fc_util/Editor_5_5/assetmanager/assetmanager.php 1 -
+/eeclub/uploadTester.asp 1 -
+/util/FCKeditor/editor/fckeditor.html 1 -
+/admin/FCKeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/wp-content/plugins/wp-insert/fckeditor/editor/fckeditor.html 1 -
+/cf/scripts/ajax/FCKeditor/editor/fckeditor.html 1 -
+/editor/fckeditor.html 1 -
+/inc/up_BookPicPro.asp 1 -
+/ASPupload/uploadTester.asp 1 -
+/admin/upfile.html 1 -
+/apple-touch-icon-120x120-precomposed.png 1 -
+/manager/scripts/assetmanager/assetmanager.asp 1 -
+/scripts/iseditor/assetmanager/assetmanager.php 1 -
+/modules/mod_artuploader/upload.php 1 -
+/admin/diy.asp 1 -
+/portlets/sisRapid/dream/libs/V2.56/vcl/FCKeditor/editor/fckeditor.html 1 -
+/diendan/media/js/fckeditor/editor/fckeditor.html 1 -
+/gateweb/scripts/fckeditor/editor/fckeditor.html 1 -
+/cms/modules/articles/assetmanager/assetmanager.php 1 -
+/assetmanager/assetmanager.aspx 1 -
+/manage/fckeditor/editor/fckeditor.html 1 -
+/youtu.be/ 1 -
+/text/html 1 -
+/news_script/fckeditor/editor/fckeditor.html 1 -
+/sitemanager/protected/component/InnovaStudio-Editor/Editor/assetmanager/assetmanager.php 1 -
+/upfile.html 1 -
+/images/design/prettyPhoto/facebook_thumbnail.gif 17 http://www.mainpcgroup.com/css/prettyPhoto.css
+/~nga/Edit0r/assetmanager/assetmanager.php 1 -
+/admin/upfile_photo1.asp 1 -
+/scfileflash.asp 1 -
+/admin/upload1.asp 1 -
+/admin/FCKeditor/editor/filemanager/connectors/aspx/connector.aspx 1 -
+/inc/fckeditor/editor/fckeditor.html 1 -
+/sell/excess/uploadTester.asp 1 -
+/diymodule/Editor/assetmanager/assetmanager.php 1 -
+/media/uploadify/uploadify.php 1 -
+/shop/rma_form.jsp 1 -
+/admin/rte_popup_file_atch.asp 1 -
+/html/editor/wp-content/plugins/fckeditor_for_wordpress/fckeditor/editor/fckeditor.html 1 -
+/admin/Editor/assetmanager/assetmanager.aspx 1 -
+/web1/contact.asp 14 -
+/assetmanager.asp 1 -
+/baom/up/upload_photo.asp 1 -
+/~pi/opiti/pppblog/FCKeditor/editor/fckeditor.html 1 -
+/gcassetmanager/assetmanager.asp 1 -
+/cms/assetmanager/assetmanager.php 1 -
+/public/fckeditor/editor/fckeditor.html 1 -
+/js/a.active 1 -
+/bbadmin/editors/fckeditor/editor/fckeditor.html 1 -
+/admin/classes/components/formattedTextArea/fckeditor/editor/fckeditor.html 1 -
+/v1/plugins/editors/fckeditor/editor/fckeditor.html 1 -
+/control/editor/fckeditor.html 1 -
+/root.asp 1 -
+/core/coreSrc/externalSrc/WYSIWYG/assetmanager/assetmanager.asp 1 -
+/administrator/components/com_civicrm/civicrm/packages/OpenFlashChart/php-ofc-library/ofc_upload_image.php 1 -
+/images/design/footer-arrows.png 17 http://www.mainpcgroup.com/css/base.css
+/baoming/up/upfile_photo.asp 1 -
+/components/com_pinboard/popup/popup.php 1 -
+/cadastro/uploadTester.asp 1 -
+/webmanage/fckeditor/editor/fckeditor.html 1 -
+/codemis_cms/js/fckeditor/editor/fckeditor.html 1 -
+/assetmanager/assetmanager.asp 2 -
+/upfile_word.asp 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 412
+23.22.40.122 36 214 290975 20150830044134
+174.129.167.212 36 214 290975 20150830060418
+54.157.216.163 36 214 290975 20150827105610
+54.145.107.22 34 83 290975 20150820035545
+54.157.0.145 34 83 290975 20150822041425
+69.203.9.20 23 522 21230412 20150818165118
+23.94.5.120 18 310 18205582 20150814190936
+167.114.209.38 12 12 185705 20150823171438
+167.114.174.95 12 12 185705 20150823182502
+209.17.114.75 12 56 1782359 20150831134519
+41.82.51.186 1 70 2563917 20150820194645
+220.181.132.216 0 2 4312 
+192.92.196.46 0 1 2711 
+36.99.30.119 1 1 18781 20150829130412
+199.30.25.72 0 24 830796 
+66.249.82.148 1 31 1497835 20150818122904
+192.92.196.171 0 1 17549 
+192.92.196.73 0 1 1083 
+8.22.121.45 1 1 12782 20150805020127
+106.120.160.119 1 4 121422 20150827070748
+141.155.173.96 3 59 2601112 20150830121824
+114.36.169.76 2 75 2944712 20150826222312
+36.99.30.121 2 2 37562 20150827041257
+192.92.196.183 0 3 50431 
+107.23.7.68 1 1 12782 20150801060935
+192.92.196.25 0 1 36089 
+192.92.196.63 0 1 36089 
+184.59.18.171 2 80 3842218 20150828111157
+172.56.34.99 1 59 2579706 20150802144959
+68.110.81.212 0 1 191076 
+111.206.36.133 0 1 5904 
+192.92.196.192 0 1 15105 
+69.171.227.112 1 1 18781 20150826134213
+199.30.25.172 0 71 2903177 
+111.206.36.13 0 1 10174 
+220.181.132.219 0 2 27928 
+166.170.5.86 1 70 2854504 20150828164026
+192.92.196.157 0 1 8826 
+208.54.87.176 1 70 2854504 20150831223953
+104.236.111.203 1 13 208747 20150828002609
+192.92.196.253 0 1 8826 
+98.14.186.242 1 69 2854350 20150813200912
+123.30.175.240 3 3 50344 20150829053142
+202.46.52.101 1 1 18781 20150828071817
+69.114.7.110 6 159 6827530 20150816193803
+101.199.112.51 1 22 398274 20150830100655
+192.92.196.111 0 2 15928 
+101.199.116.221 0 1 14660 
+192.92.196.249 0 1 15105 
+192.92.196.131 0 1 2711 
+173.77.31.12 1 73 2922112 20150818171940
+192.92.196.120 0 1 2711 
+192.92.196.201 0 1 8826 
+192.92.196.226 0 3 94638 
+192.92.196.16 0 2 94986 
+192.92.196.178 0 1 66845 
+192.92.196.155 0 2 186868 
+192.92.196.164 0 1 1395 
+192.92.196.222 1 1 12782 20150809125255
+66.249.82.142 1 51 2498213 20150824002439
+192.92.196.198 0 1 2513 
+71.190.247.121 1 73 2922112 20150819153817
+111.206.36.137 0 1 10473 
+173.252.113.115 0 1 280 
+42.113.158.51 1 39 2034092 20150830080332
+173.68.79.237 1 73 2922112 20150816103730
+192.92.196.254 0 1 25217 
+192.92.196.64 0 1 8097 
+1.52.39.211 1 22 415285 20150820010101
+61.135.190.219 1 5 211071 20150819021329
+104.131.61.20 1 12 189966 20150808152127
+192.92.196.127 1 1 12782 20150808180916
+202.46.49.143 1 1 18781 20150828185414
+64.233.172.176 0 14 288293 
+192.92.196.51 0 1 14660 
+72.225.175.126 1 60 2793730 20150805150019
+173.68.18.130 2 2 31563 20150819041005
+115.118.128.202 8 157 6378837 20150811120152
+107.215.144.196 0 1 254108 
+108.54.122.25 1 1 12782 20150809071636
+192.92.196.195 0 2 49348 
+23.90.206.207 1 1 18781 20150823092104
+192.92.196.115 0 2 2622 
+113.176.152.56 1 72 2921958 20150826011303
+174.127.133.52 1 8 121302 20150811045758
+162.211.122.43 6 6 76692 20150810115527
+192.92.196.67 0 1 2711 
+192.92.196.59 0 1 36089 
+64.233.172.168 0 8 318389 
+192.92.196.91 0 3 63105 
+192.92.196.180 0 1 1799 
+192.92.196.82 1 2 37999 20150805003730
+192.92.196.186 0 1 2513 
+111.206.36.17 0 1 2819 
+42.113.152.161 1 18 380128 20150819090459
+174.127.133.47 0 1 15876 
+54.213.102.21 4 4 63987 20150830022132
+192.92.196.27 0 1 823 
+36.99.30.115 1 1 18781 20150830045133
+220.181.132.197 1 22 398274 20150827071023
+52.25.136.183 1 1 12782 20150807191323
+61.135.190.224 1 11 112602 20150815062547
+36.99.30.78 1 1 12782 20150804150004
+101.199.115.171 0 2 3336 
+173.52.249.109 1 63 2778785 20150802231851
+24.184.98.229 1 70 2854504 20150818211431
+64.233.172.160 1 17 1735983 20150805053743
+192.92.196.85 0 1 47953 
+68.194.50.161 1 73 2922112 20150822093739
+192.92.196.217 0 2 37888 
+192.92.196.119 0 1 381 
+162.244.15.6 2 2 37562 20150815060853
+202.46.58.121 1 1 18781 20150830024514
+192.92.196.104 0 1 17549 
+123.30.175.242 1 1 18781 20150815133237
+173.252.113.119 0 3 275790 
+47.18.162.46 8 149 6672440 20150822155410
+61.135.189.111 0 9 189527 
+101.226.33.240 1 13 208747 20150816181814
+65.156.50.210 1 74 2925931 20150817105338
+192.92.196.154 1 3 114926 20150819000638
+192.92.196.210 0 1 15105 
+173.252.90.119 0 1 11516 
+220.181.132.220 0 1 8097 
+192.92.196.56 0 1 381 
+140.207.198.106 1 1 18781 20150822183823
+54.201.116.97 4 4 63987 20150829101753
+192.92.196.124 0 1 2711 
+192.92.196.121 0 3 84373 
+67.85.207.141 1 63 2800980 20150806095243
+46.229.170.197 3 3 56343 20150828201918
+192.92.196.214 0 2 18687 
+36.99.31.107 1 1 18781 20150818111757
+192.92.196.10 0 2 4263 
+175.136.209.164 1 63 2800980 20150804014607
+218.30.116.99 0 2 20062 
+192.92.196.24 0 2 2635 
+122.167.38.211 1 72 2921958 20150812062220
+157.55.12.66 0 71 2903177 
+183.57.152.34 1 22 398274 20150830100755
+192.92.196.140 0 1 9861 
+198.50.131.46 7 7 146597 20150817235652
+180.153.206.21 1 13 208747 20150831115913
+101.199.116.226 0 1 93434 
+192.92.196.15 0 4 152800 
+107.152.139.43 2 2 37562 20150813180334
+192.92.196.68 0 1 823 
+115.77.50.46 1 32 1312845 20150814112932
+101.199.115.106 0 1 381 
+192.92.196.99 0 1 1552 
+192.92.196.14 0 1 36089 
+180.153.206.27 1 1 18781 20150815063147
+192.92.196.37 0 3 42515 
+104.144.59.17 1 1 18781 20150813180334
+192.92.196.45 0 1 14660 
+54.234.27.253 1 22 398274 20150812011514
+81.138.9.233 1 1 12782 20150810223124
+72.89.72.161 1 74 2925931 20150816143408
+192.92.196.221 0 1 9861 
+157.55.2.151 0 71 2903177 
+192.92.196.179 0 1 9431 
+192.92.196.77 0 1 15105 
+101.199.115.157 0 1 15105 
+192.92.196.52 0 2 81505 
+4.35.96.2 4 17 157380 20150831115231
+192.92.196.109 0 1 1395 
+173.2.249.109 1 72 2921958 20150821123616
+208.59.118.178 1 58 2271413 20150814164723
+119.73.210.195 0 63 2788352 
+111.206.36.144 0 1 340188 
+111.202.75.172 1 20 595165 20150805095557
+75.127.250.122 1 62 2778631 20150807175903
+157.55.2.156 0 62 2515004 
+192.92.196.2 0 1 93434 
+101.226.33.221 1 13 206061 20150816193803
+67.203.22.43 1 1 18781 20150813182219
+192.92.196.70 0 1 2711 
+192.92.196.242 0 1 381 
+54.213.178.227 4 4 63987 20150829103713
+150.70.173.53 1 1 12782 20150810101758
+70.199.109.167 0 1 100814 
+115.79.51.98 1 72 2921958 20150831094958
+23.20.60.28 1 1 12782 20150806105047
+69.114.161.172 1 1 12782 20150803205420
+173.57.239.46 1 73 2922112 20150822142144
+61.135.221.56 1 1 18781 20150816182505
+192.92.196.170 0 1 8826 
+111.206.36.15 0 1 12140 
+192.92.196.80 0 1 9431 
+192.92.196.218 0 1 1395 
+36.99.30.149 2 2 37562 20150827191400
+36.99.30.114 1 1 18781 20150824043226
+192.92.196.143 1 1 12782 20150811061700
+192.92.196.128 0 1 9431 
+192.92.196.49 0 2 17618 
+173.252.113.116 0 1 8308 
+173.252.113.112 0 2 16453 
+192.92.196.137 0 3 19757 
+192.92.196.174 0 2 69556 
+76.30.89.68 1 72 2921958 20150819203731
+67.83.197.66 2 2 37562 20150831170508
+36.99.31.47 1 1 12782 20150801085111
+111.206.36.10 0 1 5834 
+192.92.196.185 0 1 1799 
+192.92.196.112 0 2 9492 
+192.92.196.184 0 1 93434 
+66.87.116.114 1 3 237314 20150806132733
+115.79.42.49 1 72 2928325 20150813105336
+67.229.126.186 2 2 37562 20150829223802
+61.135.190.103 1 11 112602 20150819012739
+192.92.196.92 0 1 1083 
+71.125.220.46 4 73 2910847 20150816112654
+218.30.116.96 0 1 93434 
+217.73.208.26 1 1 18781 20150813034630
+192.92.196.74 0 1 25217 
+192.200.213.163 0 27 1442244 
+64.74.215.113 4 4 0 20150826122133
+74.88.125.229 1 74 2925931 20150821150033
+192.92.196.21 0 2 25646 
+192.92.196.190 0 1 15105 
+31.3.233.115 1 71 2581770 20150818230849
+192.92.196.58 0 2 9492 
+70.119.37.22 1 1 18781 20150825121814
+192.92.196.125 0 3 69696 
+192.92.196.30 0 1 47953 
+70.196.19.173 0 3 695958 
+192.92.196.9 0 1 2513 
+198.179.91.18 1 64 2801134 20150810160612
+113.161.80.124 1 72 2921958 20150821065641
+38.88.200.202 4 86 3886791 20150824140445
+192.92.196.151 0 2 2375 
+192.119.49.194 1 1 12782 20150806103550
+42.112.84.167 1 30 969844 20150815001823
+192.92.196.48 0 1 1552 
+208.93.104.9 2 2 37562 20150826034233
+104.246.48.95 2 74 2940893 20150813084248
+192.92.196.69 0 1 1395 
+192.92.196.23 0 1 2711 
+208.93.104.10 1 1 18781 20150812034527
+101.226.89.116 1 1 18781 20150820064035
+101.199.115.107 0 2 50423 
+220.181.132.15 1 28 782047 20150830103614
+123.30.175.243 3 3 56343 20150822224527
+192.92.196.100 0 2 1464 
+192.92.196.57 0 2 11944 
+65.55.217.54 1 23 399357 20150821055038
+192.92.196.153 0 2 27410 
+192.92.196.65 0 3 33032 
+185.96.192.118 5 5 87906 20150828155838
+45.55.133.235 1 13 208747 20150822141332
+104.197.100.73 1 1 18781 20150823093346
+198.203.181.181 1 64 2801134 20150810152453
+192.92.196.44 0 3 17987 
+36.99.31.2 1 1 18781 20150825122439
+36.99.31.226 1 1 18781 20150821182213
+192.92.196.237 0 1 9431 
+174.127.133.51 0 8 216419 
+192.92.196.230 0 1 47953 
+115.219.25.125 1 1 12782 20150808051450
+54.157.27.71 3 75 2914760 20150829123719
+192.92.196.42 0 1 1799 
+98.113.97.26 1 64 2801134 20150803184114
+192.92.196.211 0 2 48334 
+174.127.188.37 1 1 12782 20150811011921
+192.92.196.228 0 1 25217 
+71.190.160.133 2 127 5579919 20150807090036
+101.226.33.202 1 1 18781 20150826223520
+104.236.110.155 1 13 208747 20150825054443
+192.92.196.220 0 1 14660 
+192.92.196.132 0 1 25217 
+111.206.36.139 0 2 16030 
+122.174.151.210 1 8 82468 20150814184514
+54.205.126.33 2 23 417055 20150828123314
+66.102.6.206 0 3 58035 
+119.147.146.189 2 3 130996 20150826222208
+218.30.116.100 0 1 25217 
+192.92.196.193 0 3 116920 
+192.92.196.113 0 1 14660 
+192.92.196.36 0 1 66845 
+192.92.196.188 0 2 37888 
+192.92.196.60 0 1 1799 
+107.23.56.124 8 8 138250 20150828074852
+111.206.36.19 0 1 209520 
+114.36.171.128 3 133 11753020 20150818104639
+192.92.196.181 0 1 14660 
+119.101.69.53 0 45 1500882 
+192.92.196.19 0 1 1552 
+220.181.132.217 2 4 28915 20150805120722
+123.30.175.239 2 2 37562 20150830142910
+107.72.162.21 1 69 2854350 20150813190031
+54.186.12.183 1 1 12782 20150805123738
+112.210.168.26 1 64 2801134 20150804064206
+180.149.130.142 1 1 18781 20150813024530
+173.252.113.117 0 2 9284 
+192.92.196.233 0 1 9861 
+54.164.20.249 1 1 18781 20150817121630
+192.92.196.81 0 1 8097 
+192.92.196.173 0 2 49036 
+69.171.227.114 2 2 31563 20150812182912
+192.92.196.122 0 1 823 
+67.86.172.36 2 65 2801134 20150810182007
+61.135.190.102 1 1 18781 20150815072134
+192.92.196.110 0 1 17549 
+69.58.178.57 2 2 35128 20150808001208
+101.199.115.162 0 1 66845 
+54.242.76.140 1 22 398274 20150812150322
+69.117.172.83 7 100 6134435 20150826130550
+192.92.196.147 0 1 1083 
+192.92.196.95 0 2 3336 
+218.30.116.95 0 3 26642 
+208.90.57.196 3 3 47658 20150829040946
+173.252.113.113 0 3 199346 
+171.249.41.168 1 72 2921958 20150817011507
+45.55.134.19 1 13 208747 20150814060747
+192.92.196.89 0 1 2470 
+45.55.133.228 1 13 208747 20150817013113
+192.92.196.29 0 2 68240 
+38.100.21.172 7 11 165801 20150812222853
+192.92.196.93 0 2 56779 
+192.92.196.41 0 1 9431 
+192.92.196.152 1 2 25564 20150808173624
+192.92.196.17 0 1 93434 
+45.55.229.154 1 12 189966 20150803010904
+192.92.196.208 0 3 78855 
+69.118.136.52 1 64 2801134 20150802131605
+69.203.132.71 1 64 2801134 20150802082846
+192.92.196.136 0 2 9180 
+192.92.196.101 0 2 45520 
+36.99.30.233 1 1 12782 20150802105220
+108.28.1.217 1 70 2854504 20150815124246
+45.55.133.232 1 12 189966 20150805213824
+157.55.2.164 0 51 2232063 
+192.92.196.106 0 2 27730 
+192.92.196.35 0 3 36200 
+69.171.227.115 1 1 18781 20150819031735
+192.92.196.176 0 1 1083 
+192.92.196.43 0 2 50466 
+192.92.196.126 0 1 381 
+192.92.196.182 0 1 2470 
+199.30.25.70 0 1 5904 
+192.92.196.138 1 2 85626 20150819102926
+104.207.211.242 1 72 2921958 20150831095427
+24.90.235.78 3 81 3857334 20150826161549
+36.99.30.38 1 1 18781 20150820124146
+70.107.235.198 1 74 2925931 20150821141944
+50.14.205.189 0 5 27431 
+45.55.134.9 1 12 189966 20150811112645
+45.35.20.203 3 3 56343 20150818201302
+180.153.206.36 1 13 208747 20150826064054
+192.92.196.31 0 1 66845 
+192.92.196.203 0 1 12782 
+27.4.149.34 1 10 226372 20150806111605
+192.92.196.172 0 1 14660 
+192.92.196.1 0 1 25217 
+192.92.196.166 0 1 8826 
+54.213.145.40 4 4 63987 20150831221513
+101.199.112.50 1 20 377023 20150803210550
+14.102.22.126 1 33 1196581 20150814183758
+72.80.146.226 1 64 2801134 20150806111659
+188.143.232.22 2 2 35128 20150803143235
+65.60.222.62 2 73 2940739 20150819193243
+66.102.6.207 0 2 13844 
+192.92.196.215 0 1 14660 
+113.172.47.220 2 119 4707917 20150828032249
+192.92.196.141 1 3 45156 20150818111737
+112.198.140.49 2 74 2940893 20150817044941
+192.92.196.207 1 1 12782 20150805021306
+192.92.196.11 0 1 15105 
+173.56.233.138 1 74 2925931 20150825180326
+96.38.179.80 3 3 50797 20150830212608
+41.82.0.88 1 74 2925931 20150816062143
+117.28.221.96 1 1 12782 20150802190703
+192.92.196.169 0 1 2513 
+220.181.132.218 0 1 381 
+192.92.196.54 0 1 823 
+66.11.128.152 6 6 100688 20150831041257
+113.175.134.102 1 1 18781 20150831055925
+186.137.129.112 1 1 12782 20150805163200
+183.57.152.33 1 7 148454 20150827082649
+183.57.152.28 1 8 218965 20150827082737
+199.30.24.108 0 1 1799 
+192.92.196.114 0 1 381 
+75.127.186.138 1 74 2925931 20150812162434
+192.92.196.200 0 1 17549 
+36.99.31.9 2 2 31563 20150831000125
+192.92.196.197 0 1 8097 
+173.252.113.114 0 7 175963 
+173.252.113.118 0 1 209520 
+173.203.60.237 1 1 18781 20150815210930
+202.45.119.26 1 74 2925931 20150811210731
+192.92.196.83 0 1 1552 
+70.199.64.118 2 59 2683319 20150817034519
+192.92.196.47 0 2 16923 
+100.37.125.189 1 73 2922112 20150831154127
+111.206.52.93 1 1 18781 20150812030328
+66.249.82.147 0 37 1491388 
+114.36.160.108 1 1 18781 20150831115125
+123.30.175.244 2 2 31563 20150818080015
+192.92.196.204 0 3 14558 
+190.174.71.173 1 1 22346 20150806001651
+24.193.52.68 5 87 3902712 20150820084940
+192.92.196.20 0 1 2513 
+192.92.196.133 0 1 9861 
+180.153.163.190 1 13 205887 20150816193750
+171.13.14.133 3 3 56343 20150830130834
+192.92.196.123 1 1 12782 20150810204401
+36.99.31.209 1 1 18781 20150819105933
+111.206.36.6 0 1 10336 
+192.92.196.0 0 1 9431 
+208.93.104.8 1 1 12782 20150805033751
+123.30.175.246 1 1 12782 20150806095258
+174.127.133.48 1 4 46988 20150811044931
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20150801 2 2 25564 2
+20150802 8 255 11352075 8
+20150803 8 139 5061025 7
+20150804 5 197 8542430 5
+20150805 15 239 9194522 15
+20150806 12 153 6205051 12
+20150807 4 128 5592411 4
+20150808 6 56 927243 5
+20150809 5 25 429234 5
+20150810 9 280 11611127 8
+20150811 31 390 14901598 10
+20150812 18 290 10035105 12
+20150813 14 341 13459469 12
+20150814 24 455 23296417 7
+20150815 15 258 10299511 10
+20150816 21 592 22945148 13
+20150817 17 302 11883788 9
+20150818 18 732 34856848 12
+20150819 15 301 10248995 14
+20150820 44 339 10828367 7
+20150821 8 318 12151478 8
+20150822 42 306 9151062 9
+20150823 26 28 763894 4
+20150824 7 242 10418403 4
+20150825 5 94 3226789 5
+20150826 21 349 16273306 12
+20150827 43 255 1131792 8
+20150828 13 310 12124346 11
+20150829 16 88 3133953 7
+20150830 91 610 7004438 13
+20150831 31 454 16848868 13
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 3
+5mn-15mn 3
+0s-30s 251
+30s-2mn 10
+15mn-30mn 1
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 20
+/ 310 5235503 260 240
+/contact.php 30 398025 1 10
+/about.php 29 386280 2 6
+/index.php 20 281715 5 2
+/service-phonesystem.php 18 171470 0 1
+/projects.html 17 268152 2 8
+/service-surveillance.php 17 157740 0 0
+/comingsoon.php 16 319374 0 0
+/service-intercom.php 15 129990 0 0
+/service-karaoke.php 14 115182 0 0
+/send.php 6 0 0 3
+/filters.svg 1 210 0 0
+/service-onlineordering.php 12 108052 0 0
+/projects.php 12 205765 0 0
+/service-networking.php 12 104496 0 0
+/cerificates.php 13 125840 0 0
+/service-alarm.php 14 130446 0 0
+/service-creditcardmerchant.php 13 121248 1 0
+/service-accesscontrol.php 11 95778 0 0
+/service-pointofsale.php 14 140076 0 1
+END_SIDER
