@@ -37,8 +37,8 @@
 <script type="text/javascript" src="js/colorpicker.js"></script>
 <!-- end of color pickers -->
  <script type="text/javascript" src="js/menuPanda.min.js"></script>
-<link  rel="stylesheet" href="css/mpDefaultSkin.css">
-</link>
+<link  rel="stylesheet" href="css/mpDefaultSkin.css"/>
+
 
 <!--simple call -->
 
@@ -46,7 +46,111 @@
 </head>
 
 <body>
+<div class="slug-pattern"><div class="overlay"><div class="slug-cut"></div></div></div>
+<div class="header">
+<div class="nav">
 
+
+<div class="container">
+
+<!-- Standard Nav (x >= 768px) -->
+<div class="standard">
+
+<div class="five column alpha">
+<div class="logo">
+<a href="index.html"><img src="images/logo.png" /></a><!-- Large Logo -->
+</div>
+</div>
+
+ <div class="eleven column omega tabwrapper">
+<div class="menu-wrapper">
+<ul class="tabs menu">
+<li>
+<a href="index.html" ><span>Home</span></a> 
+</li>
+<li><a href="projects.html" >Projects</a>
+
+<li>
+<a href="cerificates.html" >Cerificates</a>
+
+</li>
+ <li>
+<a href="about.html">About Us</a>
+
+</li>
+ <li>
+<a href="service.html" class="active">Services</a>
+ <ul class="child">
+<li><a href="service-surveillance.html" class="active">Surveillance</a></li>
+<li><a href="service-networking.html">Networking</a></li>
+<li><a href="service-alarm.html">Alarm</a></li>
+<li><a href="service-phonesystem.html">Phone System</a></li>
+<li><a href="service-accesscontrol.html">Access Control</a></li>
+<li><a href="service-intercom.html">Intercom</a></li>
+<li><a href="service-karaoke.html">Karaoke</a></li>
+<li><a href="service-pointofsale.html">Point of Sale</a></li>
+<li><a href="service-creditcardmerchant.html">Credit Card Merchant</a></li>
+<li><a href="service-onlineordering.html">Online Ordering</a></li>
+                                        </ul>
+                                        
+</li>
+
+<li>
+<a href="contact.html">
+Contact</a></li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Standard Nav Ends, Start of Mini -->
+
+<div class="mini">
+<div class="twelve column alpha omega mini">
+<div class="logo">
+<a href="index.html"><img src="images/logoMINI.png" /></a><!-- Small Logo -->
+</div>
+</div>
+
+<div class="twelve column alpha omega navagation-wrapper">
+<div id="main-navbar" class="main-navbar main-navbar-fixed-top dynamic-left"></div>
+        <!-- div #main-navbar .main-navbar .main-navbar-fixed-top .dynamic-left -->
+
+        <div id="main-sidebar" class="main-sidebar main-sidebar-left">
+            <div id="main-sidebar-wrapper" class="main-sidebar-wrapper"></div>
+        </div>
+                           
+                                 <script src="js/jquery.simple-sidebar.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $.ajaxSetup({
+            		cache: false
+            	});
+
+                $('#main-navbar').load('navbar.html', function() {
+                    $('#main-sidebar-wrapper').load('sidebar.html');
+
+                    $('#main-sidebar').simpleSidebar({
+                        opener: '#toggle-sidebar',
+                        wrapper: '#main',
+                        animation: {
+                            easing: "easeOutQuint"
+                        },
+                        sidebar: {
+                            align: 'left',
+                            closingLinks: '.close-sb',
+                        },
+                        sbWrapper: {
+                            display: false
+                        }
+                    });
+                });
+            });
+        </script></div>
+</div>
+<!-- Start of Mini Ends -->
+</div> 
+
+</div>
 <div class="page-wrapper">
 <div class="slug-pattern slider-expand">
 <div class="background-image" id="1"></div>
